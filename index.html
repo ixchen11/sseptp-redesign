@@ -482,38 +482,5 @@
             </p>
 </div>
 </footer>
-<script>
-  (() => {
-    const toggles = document.querySelectorAll('[data-menu-toggle]');
-    const closeAll = () => document.querySelectorAll('[data-menu]').forEach(m => m.classList.add('hidden'));
-
-    toggles.forEach(btn => {
-      btn.addEventListener('click', (e) => {
-        e.stopPropagation();
-        const key = btn.getAttribute('data-menu-toggle');
-        const menu = document.querySelector(`[data-menu="${key}"]`);
-        const isHidden = menu.classList.contains('hidden');
-        closeAll();
-        if (isHidden) menu.classList.remove('hidden');
-      });
-    });
-
-    document.addEventListener('click', closeAll);
-
-    const searchToggle = document.getElementById('search-toggle');
-    const searchInput = document.getElementById('search-input');
-    if (searchToggle && searchInput) {
-      searchToggle.addEventListener('click', (e) => {
-        e.stopPropagation();
-        searchInput.classList.toggle('hidden');
-        if (!searchInput.classList.contains('hidden')) searchInput.focus();
-      });
-      document.addEventListener('click', (e) => {
-        if (!searchInput.contains(e.target) && !searchToggle.contains(e.target)) {
-          searchInput.classList.add('hidden');
-        }
-      });
-    }
-  })();
-</script>
+<script src="/menu.js"></script>
 </body></html>
