@@ -1,1 +1,19 @@
-document.getElementById("year").textContent = new Date().getFullYear();
+const yearNode = document.getElementById("year");
+if (yearNode) yearNode.textContent = new Date().getFullYear();
+
+const toggle = document.querySelector(".nav-toggle");
+const nav = document.getElementById("site-nav");
+
+if (toggle && nav) {
+  toggle.addEventListener("click", () => {
+    const isOpen = nav.classList.toggle("is-open");
+    toggle.setAttribute("aria-expanded", String(isOpen));
+  });
+
+  nav.querySelectorAll("a").forEach((link) => {
+    link.addEventListener("click", () => {
+      nav.classList.remove("is-open");
+      toggle.setAttribute("aria-expanded", "false");
+    });
+  });
+}
