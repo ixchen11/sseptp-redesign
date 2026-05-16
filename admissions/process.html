@@ -1,144 +1,350 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sanskrithi School of Engineering | Admission Process</title>
-    <meta name="description" content="Admission process, decision flow, and next steps for students." />
-    <meta name="keywords" content="Sanskrithi School of Engineering, Sanskriti School of Engineering, engineering college, admissions 2026, placements, campus life, academics" />
-    <meta property="og:title" content="Sanskrithi School of Engineering | Admission Process" />
-    <meta property="og:description" content="Admission process, decision flow, and next steps for students." />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://sseptp.org/admissions/process.html" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <link rel="canonical" href="https://sseptp.org/admissions/process.html" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="../styles.css" />
-    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebPage", "name": "Sanskrithi School of Engineering", "url": "https://sseptp.org/admissions/process.html", "description": "Admission process, decision flow, and next steps for students."}</script>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&amp;family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .step-line::before {
+            content: '';
+            position: absolute;
+            left: 19px;
+            top: 40px;
+            bottom: -20px;
+            width: 2px;
+            background-color: #e3bfb1;
+        }
+        .step-item:last-child .step-line::before {
+            display: none;
+        }
+    </style>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "on-primary-container": "#561d00",
+                        "secondary-fixed-dim": "#aec7f6",
+                        "secondary": "#465f88",
+                        "on-primary": "#ffffff",
+                        "tertiary-fixed-dim": "#c5c7c8",
+                        "secondary-fixed": "#d6e3ff",
+                        "on-primary-fixed": "#360f00",
+                        "outline": "#8e7164",
+                        "on-secondary-container": "#3f5881",
+                        "tertiary-fixed": "#e1e3e4",
+                        "on-primary-fixed-variant": "#7c2e00",
+                        "surface-container-highest": "#e5e2e1",
+                        "surface-container-lowest": "#ffffff",
+                        "surface": "#fcf9f8",
+                        "background": "#fcf9f8",
+                        "tertiary": "#5c5f60",
+                        "on-background": "#1c1b1b",
+                        "primary-fixed-dim": "#ffb596",
+                        "tertiary-container": "#959798",
+                        "error": "#ba1a1a",
+                        "surface-container": "#f0eded",
+                        "on-surface-variant": "#5a4136",
+                        "surface-tint": "#a33e00",
+                        "on-error": "#ffffff",
+                        "surface-container-high": "#eae7e7",
+                        "on-tertiary-container": "#2d3031",
+                        "surface-container-low": "#f6f3f2",
+                        "outline-variant": "#e3bfb1",
+                        "on-surface": "#1c1b1b",
+                        "secondary-container": "#b6d0ff",
+                        "on-error-container": "#93000a",
+                        "on-secondary-fixed": "#001b3d",
+                        "surface-variant": "#e5e2e1",
+                        "primary": "#a33e00",
+                        "on-secondary": "#ffffff",
+                        "on-secondary-fixed-variant": "#2d476f",
+                        "error-container": "#ffdad6",
+                        "surface-bright": "#fcf9f8",
+                        "on-tertiary-fixed": "#191c1d",
+                        "on-tertiary": "#ffffff",
+                        "surface-dim": "#dcd9d9",
+                        "inverse-surface": "#313030",
+                        "inverse-on-surface": "#f3f0ef",
+                        "primary-container": "#ff6600",
+                        "inverse-primary": "#ffb596",
+                        "on-tertiary-fixed-variant": "#454748",
+                        "primary-fixed": "#ffdbcd"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                    "spacing": {
+                        "component-gap": "24px",
+                        "container-max": "1280px",
+                        "section-gap": "80px",
+                        "margin-mobile": "16px",
+                        "gutter": "24px"
+                    },
+                    "fontFamily": {
+                        "label-md": ["Inter"],
+                        "headline-lg-mobile": ["Montserrat"],
+                        "display-lg": ["Montserrat"],
+                        "headline-md": ["Montserrat"],
+                        "body-lg": ["Inter"],
+                        "headline-lg": ["Montserrat"],
+                        "body-md": ["Inter"]
+                    },
+                    "fontSize": {
+                        "label-md": ["14px", {"lineHeight": "1", "letterSpacing": "0.05em", "fontWeight": "600"}],
+                        "headline-lg-mobile": ["28px", {"lineHeight": "1.2", "fontWeight": "700"}],
+                        "display-lg": ["48px", {"lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                        "headline-md": ["24px", {"lineHeight": "1.3", "fontWeight": "600"}],
+                        "body-lg": ["18px", {"lineHeight": "1.6", "fontWeight": "400"}],
+                        "headline-lg": ["32px", {"lineHeight": "1.2", "fontWeight": "700"}],
+                        "body-md": ["16px", {"lineHeight": "1.6", "fontWeight": "400"}]
+                    }
+                }
+            }
+        }
+    </script>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
   </head>
-  <body class="page-shell">
-    <header class="fixed top-0 w-full z-50 bg-[#001A3D] text-white shadow-sm">
-<nav class="flex justify-between items-center px-margin-desktop py-4 max-w-[1440px] mx-auto">
-<div class="flex items-center gap-2">
-<div class="flex items-center gap-3"><img src="https://sseptp.org/assets/sse-logo-D5ZBduKC.svg" alt="SSE Logo" class="h-14 w-auto"/></div>
-</div>
-<div class="hidden md:flex items-center gap-6" id="main-menu">
-<a class="text-white font-bold border-b-2 border-[#F26522] pb-1 font-body-md text-body-md" href="../index.html">Home</a>
-
-<div class="relative menu-item">
-<button class="text-white/85 hover:text-white transition-colors font-body-md text-body-md flex items-center gap-1" data-menu-toggle="about">About <span>▾</span></button>
-<div class="hidden absolute top-full left-0 mt-3 w-56 bg-white text-[#0b1c30] rounded-lg shadow-xl p-2 z-50" data-menu="about">
-<a class="block px-3 py-2 rounded hover:bg-slate-100" href="../about/index.html">Overview</a>
-<a class="block px-3 py-2 rounded hover:bg-slate-100" href="../about/vision-mission.html">Vision & Mission</a>
-<a class="block px-3 py-2 rounded hover:bg-slate-100" href="../about/leadership.html">Leadership</a>
-<a class="block px-3 py-2 rounded hover:bg-slate-100" href="../about/quality.html">Quality</a>
-</div>
-</div>
-
-<div class="relative menu-item">
-<button class="text-white/85 hover:text-white transition-colors font-body-md text-body-md flex items-center gap-1" data-menu-toggle="admissions">Admissions <span>▾</span></button>
-<div class="hidden absolute top-full left-0 mt-3 w-56 bg-white text-[#0b1c30] rounded-lg shadow-xl p-2 z-50" data-menu="admissions">
-<a class="block px-3 py-2 rounded hover:bg-slate-100" href="../admissions/index.html">Overview</a>
-<a class="block px-3 py-2 rounded hover:bg-slate-100" href="../admissions/process.html">Process</a>
-<a class="block px-3 py-2 rounded hover:bg-slate-100" href="../admissions/fees.html">Fees</a>
-<a class="block px-3 py-2 rounded hover:bg-slate-100" href="../admissions/enquiry.html">Enquiry</a>
-</div>
-</div>
-
-<div class="relative menu-item">
-<button class="text-white/85 hover:text-white transition-colors font-body-md text-body-md flex items-center gap-1" data-menu-toggle="academics">Academics <span>▾</span></button>
-<div class="hidden absolute top-full left-0 mt-3 w-56 bg-white text-[#0b1c30] rounded-lg shadow-xl p-2 z-50" data-menu="academics">
-<a class="block px-3 py-2 rounded hover:bg-slate-100" href="../academics/index.html">Overview</a>
-<a class="block px-3 py-2 rounded hover:bg-slate-100" href="../academics/programs.html">Programs</a>
-<a class="block px-3 py-2 rounded hover:bg-slate-100" href="../academics/labs.html">Labs</a>
-<a class="block px-3 py-2 rounded hover:bg-slate-100" href="../academics/scholarships.html">Scholarships</a>
-<a class="block px-3 py-2 rounded hover:bg-slate-100" href="../academics/rit.html">RIT</a>
-</div>
-</div>
-
-<div class="relative menu-item">
-<button class="text-white/85 hover:text-white transition-colors font-body-md text-body-md flex items-center gap-1" data-menu-toggle="campus">Campus Life <span>▾</span></button>
-<div class="hidden absolute top-full left-0 mt-3 w-56 bg-white text-[#0b1c30] rounded-lg shadow-xl p-2 z-50" data-menu="campus">
-<a class="block px-3 py-2 rounded hover:bg-slate-100" href="../campus/index.html">Overview</a>
-<a class="block px-3 py-2 rounded hover:bg-slate-100" href="../campus/facilities.html">Facilities</a>
-<a class="block px-3 py-2 rounded hover:bg-slate-100" href="../campus/hostel.html">Hostel</a>
-<a class="block px-3 py-2 rounded hover:bg-slate-100" href="../campus/health-safety.html">Health & Safety</a>
-<a class="block px-3 py-2 rounded hover:bg-slate-100" href="../campus/sports.html">Sports</a>
-</div>
-</div>
-
-<div class="relative menu-item">
-<button class="text-white/85 hover:text-white transition-colors font-body-md text-body-md flex items-center gap-1" data-menu-toggle="placements">Placements <span>▾</span></button>
-<div class="hidden absolute top-full left-0 mt-3 w-56 bg-white text-[#0b1c30] rounded-lg shadow-xl p-2 z-50" data-menu="placements">
-<a class="block px-3 py-2 rounded hover:bg-slate-100" href="../placements/index.html">Overview</a>
-<a class="block px-3 py-2 rounded hover:bg-slate-100" href="../placements/success-stories.html">Success Stories</a>
-<a class="block px-3 py-2 rounded hover:bg-slate-100" href="../placements/contact.html">Placement Contact</a>
-</div>
-</div>
-
-<a class="text-white/85 hover:text-white transition-colors font-body-md text-body-md" href="../contact.html">Contact</a>
-</div>
+<body class="bg-surface text-on-surface font-body-md antialiased">
+<!-- Top Navigation Bar -->
+<header class="bg-surface sticky top-0 z-50 border-b border-outline-variant">
+<div class="flex justify-between items-center w-full h-20 px-margin-mobile max-w-container-max mx-auto">
+<div class="font-headline-md text-headline-md font-bold text-on-surface">SSE</div>
 <div class="flex items-center gap-4">
-<div class="hidden lg:flex items-center gap-2">
-<button id="search-toggle" class="w-10 h-10 rounded-full bg-white/10 hover:bg-white/20 text-white flex items-center justify-center transition-transform duration-200 active:scale-95" aria-label="Suche öffnen">
-<span class="material-symbols-outlined" style="font-size: 20px;">search</span>
+<button class="bg-primary-container text-on-primary px-4 py-2 rounded-lg font-label-md text-label-md transition-transform active:scale-95">Apply Now</button>
+<button class="text-on-surface p-1">
+<span class="material-symbols-outlined text-[32px]">menu</span>
 </button>
-<input id="search-input" type="text" placeholder="Suchen..." class="hidden w-56 px-3 py-2 rounded-full border border-white/25 bg-white text-[#0b1c30] focus:outline-none focus:ring-2 focus:ring-[#F26522]" />
 </div>
-<a href="../admissions/enquiry.html" class="bg-primary-container text-on-primary font-bold px-6 py-2.5 rounded-lg hover:shadow-lg transition-all duration-200 active:scale-95 text-label-lg font-label-lg inline-block">
-                    Apply Now
-                </a>
 </div>
-</nav>
 </header>
-
-    <main>
-      <div class="container"><nav class="breadcrumb"><a href="../index.html">Home</a><span>›</span><a href="index.html">Admissions</a><span>›</span><span>Admission Process</span></nav></div>
-      <section class="hero hero-subpage">
-        <div class="container hero-layout">
-          <div class="hero-copy">
-            <p class="eyebrow">Admissions</p>
-            <h1>Admission Process</h1>
-            <p class="lead">Clear step-by-step flow with eligibility, documents, and timelines.</p>
-            <div class="hero-actions"><a class="button primary" href="index.html">Explore</a><a class="button secondary" href="../contact.html">Contact</a></div>
-          </div>
-          <aside class="hero-panel"><div class="panel-topline"></div><div class="hero-stats"><article><strong>Clarity</strong><span>Clean information flow</span></article><article><strong>Trust</strong><span>Institution-first communication</span></article><article><strong>Outcomes</strong><span>Actionable next steps</span></article><article><strong>Consistency</strong><span>Homepage-aligned design language</span></article></div></aside>
-        </div>
-      </section>
-      <section class="section-nav" aria-label="Admissions navigation"><div class="container"><div class="section-nav-panel"><div class="section-nav-heading">Admissions</div><div class="section-nav-shell"><a class="section-link" href="index.html"><strong>Overview</strong><small>Your admissions starting point</small></a><a class="section-link is-active" href="process.html"><strong>Admission Process</strong><small>Step-by-step student journey</small></a><a class="section-link" href="fees.html"><strong>Fees & Scholarships</strong><small>Financial clarity and support</small></a><a class="section-link" href="enquiry.html"><strong>Enquiry</strong><small>Talk to admissions quickly</small></a></div></div></div></section>
-      <section class="section"><div class="container"><p class="section-label">Core Focus</p><div class="section-head"><h2>Content and design now follow one coherent system.</h2><p>Each page is structured for readability, faster decision-making, and stronger institutional perception.</p></div><div class="cards cols-3"><article class="card"><div class="icon">01</div><h3>Eligibility & Intake</h3><p>Structured implementation focused on student clarity, institutional credibility, and measurable outcomes.</p></article><article class="card"><div class="icon">02</div><h3>Document Checklist</h3><p>Structured implementation focused on student clarity, institutional credibility, and measurable outcomes.</p></article><article class="card"><div class="icon">03</div><h3>Selection & Confirmation</h3><p>Structured implementation focused on student clarity, institutional credibility, and measurable outcomes.</p></article></div></div></section>
-      <section class="section muted"><div class="container split"><div class="split-copy"><p class="section-label">Execution Path</p><h2>From discovery to decision, the route is clear.</h2><p>The section hierarchy reduces noise and keeps users on the right next action.</p></div><div class="split-card"><ul class="mini-list"><li>Clear hierarchy and information scent</li><li>Consistent call-to-actions</li><li>Reduced friction across page flow</li><li>Design parity with homepage language</li></ul></div></div></section>
-      <section class="section"><div class="container cta-box"><div><p class="section-label">Next Step</p><h2>Continue your journey in Admissions.</h2><p>Use the quick links below to move to the most relevant next page.</p></div><div class="button-row"><a class="button secondary" href="index.html">Open</a><a class="button secondary" href="fees.html">Open</a><a class="button secondary" href="enquiry.html">Open</a></div></div></section>
-    </main>
-
-    <footer class="site-footer">
-      <div class="container footer-grid">
-        <div>
-          <h4>Our Office</h4>
-          <p>Sanskrithi School of Engineering<br/>Andhra Pradesh<br/>Email: info@sseptp.org</p>
-        </div>
-        <div>
-          <h4>Explore</h4>
-          <ul><li><a href="../about/index.html">About</a></li><li><a href="../index.html">Admissions</a></li><li><a href="../academics/index.html">Academics</a></li></ul>
-        </div>
-        <div>
-          <h4>Student Life</h4>
-          <ul><li><a href="../campus/index.html">Campus Life</a></li><li><a href="../campus/hostel.html">Hostel</a></li><li><a href="../placements/index.html">Placements</a></li></ul>
-        </div>
-        <div>
-          <h4>Contact</h4>
-          <p>Need admissions or placement support?<br/><a href="mailto:info@sseptp.org">info@sseptp.org</a></p>
-        </div>
-      </div>
-      <div class="container footer-bottom">
-        <p>© <span id="year"></span> Sanskrithi School of Engineering. All rights reserved.</p>
-        <p class="footer-note">Modern multi-page redesign focused on UX, admissions clarity, and stronger school positioning.</p>
-      </div>
-    </footer>
-
-    <script src="../script.js"></script>
-  <script src="/menu.js"></script>
-</body>
-</html>
+<main>
+<!-- Hero Section -->
+<section class="relative h-[530px] flex items-center overflow-hidden">
+<div class="absolute inset-0 z-0">
+<img class="w-full h-full object-cover" data-alt="A sun-drenched, modern university campus entrance with contemporary architectural lines and lush green landscaping. The scene is captured in high-key natural lighting, emphasizing the clean white stone and glass facades of the engineering block. Prospective students walk toward the building, creating a sense of forward-moving academic journey. The overall aesthetic is professional and inviting, with a palette of deep navy and bright orange accents in the distance." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBjyfTRuGV5AXelwkHFelW60L2uwORWCmHQPPeb21jz9IxGUULdVKKy0_AWd6UcWq1lbuxuNs7nZmtHc1hvTyWTW05HuP27wKXFcKpJJn5MUUHDbbjpG3N71NdfQOw947A2oxx9hQKTaz4Wsa4aRavYNodpZQwpzuPPjRUOtfBz6RWDA2C50ZH44d6v8iRTgLlW5tDlYLcF5KUXc_T7mB3SkYqkYfxNoE6MqTsHtKqDtzMqas52alOVHaDfRzb2I6k2j7JqMphTjtm_"/>
+<div class="absolute inset-0 bg-secondary/70 mix-blend-multiply"></div>
+</div>
+<div class="relative z-10 px-margin-mobile w-full">
+<span class="bg-primary-container text-on-primary px-3 py-1 rounded-full text-label-md font-label-md uppercase mb-4 inline-block">Admissions 2024-25</span>
+<h1 class="font-headline-lg-mobile text-headline-lg-mobile text-on-primary mb-6">Your Journey to SSE</h1>
+<p class="text-on-primary opacity-90 font-body-lg text-body-lg mb-8 max-w-sm">Launch your career in engineering with a world-class education focused on innovation and industry excellence.</p>
+<div class="flex flex-col gap-4">
+<button class="bg-primary-container text-on-primary px-8 py-4 rounded-lg font-headline-md text-headline-md text-center shadow-lg transition-transform active:scale-95">Apply Now</button>
+<button class="border-2 border-on-primary text-on-primary px-8 py-4 rounded-lg font-headline-md text-headline-md text-center">Download Brochure</button>
+</div>
+</div>
+</section>
+<!-- Admission Timeline -->
+<section class="py-section-gap px-margin-mobile bg-surface">
+<div class="mb-12">
+<h2 class="font-headline-lg-mobile text-headline-lg-mobile text-on-surface mb-2">Admission Timeline</h2>
+<div class="h-1.5 w-16 bg-primary-container rounded-full"></div>
+</div>
+<div class="space-y-12">
+<!-- Step 1 -->
+<div class="step-item relative flex gap-6 step-line">
+<div class="z-10 bg-primary-container text-on-primary w-10 h-10 rounded-full flex items-center justify-center shrink-0 shadow-md">
+<span class="material-symbols-outlined" data-weight="fill">edit_note</span>
+</div>
+<div>
+<h3 class="font-headline-md text-headline-md text-primary mb-2">Online Application</h3>
+<p class="text-on-surface-variant font-body-md text-body-md">Register on our portal and submit your academic details along with the required application fee.</p>
+<span class="inline-block mt-3 text-label-md font-label-md text-secondary">Deadline: June 15, 2024</span>
+</div>
+</div>
+<!-- Step 2 -->
+<div class="step-item relative flex gap-6 step-line">
+<div class="z-10 bg-surface-container-highest text-primary w-10 h-10 rounded-full flex items-center justify-center shrink-0 border-2 border-primary-container">
+<span class="material-symbols-outlined">assignment_turned_in</span>
+</div>
+<div>
+<h3 class="font-headline-md text-headline-md text-on-surface mb-2">Entrance Test</h3>
+<p class="text-on-surface-variant font-body-md text-body-md">Eligible candidates will be called for the SSE Aptitude Test or based on state-level entrance scores.</p>
+</div>
+</div>
+<!-- Step 3 -->
+<div class="step-item relative flex gap-6 step-line">
+<div class="z-10 bg-surface-container-highest text-primary w-10 h-10 rounded-full flex items-center justify-center shrink-0 border-2 border-outline-variant">
+<span class="material-symbols-outlined">groups</span>
+</div>
+<div>
+<h3 class="font-headline-md text-headline-md text-on-surface mb-2">Counseling</h3>
+<p class="text-on-surface-variant font-body-md text-body-md">Successful candidates participate in a counseling session for branch selection and document verification.</p>
+</div>
+</div>
+<!-- Step 4 -->
+<div class="step-item relative flex gap-6">
+<div class="z-10 bg-surface-container-highest text-primary w-10 h-10 rounded-full flex items-center justify-center shrink-0 border-2 border-outline-variant">
+<span class="material-symbols-outlined">school</span>
+</div>
+<div>
+<h3 class="font-headline-md text-headline-md text-on-surface mb-2">Final Enrollment</h3>
+<p class="text-on-surface-variant font-body-md text-body-md">Complete the fee payment and secure your seat in the chosen engineering program.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Eligibility & Documents -->
+<section class="py-section-gap px-margin-mobile bg-surface-container-low">
+<h2 class="font-headline-lg-mobile text-headline-lg-mobile text-on-surface mb-8 text-center">Eligibility &amp; Checklists</h2>
+<!-- Eligibility Tabs -->
+<div class="space-y-6">
+<!-- B.Tech Card -->
+<div class="bg-surface rounded-xl border border-outline-variant p-6 shadow-sm">
+<div class="flex items-center gap-3 mb-4">
+<span class="material-symbols-outlined text-primary text-[32px]">architecture</span>
+<h3 class="font-headline-md text-headline-md text-on-surface">B.Tech Criteria</h3>
+</div>
+<ul class="space-y-4">
+<li class="flex gap-3">
+<span class="material-symbols-outlined text-primary-container shrink-0">check_circle</span>
+<span class="text-on-surface-variant">Minimum 50% in 10+2 with Physics, Chemistry &amp; Maths.</span>
+</li>
+<li class="flex gap-3">
+<span class="material-symbols-outlined text-primary-container shrink-0">check_circle</span>
+<span class="text-on-surface-variant">Valid score in JEE Mains or State Entrance Exam.</span>
+</li>
+<li class="flex gap-3">
+<span class="material-symbols-outlined text-primary-container shrink-0">check_circle</span>
+<span class="text-on-surface-variant">Candidate must be at least 17 years of age.</span>
+</li>
+</ul>
+</div>
+<!-- Documents Card -->
+<div class="bg-surface rounded-xl border border-outline-variant p-6 shadow-sm">
+<div class="flex items-center gap-3 mb-4">
+<span class="material-symbols-outlined text-primary text-[32px]">description</span>
+<h3 class="font-headline-md text-headline-md text-on-surface">Required Documents</h3>
+</div>
+<div class="grid grid-cols-1 gap-3">
+<div class="flex items-center p-3 bg-surface-container rounded-lg border border-outline-variant/30">
+<span class="font-label-md text-label-md text-on-surface-variant">10th &amp; 12th Marksheets</span>
+</div>
+<div class="flex items-center p-3 bg-surface-container rounded-lg border border-outline-variant/30">
+<span class="font-label-md text-label-md text-on-surface-variant">Entrance Exam Scorecard</span>
+</div>
+<div class="flex items-center p-3 bg-surface-container rounded-lg border border-outline-variant/30">
+<span class="font-label-md text-label-md text-on-surface-variant">Transfer &amp; Migration Certificate</span>
+</div>
+<div class="flex items-center p-3 bg-surface-container rounded-lg border border-outline-variant/30">
+<span class="font-label-md text-label-md text-on-surface-variant">6 Passport Sized Photographs</span>
+</div>
+<div class="flex items-center p-3 bg-surface-container rounded-lg border border-outline-variant/30">
+<span class="font-label-md text-label-md text-on-surface-variant">Aadhar Card Copy</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- FAQ Section -->
+<section class="py-section-gap px-margin-mobile">
+<h2 class="font-headline-lg-mobile text-headline-lg-mobile text-on-surface mb-8">Common Questions</h2>
+<div class="space-y-4">
+<!-- FAQ 1 -->
+<div class="border-b border-outline-variant pb-4">
+<button class="flex justify-between items-center w-full text-left">
+<span class="font-headline-md text-headline-md text-on-surface pr-4">What is the annual tuition fee for B.Tech?</span>
+<span class="material-symbols-outlined text-primary">expand_more</span>
+</button>
+</div>
+<!-- FAQ 2 -->
+<div class="border-b border-outline-variant pb-4">
+<button class="flex justify-between items-center w-full text-left">
+<span class="font-headline-md text-headline-md text-on-surface pr-4">Are scholarships available for meritorious students?</span>
+<span class="material-symbols-outlined text-primary">expand_more</span>
+</button>
+<div class="mt-4 text-on-surface-variant font-body-md text-body-md">
+                        Yes, SSE offers up to 50% tuition fee waivers for students scoring above 90% in their qualifying examinations and top rankers in entrance tests.
+                    </div>
+</div>
+<!-- FAQ 3 -->
+<div class="border-b border-outline-variant pb-4">
+<button class="flex justify-between items-center w-full text-left">
+<span class="font-headline-md text-headline-md text-on-surface pr-4">Do you provide hostel facilities for outstation students?</span>
+<span class="material-symbols-outlined text-primary">expand_more</span>
+</button>
+</div>
+<!-- FAQ 4 -->
+<div class="border-b border-outline-variant pb-4">
+<button class="flex justify-between items-center w-full text-left">
+<span class="font-headline-md text-headline-md text-on-surface pr-4">What are the placement statistics for last year?</span>
+<span class="material-symbols-outlined text-primary">expand_more</span>
+</button>
+</div>
+</div>
+</section>
+<!-- Contact/Enquiry Section -->
+<section class="py-section-gap px-margin-mobile bg-secondary text-on-primary">
+<div class="text-center mb-10">
+<h2 class="font-headline-lg-mobile text-headline-lg-mobile mb-4">Talk to an Admissions Expert</h2>
+<p class="opacity-80 font-body-md text-body-md">Have specific questions? Our counselors are here to help you navigate your future.</p>
+</div>
+<form class="space-y-5 bg-surface p-6 rounded-2xl">
+<div>
+<label class="block text-on-surface-variant font-label-md text-label-md mb-2">Full Name</label>
+<input class="w-full bg-surface-container border border-outline-variant rounded-lg p-4 text-on-surface focus:outline-none focus:ring-2 focus:ring-primary-container" placeholder="Enter your name" type="text"/>
+</div>
+<div>
+<label class="block text-on-surface-variant font-label-md text-label-md mb-2">Phone Number</label>
+<input class="w-full bg-surface-container border border-outline-variant rounded-lg p-4 text-on-surface focus:outline-none focus:ring-2 focus:ring-primary-container" placeholder="+91 00000 00000" type="tel"/>
+</div>
+<div>
+<label class="block text-on-surface-variant font-label-md text-label-md mb-2">Interested Course</label>
+<select class="w-full bg-surface-container border border-outline-variant rounded-lg p-4 text-on-surface focus:outline-none focus:ring-2 focus:ring-primary-container">
+<option>B.Tech Computer Science</option>
+<option>B.Tech Mechanical</option>
+<option>B.Tech Electronics</option>
+<option>M.Tech Structural</option>
+</select>
+</div>
+<button class="w-full bg-primary-container text-on-primary py-4 rounded-lg font-headline-md text-headline-md shadow-md active:scale-[0.98] transition-transform" type="submit">Request a Callback</button>
+</form>
+<div class="mt-10 flex flex-col items-center gap-4">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined">call</span>
+<span class="font-headline-md text-headline-md">+91 80 1234 5678</span>
+</div>
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined">mail</span>
+<span class="font-body-md text-body-md">admissions@sse.edu.in</span>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-surface-container-low border-t border-outline-variant py-section-gap px-margin-mobile">
+<div class="flex flex-col items-center text-center">
+<div class="font-headline-md text-headline-md font-bold text-on-surface mb-6">Sanskrithi School of Engineering</div>
+<div class="flex flex-wrap justify-center gap-x-6 gap-y-3 mb-10">
+<a class="text-on-surface-variant font-label-md text-label-md hover:text-primary transition-colors" href="#">Admissions Enquiry</a>
+<a class="text-on-surface-variant font-label-md text-label-md hover:text-primary transition-colors" href="#">Academic Programs</a>
+<a class="text-on-surface-variant font-label-md text-label-md hover:text-primary transition-colors" href="#">Campus Infrastructure</a>
+<a class="text-on-surface-variant font-label-md text-label-md hover:text-primary transition-colors" href="#">Research Hub</a>
+</div>
+<p class="text-on-surface-variant font-label-md text-label-md opacity-70">
+                © 2024 Sanskrithi School of Engineering. Institutional Excellence in Engineering.
+            </p>
+</div>
+</footer>
+<!-- Mobile Bottom Navigation Shell (Contextual FAB) -->
+<div class="fixed bottom-6 right-6 z-40">
+<button class="bg-primary-container text-on-primary w-14 h-14 rounded-full shadow-2xl flex items-center justify-center transition-transform active:scale-90">
+<span class="material-symbols-outlined text-[28px]" data-weight="fill">chat</span>
+</button>
+</div>
+</body></html>

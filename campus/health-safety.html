@@ -1,144 +1,326 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sanskrithi School of Engineering | Health &amp; Safety</title>
-    <meta name="description" content="Health, safety, and student wellbeing on campus." />
-    <meta name="keywords" content="Sanskrithi School of Engineering, Sanskriti School of Engineering, engineering college, admissions 2026, placements, campus life, academics" />
-    <meta property="og:title" content="Sanskrithi School of Engineering | Health &amp; Safety" />
-    <meta property="og:description" content="Health, safety, and student wellbeing on campus." />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://sseptp.org/campus/health-safety.html" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <link rel="canonical" href="https://sseptp.org/campus/health-safety.html" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="../styles.css" />
-    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebPage", "name": "Sanskrithi School of Engineering", "url": "https://sseptp.org/campus/health-safety.html", "description": "Health, safety, and student wellbeing on campus."}</script>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Health, Safety &amp; Well-being | Sanskrithi School of Engineering</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&amp;family=Montserrat:wght@600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+    </style>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "on-primary-fixed-variant": "#7c2e00",
+                        "surface-variant": "#e5e2e1",
+                        "inverse-primary": "#ffb596",
+                        "outline": "#8e7164",
+                        "outline-variant": "#e3bfb1",
+                        "on-surface": "#1c1b1b",
+                        "on-tertiary-fixed": "#191c1d",
+                        "tertiary-container": "#959798",
+                        "on-surface-variant": "#5a4136",
+                        "on-error-container": "#93000a",
+                        "background": "#fcf9f8",
+                        "primary-container": "#ff6600",
+                        "on-secondary-container": "#3f5881",
+                        "surface-container-low": "#f6f3f2",
+                        "surface-bright": "#fcf9f8",
+                        "surface-dim": "#dcd9d9",
+                        "on-primary": "#ffffff",
+                        "surface-container": "#f0eded",
+                        "on-tertiary-fixed-variant": "#454748",
+                        "secondary-fixed-dim": "#aec7f6",
+                        "inverse-surface": "#313030",
+                        "on-background": "#1c1b1b",
+                        "primary-fixed-dim": "#ffb596",
+                        "primary-fixed": "#ffdbcd",
+                        "surface": "#fcf9f8",
+                        "tertiary-fixed-dim": "#c5c7c8",
+                        "on-secondary": "#ffffff",
+                        "surface-tint": "#a33e00",
+                        "error-container": "#ffdad6",
+                        "secondary-container": "#b6d0ff",
+                        "on-error": "#ffffff",
+                        "on-primary-container": "#561d00",
+                        "tertiary-fixed": "#e1e3e4",
+                        "tertiary": "#5c5f60",
+                        "surface-container-highest": "#e5e2e1",
+                        "surface-container-lowest": "#ffffff",
+                        "on-secondary-fixed": "#001b3d",
+                        "secondary": "#465f88",
+                        "on-secondary-fixed-variant": "#2d476f",
+                        "inverse-on-surface": "#f3f0ef",
+                        "surface-container-high": "#eae7e7",
+                        "on-tertiary-container": "#2d3031",
+                        "error": "#ba1a1a",
+                        "secondary-fixed": "#d6e3ff",
+                        "primary": "#a33e00",
+                        "on-tertiary": "#ffffff",
+                        "on-primary-fixed": "#360f00"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                    "spacing": {
+                        "container-max": "1280px",
+                        "margin-mobile": "16px",
+                        "section-gap": "80px",
+                        "gutter": "24px",
+                        "component-gap": "24px"
+                    },
+                    "fontFamily": {
+                        "body-md": ["Inter"],
+                        "headline-lg": ["Montserrat"],
+                        "display-lg": ["Montserrat"],
+                        "headline-md": ["Montserrat"],
+                        "headline-lg-mobile": ["Montserrat"],
+                        "label-md": ["Inter"],
+                        "body-lg": ["Inter"]
+                    },
+                    "fontSize": {
+                        "body-md": ["16px", {"lineHeight": "1.6", "fontWeight": "400"}],
+                        "headline-lg": ["32px", {"lineHeight": "1.2", "fontWeight": "700"}],
+                        "display-lg": ["48px", {"lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                        "headline-md": ["24px", {"lineHeight": "1.3", "fontWeight": "600"}],
+                        "headline-lg-mobile": ["28px", {"lineHeight": "1.2", "fontWeight": "700"}],
+                        "label-md": ["14px", {"lineHeight": "1", "letterSpacing": "0.05em", "fontWeight": "600"}],
+                        "body-lg": ["18px", {"lineHeight": "1.6", "fontWeight": "400"}]
+                    }
+                },
+            },
+        }
+    </script>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
   </head>
-  <body class="page-shell">
-    <header class="fixed top-0 w-full z-50 bg-[#001A3D] text-white shadow-sm">
-<nav class="flex justify-between items-center px-margin-desktop py-4 max-w-[1440px] mx-auto">
-<div class="flex items-center gap-2">
-<div class="flex items-center gap-3"><img src="https://sseptp.org/assets/sse-logo-D5ZBduKC.svg" alt="SSE Logo" class="h-14 w-auto"/></div>
+<body class="bg-background text-on-surface font-body-md antialiased">
+<!-- Top Navigation Anchor (As per Shared Components JSON) -->
+<header class="sticky top-0 z-50 flex justify-between items-center px-4 py-4 w-full bg-surface/95 backdrop-blur-md border-b border-outline-variant">
+<div class="font-headline-md text-headline-md font-bold text-on-surface">RESIDENTIAL LIFE</div>
+<button class="bg-primary-container text-on-primary px-4 py-2 rounded-lg font-label-md text-label-md active:opacity-80 active:scale-95 transition-all">
+            Apply Now
+        </button>
+</header>
+<main class="flex flex-col">
+<!-- Hero Section -->
+<section class="relative w-full h-[480px] flex items-end">
+<div class="absolute inset-0 z-0">
+<img class="w-full h-full object-cover" data-alt="A serene and modern university campus courtyard at sunset, featuring clean architectural lines of engineering buildings. The lighting is warm and reassuring with a soft orange glow, creating a calm and secure atmosphere. The composition emphasizes academic excellence and high-performance safety standards in a professional light-mode aesthetic." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBtQ27pawSfhHo_wG9eqGp_ZBXXw_lzo5AYgBdJL0cxvfjEdOBY4rfU7KGNJHIMdt1Zr5t4e_Tho_TUgJ3ZxlOuMvQmj9k38-BlxVKKeHm-b__jFy3wle00Q6qgg29IrrbDg_q9xQds0LsFR7S-B5rMMmlZiKbQPWrXlRJ_c7ObtJAT0wpkhwbQ9M0LEhoKyM0TMChHwKHJJGLDuECkEL2xOxuJoPh5kUMcI-2PtZLNt3eHSJY9v8JAWg_hek4sd56FiLicMIQ3QYd1"/>
+<div class="absolute inset-0 bg-gradient-to-t from-on-secondary-fixed/90 via-on-secondary-fixed/40 to-transparent"></div>
 </div>
-<div class="hidden md:flex items-center gap-6" id="main-menu">
-<a class="text-white font-bold border-b-2 border-[#F26522] pb-1 font-body-md text-body-md" href="../index.html">Home</a>
-
-<div class="relative menu-item">
-<button class="text-white/85 hover:text-white transition-colors font-body-md text-body-md flex items-center gap-1" data-menu-toggle="about">About <span>▾</span></button>
-<div class="hidden absolute top-full left-0 mt-3 w-56 bg-white text-[#0b1c30] rounded-lg shadow-xl p-2 z-50" data-menu="about">
-<a class="block px-3 py-2 rounded hover:bg-slate-100" href="../about/index.html">Overview</a>
-<a class="block px-3 py-2 rounded hover:bg-slate-100" href="../about/vision-mission.html">Vision & Mission</a>
-<a class="block px-3 py-2 rounded hover:bg-slate-100" href="../about/leadership.html">Leadership</a>
-<a class="block px-3 py-2 rounded hover:bg-slate-100" href="../about/quality.html">Quality</a>
-</div>
-</div>
-
-<div class="relative menu-item">
-<button class="text-white/85 hover:text-white transition-colors font-body-md text-body-md flex items-center gap-1" data-menu-toggle="admissions">Admissions <span>▾</span></button>
-<div class="hidden absolute top-full left-0 mt-3 w-56 bg-white text-[#0b1c30] rounded-lg shadow-xl p-2 z-50" data-menu="admissions">
-<a class="block px-3 py-2 rounded hover:bg-slate-100" href="../admissions/index.html">Overview</a>
-<a class="block px-3 py-2 rounded hover:bg-slate-100" href="../admissions/process.html">Process</a>
-<a class="block px-3 py-2 rounded hover:bg-slate-100" href="../admissions/fees.html">Fees</a>
-<a class="block px-3 py-2 rounded hover:bg-slate-100" href="../admissions/enquiry.html">Enquiry</a>
-</div>
-</div>
-
-<div class="relative menu-item">
-<button class="text-white/85 hover:text-white transition-colors font-body-md text-body-md flex items-center gap-1" data-menu-toggle="academics">Academics <span>▾</span></button>
-<div class="hidden absolute top-full left-0 mt-3 w-56 bg-white text-[#0b1c30] rounded-lg shadow-xl p-2 z-50" data-menu="academics">
-<a class="block px-3 py-2 rounded hover:bg-slate-100" href="../academics/index.html">Overview</a>
-<a class="block px-3 py-2 rounded hover:bg-slate-100" href="../academics/programs.html">Programs</a>
-<a class="block px-3 py-2 rounded hover:bg-slate-100" href="../academics/labs.html">Labs</a>
-<a class="block px-3 py-2 rounded hover:bg-slate-100" href="../academics/scholarships.html">Scholarships</a>
-<a class="block px-3 py-2 rounded hover:bg-slate-100" href="../academics/rit.html">RIT</a>
-</div>
-</div>
-
-<div class="relative menu-item">
-<button class="text-white/85 hover:text-white transition-colors font-body-md text-body-md flex items-center gap-1" data-menu-toggle="campus">Campus Life <span>▾</span></button>
-<div class="hidden absolute top-full left-0 mt-3 w-56 bg-white text-[#0b1c30] rounded-lg shadow-xl p-2 z-50" data-menu="campus">
-<a class="block px-3 py-2 rounded hover:bg-slate-100" href="../campus/index.html">Overview</a>
-<a class="block px-3 py-2 rounded hover:bg-slate-100" href="../campus/facilities.html">Facilities</a>
-<a class="block px-3 py-2 rounded hover:bg-slate-100" href="../campus/hostel.html">Hostel</a>
-<a class="block px-3 py-2 rounded hover:bg-slate-100" href="../campus/health-safety.html">Health & Safety</a>
-<a class="block px-3 py-2 rounded hover:bg-slate-100" href="../campus/sports.html">Sports</a>
-</div>
-</div>
-
-<div class="relative menu-item">
-<button class="text-white/85 hover:text-white transition-colors font-body-md text-body-md flex items-center gap-1" data-menu-toggle="placements">Placements <span>▾</span></button>
-<div class="hidden absolute top-full left-0 mt-3 w-56 bg-white text-[#0b1c30] rounded-lg shadow-xl p-2 z-50" data-menu="placements">
-<a class="block px-3 py-2 rounded hover:bg-slate-100" href="../placements/index.html">Overview</a>
-<a class="block px-3 py-2 rounded hover:bg-slate-100" href="../placements/success-stories.html">Success Stories</a>
-<a class="block px-3 py-2 rounded hover:bg-slate-100" href="../placements/contact.html">Placement Contact</a>
-</div>
-</div>
-
-<a class="text-white/85 hover:text-white transition-colors font-body-md text-body-md" href="../contact.html">Contact</a>
-</div>
-<div class="flex items-center gap-4">
-<div class="hidden lg:flex items-center gap-2">
-<button id="search-toggle" class="w-10 h-10 rounded-full bg-white/10 hover:bg-white/20 text-white flex items-center justify-center transition-transform duration-200 active:scale-95" aria-label="Suche öffnen">
-<span class="material-symbols-outlined" style="font-size: 20px;">search</span>
-</button>
-<input id="search-input" type="text" placeholder="Suchen..." class="hidden w-56 px-3 py-2 rounded-full border border-white/25 bg-white text-[#0b1c30] focus:outline-none focus:ring-2 focus:ring-[#F26522]" />
-</div>
-<a href="../admissions/enquiry.html" class="bg-primary-container text-on-primary font-bold px-6 py-2.5 rounded-lg hover:shadow-lg transition-all duration-200 active:scale-95 text-label-lg font-label-lg inline-block">
-                    Apply Now
+<div class="relative z-10 p-6 w-full">
+<h1 class="font-headline-lg-mobile text-headline-lg-mobile text-on-primary mb-4">Health, Safety &amp; Student Well-being</h1>
+<p class="font-body-md text-body-md text-surface-variant mb-6 opacity-90">Providing a secure and healthy environment for our engineering pioneers to thrive.</p>
+<a class="inline-flex items-center gap-2 bg-error text-on-error px-6 py-4 rounded-xl font-headline-md text-headline-md w-full justify-center" href="#emergency">
+<span class="material-symbols-outlined">emergency</span>
+                    Emergency Contacts
                 </a>
 </div>
+</section>
+<!-- Prevention & Wellness Bento Grid -->
+<section class="px-4 py-12 bg-surface">
+<div class="mb-8">
+<h2 class="font-headline-md text-headline-md text-primary mb-2">Prevention &amp; Wellness</h2>
+<div class="h-1 w-12 bg-primary-container"></div>
+</div>
+<div class="grid grid-cols-1 gap-4">
+<!-- 24/7 Security Card -->
+<div class="bg-surface-container-lowest p-6 rounded-xl border border-outline-variant shadow-sm">
+<div class="text-primary-container mb-4">
+<span class="material-symbols-outlined text-[32px]" data-weight="fill">security</span>
+</div>
+<h3 class="font-headline-md text-headline-md mb-2">24/7 Campus Security</h3>
+<p class="text-on-surface-variant text-body-md">Round-the-clock surveillance and dedicated personnel ensuring a safe perimeter for all residents.</p>
+</div>
+<!-- Mental Health -->
+<div class="bg-secondary-container/20 p-6 rounded-xl border border-secondary-container/30">
+<div class="text-secondary mb-4">
+<span class="material-symbols-outlined text-[32px]" data-weight="fill">psychology</span>
+</div>
+<h3 class="font-headline-md text-headline-md mb-2">Mental Health Support</h3>
+<p class="text-on-surface-variant text-body-md">Confidential counseling services and wellness workshops to maintain academic focus and balance.</p>
+</div>
+<div class="grid grid-cols-2 gap-4">
+<!-- Safe Water -->
+<div class="bg-surface-container-low p-5 rounded-xl border border-outline-variant">
+<div class="text-secondary mb-3">
+<span class="material-symbols-outlined text-[28px]">water_drop</span>
+</div>
+<h4 class="font-label-md text-label-md mb-1">Safe Water</h4>
+<p class="text-[12px] leading-relaxed text-on-surface-variant">RO Purified water systems across campus.</p>
+</div>
+<!-- Clean & Green -->
+<div class="bg-surface-container-low p-5 rounded-xl border border-outline-variant">
+<div class="text-primary mb-3">
+<span class="material-symbols-outlined text-[28px]">eco</span>
+</div>
+<h4 class="font-label-md text-label-md mb-1">Clean &amp; Green</h4>
+<p class="text-[12px] leading-relaxed text-on-surface-variant">Sustainable campus maintenance protocols.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Emergency Protocols List -->
+<section class="px-4 py-12 bg-on-surface text-surface" id="emergency">
+<h2 class="font-headline-lg-mobile text-headline-lg-mobile mb-8">Emergency Protocols</h2>
+<div class="space-y-4">
+<!-- Fire Safety -->
+<div class="flex gap-4 p-4 border border-outline/30 rounded-lg">
+<div class="flex-shrink-0 w-10 h-10 bg-error/20 flex items-center justify-center rounded-full text-error">
+<span class="material-symbols-outlined">fire_extinguisher</span>
+</div>
+<div>
+<h3 class="font-label-md text-label-md text-surface">Fire Safety</h3>
+<p class="text-surface-variant text-sm mt-1">Locate nearest extinguisher, pull alarm, and evacuate to assembly points.</p>
+</div>
+</div>
+<!-- First Aid -->
+<div class="flex gap-4 p-4 border border-outline/30 rounded-lg">
+<div class="flex-shrink-0 w-10 h-10 bg-primary/20 flex items-center justify-center rounded-full text-primary-fixed-dim">
+<span class="material-symbols-outlined">medical_services</span>
+</div>
+<div>
+<h3 class="font-label-md text-label-md text-surface">First Aid</h3>
+<p class="text-surface-variant text-sm mt-1">Contact Medical Center immediately. Stations located in all main lobbies.</p>
+</div>
+</div>
+<!-- Evacuation -->
+<div class="flex gap-4 p-4 border border-outline/30 rounded-lg">
+<div class="flex-shrink-0 w-10 h-10 bg-secondary/20 flex items-center justify-center rounded-full text-secondary-fixed-dim">
+<span class="material-symbols-outlined">exit_to_app</span>
+</div>
+<div>
+<h3 class="font-label-md text-label-md text-surface">Evacuation</h3>
+<p class="text-surface-variant text-sm mt-1">Follow green glow signs. Do not use elevators. Assist those with disabilities.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Emergency Hotline -->
+<div class="px-4 -mt-6 relative z-20">
+<div class="bg-primary-container p-6 rounded-2xl shadow-xl flex flex-col items-center text-center">
+<p class="font-label-md text-label-md text-on-primary-container mb-2 uppercase tracking-widest">24/7 Emergency Hotline</p>
+<a class="font-display-lg text-on-primary block mb-4" href="tel:+919876543210">+91 98765 43210</a>
+<button class="bg-on-primary-container text-primary-container font-bold px-8 py-3 rounded-full flex items-center gap-2">
+<span class="material-symbols-outlined">call</span>
+                    Call Now
+                </button>
+</div>
+</div>
+<!-- On-Campus Medical Support -->
+<section class="px-4 py-16 bg-surface-container-low">
+<div class="mb-10">
+<h2 class="font-headline-md text-headline-md text-on-surface mb-2 text-center">Medical Support Infrastructure</h2>
+<div class="h-1 w-12 bg-primary mx-auto"></div>
+</div>
+<div class="space-y-8">
+<div class="relative overflow-hidden rounded-2xl aspect-[4/3]">
+<img class="w-full h-full object-cover" data-alt="A clean, modern medical clinic interior with bright, professional lighting. The room features advanced medical equipment and comfortable patient care areas, emphasizing a sense of reliability and expert health support. The color scheme is clinical white with soft corporate blue accents, conveying academic and medical trust." src="https://lh3.googleusercontent.com/aida-public/AB6AXuD82i2fuqe4tzOcjeYxm7v_fRFU8SO0p4ur5jvJ33zKXd0IHfBcuOGxsQt9HCM7isufsm34Em7gJ9VnqQQWtKPusw_SIpx7T72IQrMDW_l4sLtdslx_V3CdlNg1bG51eZXJNk0Gbs88dg7xB0nWLNZjcRPJq-0hEgaPUAXwVHEI_vKIr9n8PwvbVMp0gVQoQeRZDmUAWEGWhn8dOjR5w0wmldN8WNneErwlmkBPtmBVoqttpl50TDxgiA0SBqwaIDlV3EXeYV-Ib-Yn"/>
+<div class="absolute bottom-4 left-4 right-4 bg-surface/90 backdrop-blur p-4 rounded-xl">
+<h3 class="font-headline-md text-headline-md text-primary">SSE Medical Center</h3>
+<p class="text-sm text-on-surface-variant">Staffed by resident doctors and nurses 24/7.</p>
+</div>
+</div>
+<div class="grid grid-cols-1 gap-6">
+<div class="flex items-start gap-4">
+<span class="material-symbols-outlined text-primary text-3xl">airport_shuttle</span>
+<div>
+<h4 class="font-label-md text-label-md">Ambulance Service</h4>
+<p class="text-body-md text-on-surface-variant">Dedicated fully-equipped ambulance stationed on campus for immediate transit.</p>
+</div>
+</div>
+<div class="flex items-start gap-4">
+<span class="material-symbols-outlined text-primary text-3xl">local_hospital</span>
+<div>
+<h4 class="font-label-md text-label-md">Hospital Tie-ups</h4>
+<p class="text-body-md text-on-surface-variant">Priority partnerships with leading multispecialty hospitals within a 5km radius.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Trust & Compliance -->
+<section class="px-4 py-12 bg-surface">
+<div class="flex flex-wrap justify-center gap-6 mb-12 opacity-60">
+<div class="flex flex-col items-center">
+<span class="material-symbols-outlined text-4xl mb-1">verified</span>
+<span class="text-[10px] font-bold uppercase tracking-tighter">ISO 45001</span>
+</div>
+<div class="flex flex-col items-center">
+<span class="material-symbols-outlined text-4xl mb-1">workspace_premium</span>
+<span class="text-[10px] font-bold uppercase tracking-tighter">OSHA Compliant</span>
+</div>
+<div class="flex flex-col items-center">
+<span class="material-symbols-outlined text-4xl mb-1">gpp_good</span>
+<span class="text-[10px] font-bold uppercase tracking-tighter">Safety Gold</span>
+</div>
+</div>
+<div class="bg-tertiary-fixed p-8 rounded-3xl relative">
+<span class="material-symbols-outlined absolute -top-4 left-8 text-primary-container text-5xl">format_quote</span>
+<p class="font-body-lg text-body-lg italic text-on-tertiary-container mb-6 pt-4">
+                    "At Sanskrithi, we believe that academic excellence is only possible when our students feel safe, healthy, and supported. Our safety protocols aren't just rules; they are our commitment to every family."
+                </p>
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 rounded-full overflow-hidden bg-outline">
+<img class="w-full h-full object-cover" data-alt="A professional portrait of a senior university administrator in a formal suit. He has a warm, confident, and reassuring expression, looking directly at the camera. The background is a slightly blurred academic setting, creating a sense of authority and leadership. High-key, natural professional lighting." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBKwaJq2AdaA_OCokpmlmBnGUS96wcxy5x8jCZkREJVg-Stdln96VT6aOP3K7X_3N87IrWjkviXE-GwC819-tFxbVq6CLkHxGi-slipvG4sg2cNRAlL7h6mnJrS9XK8W8YQpa2-irea4y9fWUQyqtxN5aUgFR3sJ3t7_BHjv4Zz3Bjh5IXBuF7PSzA_YYc6jx7O1LMfBr1FVQVnOhNR0zoa5wVYFdVtRyAifAqmHx89C79mCYB4PDBoigS2gkqi3euTLnKvuxGnMFxD"/>
+</div>
+<div>
+<p class="font-label-md text-label-md text-on-tertiary-container">Dr. Rajesh Kumar</p>
+<p class="text-[12px] text-on-tertiary-fixed-variant uppercase">Director of Campus Operations</p>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer (As per Shared Components JSON) -->
+<footer class="w-full py-20 px-4 flex flex-col justify-between items-center gap-6 bg-on-secondary-fixed">
+<div class="font-headline-md text-headline-md font-bold text-surface">RESIDENTIAL LIFE</div>
+<div class="flex flex-wrap justify-center gap-x-6 gap-y-3">
+<a class="text-surface-variant font-label-md text-label-md hover:text-primary-fixed-dim underline transition-all" href="#">Privacy Policy</a>
+<a class="text-surface-variant font-label-md text-label-md hover:text-primary-fixed-dim underline transition-all" href="#">Code of Conduct</a>
+<a class="text-surface-variant font-label-md text-label-md hover:text-primary-fixed-dim underline transition-all" href="#">Emergency Contacts</a>
+<a class="text-surface-variant font-label-md text-label-md hover:text-primary-fixed-dim underline transition-all" href="#">Campus Map</a>
+</div>
+<p class="font-body-md text-body-md text-surface-variant text-center opacity-70">
+            © 2024 Institute of Engineering Residential Life. All rights reserved.
+        </p>
+</footer>
+<!-- Bottom Navigation for Mobile -->
+<nav class="md:hidden fixed bottom-0 left-0 right-0 bg-surface/95 backdrop-blur-md border-t border-outline-variant flex justify-around py-3 z-50">
+<button class="flex flex-col items-center gap-1 text-on-surface-variant">
+<span class="material-symbols-outlined">home</span>
+<span class="text-[10px] font-bold">Home</span>
+</button>
+<button class="flex flex-col items-center gap-1 text-on-surface-variant">
+<span class="material-symbols-outlined">explore</span>
+<span class="text-[10px] font-bold">Facilities</span>
+</button>
+<button class="flex flex-col items-center gap-1 text-primary border-b-2 border-primary-container pb-1">
+<span class="material-symbols-outlined" data-weight="fill">health_and_safety</span>
+<span class="text-[10px] font-bold">Safety</span>
+</button>
+<button class="flex flex-col items-center gap-1 text-on-surface-variant">
+<span class="material-symbols-outlined">group</span>
+<span class="text-[10px] font-bold">Support</span>
+</button>
 </nav>
-</header>
-
-    <main>
-      <div class="container"><nav class="breadcrumb"><a href="../index.html">Home</a><span>›</span><a href="index.html">Campus Life</a><span>›</span><span>Health & Safety</span></nav></div>
-      <section class="hero hero-subpage">
-        <div class="container hero-layout">
-          <div class="hero-copy">
-            <p class="eyebrow">Campus Life</p>
-            <h1>Health & Safety</h1>
-            <p class="lead">Preventive care, emergency readiness, and secure campus protocols.</p>
-            <div class="hero-actions"><a class="button primary" href="index.html">Explore</a><a class="button secondary" href="../contact.html">Contact</a></div>
-          </div>
-          <aside class="hero-panel"><div class="panel-topline"></div><div class="hero-stats"><article><strong>Clarity</strong><span>Clean information flow</span></article><article><strong>Trust</strong><span>Institution-first communication</span></article><article><strong>Outcomes</strong><span>Actionable next steps</span></article><article><strong>Consistency</strong><span>Homepage-aligned design language</span></article></div></aside>
-        </div>
-      </section>
-      <section class="section-nav" aria-label="Campus Life navigation"><div class="container"><div class="section-nav-panel"><div class="section-nav-heading">Campus Life</div><div class="section-nav-shell"><a class="section-link" href="index.html"><strong>Overview</strong><small>Campus life at a glance</small></a><a class="section-link" href="facilities.html"><strong>Facilities</strong><small>Learning & support spaces</small></a><a class="section-link" href="hostel.html"><strong>Hostel</strong><small>Residential ecosystem</small></a><a class="section-link is-active" href="health-safety.html"><strong>Health & Safety</strong><small>Wellbeing and security</small></a><a class="section-link" href="sports.html"><strong>Sports</strong><small>Participation and performance</small></a></div></div></div></section>
-      <section class="section"><div class="container"><p class="section-label">Core Focus</p><div class="section-head"><h2>Content and design now follow one coherent system.</h2><p>Each page is structured for readability, faster decision-making, and stronger institutional perception.</p></div><div class="cards cols-3"><article class="card"><div class="icon">01</div><h3>Medical Access</h3><p>Structured implementation focused on student clarity, institutional credibility, and measurable outcomes.</p></article><article class="card"><div class="icon">02</div><h3>Safety Protocols</h3><p>Structured implementation focused on student clarity, institutional credibility, and measurable outcomes.</p></article><article class="card"><div class="icon">03</div><h3>Response Systems</h3><p>Structured implementation focused on student clarity, institutional credibility, and measurable outcomes.</p></article></div></div></section>
-      <section class="section muted"><div class="container split"><div class="split-copy"><p class="section-label">Execution Path</p><h2>From discovery to decision, the route is clear.</h2><p>The section hierarchy reduces noise and keeps users on the right next action.</p></div><div class="split-card"><ul class="mini-list"><li>Clear hierarchy and information scent</li><li>Consistent call-to-actions</li><li>Reduced friction across page flow</li><li>Design parity with homepage language</li></ul></div></div></section>
-      <section class="section"><div class="container cta-box"><div><p class="section-label">Next Step</p><h2>Continue your journey in Campus Life.</h2><p>Use the quick links below to move to the most relevant next page.</p></div><div class="button-row"><a class="button secondary" href="index.html">Open</a><a class="button secondary" href="hostel.html">Open</a><a class="button secondary" href="facilities.html">Open</a></div></div></section>
-    </main>
-
-    <footer class="site-footer">
-      <div class="container footer-grid">
-        <div>
-          <h4>Our Office</h4>
-          <p>Sanskrithi School of Engineering<br/>Andhra Pradesh<br/>Email: info@sseptp.org</p>
-        </div>
-        <div>
-          <h4>Explore</h4>
-          <ul><li><a href="../about/index.html">About</a></li><li><a href="../admissions/index.html">Admissions</a></li><li><a href="../academics/index.html">Academics</a></li></ul>
-        </div>
-        <div>
-          <h4>Student Life</h4>
-          <ul><li><a href="../index.html">Campus Life</a></li><li><a href="hostel.html">Hostel</a></li><li><a href="../placements/index.html">Placements</a></li></ul>
-        </div>
-        <div>
-          <h4>Contact</h4>
-          <p>Need admissions or placement support?<br/><a href="mailto:info@sseptp.org">info@sseptp.org</a></p>
-        </div>
-      </div>
-      <div class="container footer-bottom">
-        <p>© <span id="year"></span> Sanskrithi School of Engineering. All rights reserved.</p>
-        <p class="footer-note">Modern multi-page redesign focused on UX, admissions clarity, and stronger school positioning.</p>
-      </div>
-    </footer>
-
-    <script src="../script.js"></script>
-  <script src="/menu.js"></script>
-</body>
-</html>
+<!-- Spacer for Bottom Nav -->
+<div class="h-16 md:hidden"></div>
+</body></html>
