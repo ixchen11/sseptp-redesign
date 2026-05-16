@@ -1,86 +1,365 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sanskrithi School of Engineering | About the School</title>
-    <meta name="description" content="Learn about Sanskrithi School of Engineering, its identity, values, quality focus, and institutional direction." />
-    <meta name="keywords" content="Sanskrithi School of Engineering, Sanskriti School of Engineering, engineering college, admissions 2026, placements, campus life, academics" />
-    <meta property="og:title" content="Sanskrithi School of Engineering | About the School" />
-    <meta property="og:description" content="Learn about Sanskrithi School of Engineering, its identity, values, quality focus, and institutional direction." />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://sseptp.org/about/index.html" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <link rel="canonical" href="https://sseptp.org/about/index.html" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="../styles.css" />
-    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "CollegeOrUniversity", "name": "Sanskrithi School of Engineering", "url": "https://sseptp.org/about/index.html", "description": "Learn about Sanskrithi School of Engineering, its identity, values, quality focus, and institutional direction."}</script>
+
+<html class="scroll-smooth" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>About Us | Sanskrithi School of Engineering</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&amp;family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "secondary": "#465f88",
+                        "surface-container-lowest": "#ffffff",
+                        "primary-container": "#ff6600",
+                        "outline": "#8e7164",
+                        "on-primary": "#ffffff",
+                        "surface-container-highest": "#e5e2e1",
+                        "tertiary-container": "#959798",
+                        "surface-variant": "#e5e2e1",
+                        "secondary-fixed": "#d6e3ff",
+                        "inverse-primary": "#ffb596",
+                        "surface-bright": "#fcf9f8",
+                        "surface": "#fcf9f8",
+                        "primary-fixed-dim": "#ffb596",
+                        "inverse-on-surface": "#f3f0ef",
+                        "on-surface-variant": "#5a4136",
+                        "on-secondary": "#ffffff",
+                        "secondary-container": "#b6d0ff",
+                        "outline-variant": "#e3bfb1",
+                        "background": "#fcf9f8",
+                        "primary-fixed": "#ffdbcd",
+                        "on-surface": "#1c1b1b",
+                        "on-primary-container": "#561d00",
+                        "on-error-container": "#93000a",
+                        "error": "#ba1a1a",
+                        "on-tertiary-fixed": "#191c1d",
+                        "on-secondary-container": "#3f5881",
+                        "on-tertiary-container": "#2d3031",
+                        "on-tertiary": "#ffffff",
+                        "on-error": "#ffffff",
+                        "on-secondary-fixed": "#001b3d",
+                        "tertiary-fixed-dim": "#c5c7c8",
+                        "on-secondary-fixed-variant": "#2d476f",
+                        "surface-dim": "#dcd9d9",
+                        "surface-container-high": "#eae7e7",
+                        "error-container": "#ffdad6",
+                        "surface-tint": "#a33e00",
+                        "on-tertiary-fixed-variant": "#454748",
+                        "surface-container": "#f0eded",
+                        "secondary-fixed-dim": "#aec7f6",
+                        "primary": "#a33e00",
+                        "inverse-surface": "#313030",
+                        "tertiary": "#5c5f60",
+                        "on-background": "#1c1b1b",
+                        "tertiary-fixed": "#e1e3e4",
+                        "surface-container-low": "#f6f3f2",
+                        "on-primary-fixed": "#360f00",
+                        "on-primary-fixed-variant": "#7c2e00"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                    "spacing": {
+                        "component-gap": "24px",
+                        "gutter": "24px",
+                        "section-gap": "80px",
+                        "margin-mobile": "16px",
+                        "container-max": "1280px"
+                    },
+                    "fontFamily": {
+                        "headline-lg-mobile": ["Montserrat"],
+                        "display-lg": ["Montserrat"],
+                        "headline-md": ["Montserrat"],
+                        "body-md": ["Inter"],
+                        "headline-lg": ["Montserrat"],
+                        "body-lg": ["Inter"],
+                        "label-md": ["Inter"]
+                    },
+                    "fontSize": {
+                        "headline-lg-mobile": ["28px", { "lineHeight": "1.2", "fontWeight": "700" }],
+                        "display-lg": ["48px", { "lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "700" }],
+                        "headline-md": ["24px", { "lineHeight": "1.3", "fontWeight": "600" }],
+                        "body-md": ["16px", { "lineHeight": "1.6", "fontWeight": "400" }],
+                        "headline-lg": ["32px", { "lineHeight": "1.2", "fontWeight": "700" }],
+                        "body-lg": ["18px", { "lineHeight": "1.6", "fontWeight": "400" }],
+                        "label-md": ["14px", { "lineHeight": "1", "letterSpacing": "0.05em", "fontWeight": "600" }]
+                    }
+                },
+            },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+            display: inline-block;
+            vertical-align: middle;
+        }
+        .asymmetric-clip {
+            clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
+        }
+        .orange-accent { color: #ff6600; }
+        .navy-bg { background-color: #002147; }
+        .navy-text { color: #002147; }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
   </head>
-  <body class="page-shell">
-    <header class="site-header">
-      <div class="container nav-wrap">
-        <a class="brand" href="../index.html"><img class="brand-logo" src="https://sseptp.org/assets/sse-logo-D5ZBduKC.svg" alt="SSE logo"/></a>
-        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
-          <span></span><span></span><span></span><span class="sr-only">Toggle navigation</span>
-        </button>
-        <nav class="nav" id="site-nav">
-          <a class="" href="../index.html">Home</a>
-          <div class="nav-item"><button class="nav-parent" type="button" aria-expanded="false">About</button><div class="submenu"><a href="../about/index.html">Overview</a><a href="../about/vision-mission.html">Vision & Mission</a><a href="../about/leadership.html">Leadership</a><a href="../about/quality.html">Quality</a></div></div>
-          <div class="nav-item"><button class="nav-parent" type="button" aria-expanded="false">Admissions</button><div class="submenu"><a href="../admissions/index.html">Overview</a><a href="../admissions/process.html">Process</a><a href="../admissions/fees.html">Fees</a><a href="../admissions/enquiry.html">Enquiry</a></div></div>
-          <div class="nav-item"><button class="nav-parent" type="button" aria-expanded="false">Academics</button><div class="submenu"><a href="../academics/index.html">Overview</a><a href="../academics/programs.html">Programs</a><a href="../academics/labs.html">Labs</a><a href="../academics/scholarships.html">Scholarships</a><a href="../academics/rit.html">RIT</a></div></div>
-          <div class="nav-item"><button class="nav-parent" type="button" aria-expanded="false">Campus Life</button><div class="submenu"><a href="../campus/index.html">Overview</a><a href="../campus/facilities.html">Facilities</a><a href="../campus/hostel.html">Hostel</a><a href="../campus/health-safety.html">Health & Safety</a><a href="../campus/sports.html">Sports</a></div></div>
-          <div class="nav-item"><button class="nav-parent" type="button" aria-expanded="false">Placements</button><div class="submenu"><a href="../placements/index.html">Overview</a><a href="../placements/success-stories.html">Success Stories</a><a href="../placements/contact.html">Placement Contact</a></div></div>
-          <a class="nav-cta" href="../contact.html">Contact</a>
-        </nav>
-      </div>
-    </header>
-
-    <main>
-      <div class="container"><nav class="breadcrumb"><a href="../index.html">Home</a><span>›</span><a href="index.html">About</a><span>›</span><span>About the School</span></nav></div>
-      <section class="hero hero-subpage">
-        <div class="container hero-layout">
-          <div class="hero-copy">
-            <p class="eyebrow">About SSE</p>
-            <h1>Shaping Engineers for Tomorrow’s World</h1>
-            <p class="lead">Sanskrithi School of Engineering (SSE) is a premier engineering institution in Andhra Pradesh, committed to academic excellence and holistic development of students.</p>
-            <div class="hero-actions"><a class="button primary" href="../admissions/index.html">Admissions 2026</a><a class="button secondary" href="../academics/index.html">Explore Academics</a></div>
-          </div>
-          <aside class="hero-panel"><div class="panel-topline"></div><div class="hero-stats"><article><strong>About College</strong><span>Institutional profile and identity</span></article><article><strong>Vision & Mission</strong><span>Direction, values, and educational intent</span></article><article><strong>Leadership</strong><span>Chairman, Principal, Dean, Secretary</span></article><article><strong>Quality</strong><span>NAAC, IQAC, recognition, committees</span></article></div></aside>
+<body class="bg-surface text-on-surface font-body-md">
+<!-- TopAppBar Section -->
+<header class="bg-surface dark:bg-surface-dim border-b border-outline-variant dark:border-on-surface-variant sticky top-0 z-50">
+<div class="flex justify-between items-center w-full px-margin-mobile md:px-gutter max-w-container-max mx-auto h-20">
+<div class="text-headline-md font-headline-md font-bold text-primary dark:text-primary-fixed-dim">
+                Sanskrithi School of Engineering
+            </div>
+<nav class="hidden md:flex items-center gap-8">
+<a class="text-secondary dark:text-secondary-fixed font-medium hover:text-primary transition-colors duration-200" href="#">Home</a>
+<a class="text-primary dark:text-primary-fixed-dim font-bold border-b-2 border-primary pb-1" href="#">Academics</a>
+<a class="text-secondary dark:text-secondary-fixed font-medium hover:text-primary transition-colors duration-200" href="#">Admissions</a>
+<a class="text-secondary dark:text-secondary-fixed font-medium hover:text-primary transition-colors duration-200" href="#">Leadership</a>
+<a class="text-secondary dark:text-secondary-fixed font-medium hover:text-primary transition-colors duration-200" href="#">Research</a>
+<a class="text-secondary dark:text-secondary-fixed font-medium hover:text-primary transition-colors duration-200" href="#">Campus</a>
+<button class="bg-primary-container text-on-primary px-6 py-2 rounded-lg font-bold hover:opacity-90 transition-all scale-100 active:scale-95">Apply Now</button>
+</nav>
+<button class="md:hidden p-2">
+<span class="material-symbols-outlined text-primary text-3xl">menu</span>
+</button>
+</div>
+</header>
+<main>
+<!-- Section 1: Hero -->
+<section class="relative h-[618px] flex items-center overflow-hidden">
+<div class="absolute inset-0 z-0">
+<img class="w-full h-full object-cover" data-alt="A sprawling contemporary engineering college campus at dusk with architectural glass buildings reflecting a warm sunset. The landscape is lush with manicured green lawns and palm trees. The lighting is dramatic and high-contrast, emphasizing the structural navy blue shadows and vibrant orange sky highlights. The overall atmosphere is prestigious, serene, and technologically advanced." src="https://lh3.googleusercontent.com/aida-public/AB6AXuB3i3tO5QbA8-eB4pZ4MEkO2J4Wjs7CbJw1I4KUiK_7Zsqa_0L200GL8sOeR6qZQY5O_vMYVWN4gkYbY3JyREzJvdz8ZYxud_nLfweGRe_C-O69rj-z5bZXM3ZFmJstFNQW_tK-jx8UgPkdkq4DGgUT2Wa1yJ0oPD-1rzJgJlPaA2mHgW1DxX-TgGuk_NL3vmBI93NvGzZPWAvM1GpxI10AtBrLi_EjtNYJKUQTr6Zol-QXwW9DzaMKIndcuUOah67SGghF8XOsDIGp"/>
+<div class="absolute inset-0 bg-[#002147]/70"></div>
+</div>
+<div class="relative z-10 max-w-container-max mx-auto px-margin-mobile md:px-gutter w-full text-white">
+<div class="max-w-2xl">
+<h1 class="font-display-lg text-display-lg md:text-display-lg mb-6 leading-tight">
+                        Pioneering Engineering <span class="text-primary-container">Excellence</span>
+</h1>
+<p class="text-body-lg font-body-lg opacity-90 mb-8 border-l-4 border-primary-container pl-6">
+                        Empowering the next generation of innovators through industry-aligned curriculum and a legacy of academic distinction in the heart of Andhra Pradesh.
+                    </p>
+</div>
+</div>
+</section>
+<!-- Section 2: Institutional Story -->
+<section class="py-section-gap px-margin-mobile md:px-gutter max-w-container-max mx-auto overflow-hidden">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-center">
+<div class="lg:col-span-7">
+<h2 class="font-headline-lg text-headline-lg text-primary mb-6">Our Journey</h2>
+<div class="space-y-4 text-on-surface-variant font-body-md">
+<p>Established with a vision to redefine engineering education, Sanskrithi School of Engineering has grown from a visionary concept to a landmark institution. Our focus has always been on blending traditional values with cutting-edge technological advancements.</p>
+<p>With an emphasis on "Learning by Doing," we have fostered an environment where students don't just study engineering; they live it. Our sprawling campus serves as a hub for creativity, research, and holistic development.</p>
+</div>
+</div>
+<div class="lg:col-span-5 relative mt-12 lg:mt-0">
+<div class="asymmetric-clip rounded-xl overflow-hidden shadow-xl">
+<img class="w-full aspect-square object-cover" data-alt="A candid, high-quality photograph of students collaborating in a modern, well-lit engineering laboratory. They are working with robotic arms and circuit boards. The lighting is bright and clean, reflecting a corporate academic environment. The color palette includes deep navy blue uniforms and vibrant orange equipment accents, creating a professional and focused atmosphere." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAeZOrLGk4FI4lMfwhaWFyV8KP6ek_gHTU5VSq9k_Q6YzYQtpDmMCAou_beCF80d1-vyOTRWsOWx4wxsMp89PRWXBvkxjcMjKXffvcS0wBaYWjGm2Eoa9rbT9j-qAnp9VtzTvc1G38IRZmrkgSWTPFEdQAxohv7e0NAomd_OMeQqVg_azXcA60idj-d5qY9_tzg4Y4fuxpZdX5CFZDs_RvLOQRXyTj541iYq6MGXiMnjOGmU1kdVp10AJnhCsvtwAfeL-rJKbB43SEW"/>
+</div>
+<div class="absolute -bottom-6 -right-6 bg-primary-container p-8 rounded-lg shadow-lg hidden md:block">
+<p class="text-white font-bold text-headline-md">15+ Years</p>
+<p class="text-white/80 font-label-md uppercase tracking-wider">Of Academic Legacy</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Section 3: Heritage Highlights -->
+<section class="bg-surface-container-low py-section-gap">
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-gutter">
+<div class="grid grid-cols-2 md:grid-cols-4 gap-gutter">
+<div class="text-center p-6 bg-white rounded-xl border border-outline-variant hover:shadow-lg transition-all">
+<span class="material-symbols-outlined text-primary text-5xl mb-4" data-icon="calendar_month">calendar_month</span>
+<h3 class="text-headline-md font-headline-md text-on-surface mb-2">2010</h3>
+<p class="text-on-surface-variant text-label-md uppercase">Year Founded</p>
+</div>
+<div class="text-center p-6 bg-white rounded-xl border border-outline-variant hover:shadow-lg transition-all">
+<span class="material-symbols-outlined text-primary text-5xl mb-4" data-icon="groups">groups</span>
+<h3 class="text-headline-md font-headline-md text-on-surface mb-2">5000+</h3>
+<p class="text-on-surface-variant text-label-md uppercase">Alumni Network</p>
+</div>
+<div class="text-center p-6 bg-white rounded-xl border border-outline-variant hover:shadow-lg transition-all">
+<span class="material-symbols-outlined text-primary text-5xl mb-4" data-icon="school">school</span>
+<h3 class="text-headline-md font-headline-md text-on-surface mb-2">45+</h3>
+<p class="text-on-surface-variant text-label-md uppercase">Expert Faculty</p>
+</div>
+<div class="text-center p-6 bg-white rounded-xl border border-outline-variant hover:shadow-lg transition-all">
+<span class="material-symbols-outlined text-primary text-5xl mb-4" data-icon="workspace_premium">workspace_premium</span>
+<h3 class="text-headline-md font-headline-md text-on-surface mb-2">NAAC A+</h3>
+<p class="text-on-surface-variant text-label-md uppercase">Accreditation</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Section 4: Leadership Preview -->
+<section class="py-section-gap px-margin-mobile md:px-gutter max-w-container-max mx-auto">
+<h2 class="font-headline-lg text-headline-lg text-primary text-center mb-12">Visionary Leadership</h2>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-4xl mx-auto">
+<div class="group">
+<div class="relative rounded-2xl overflow-hidden mb-6 aspect-[4/5] bg-surface-container">
+<img class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500" data-alt="A professional studio portrait of a senior chairman in a charcoal grey suit with a navy blue tie. He exudes wisdom and authority. The lighting is soft and flattering with a clean white studio background. The style is executive and modern, fitting for a top-tier academic institution." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCNNNFf3HyLM_bCDzCb51oqKL0G0cOV4t-IBKbdicfzl-lN6Fzf_FeXhCYJXuikWdZuu0AGbYwm476E75t3ubWfGQbziTgwbG11X3Bazgewv3aqA6nfpv5u8BrESOXx2qpi0ho66AlOCbI_I_STLCnRxp4bPpqd9El3QUjCpw10fiwNOwLAX7cbGiZszBGCbmX4vjcgcND1dFe2YgtlQwqwOKSNkAlExYSXD7DQkL-kLQf_LZrzdodXzOH5GKKlIBsPkMGwhrIVTNzG"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+<div class="absolute bottom-6 left-6 text-white">
+<h4 class="font-headline-md text-headline-md">Sri C. Vijay Bhaskar</h4>
+<p class="text-primary-fixed">Chairman</p>
+</div>
+</div>
+<p class="text-on-surface-variant text-body-md italic leading-relaxed">"Our goal is to create global citizens who are not only technically proficient but also ethically grounded."</p>
+</div>
+<div class="group">
+<div class="relative rounded-2xl overflow-hidden mb-6 aspect-[4/5] bg-surface-container">
+<img class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500" data-alt="A professional portrait of a female college principal, dressed in business attire with academic touches. She is standing in a brightly lit corridor with modern architectural lines. The lighting is natural and bright, conveying accessibility and leadership. The aesthetic is clean and corporate." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAY_YDrJDYr5CzOjr6SztBKKSwbNkj0xS-JITtEnRyYwKP6qTUUeB_Zm7XnNApsbwzchVlzAUkTZfc2hNWS770Gj81JijheIJUSp-2P07n2zy72Vw3xlS0s6xycoOiJUVRnnOMaBayLoaopqbJuKbuGgo_L7TDIWLhLKUAQjS6xBbZcKk_VVDet4on26mxjc78RqAOsLGGpYTbMFHSzcC9VqJ6c13FOv_ki4wYipx-dsrlWWocPhlFoDm90yAJHbO4DnOmB4QyVSbzg"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+<div class="absolute bottom-6 left-6 text-white">
+<h4 class="font-headline-md text-headline-md">Dr. T. Sudhakaran</h4>
+<p class="text-primary-fixed">Principal</p>
+</div>
+</div>
+<p class="text-on-surface-variant text-body-md italic leading-relaxed">"Excellence is not an act, but a habit. We strive to instill this habit in every student at SSE."</p>
+</div>
+</div>
+</section>
+<!-- Section 5: Trust Strip -->
+<section class="bg-[#002147] py-12">
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-gutter flex flex-wrap justify-around items-center gap-12 opacity-80">
+<div class="flex items-center gap-3 text-white">
+<span class="material-symbols-outlined text-4xl" data-icon="verified">verified</span>
+<span class="font-bold text-headline-md">NAAC A+</span>
+</div>
+<div class="flex items-center gap-3 text-white">
+<span class="material-symbols-outlined text-4xl" data-icon="policy">policy</span>
+<span class="font-bold text-headline-md">IQAC Cell</span>
+</div>
+<div class="flex items-center gap-3 text-white">
+<span class="material-symbols-outlined text-4xl" data-icon="approval">approval</span>
+<span class="font-bold text-headline-md">AICTE Approved</span>
+</div>
+<div class="flex items-center gap-3 text-white">
+<span class="material-symbols-outlined text-4xl" data-icon="account_balance">account_balance</span>
+<span class="font-bold text-headline-md">JNTUA Affiliated</span>
+</div>
+</div>
+</section>
+<!-- Section 6: Committees & Governance -->
+<section class="py-section-gap px-margin-mobile md:px-gutter max-w-container-max mx-auto">
+<h2 class="font-headline-lg text-headline-lg text-primary mb-12 text-center">Governance &amp; Quality Assurance</h2>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+<div class="p-8 border border-outline-variant rounded-xl hover:border-primary-container transition-colors group">
+<div class="w-12 h-12 bg-surface-container-high rounded-lg flex items-center justify-center mb-6 group-hover:bg-primary-container group-hover:text-white transition-all">
+<span class="material-symbols-outlined" data-icon="gavel">gavel</span>
+</div>
+<h5 class="font-headline-md text-on-surface mb-3">Governing Body</h5>
+<p class="text-on-surface-variant text-body-md">Ensuring strategic direction and high-level institutional oversight.</p>
+</div>
+<div class="p-8 border border-outline-variant rounded-xl hover:border-primary-container transition-colors group">
+<div class="w-12 h-12 bg-surface-container-high rounded-lg flex items-center justify-center mb-6 group-hover:bg-primary-container group-hover:text-white transition-all">
+<span class="material-symbols-outlined" data-icon="history_edu">history_edu</span>
+</div>
+<h5 class="font-headline-md text-on-surface mb-3">Academic Council</h5>
+<p class="text-on-surface-variant text-body-md">Maintaining academic rigor and curriculum innovation across all departments.</p>
+</div>
+<div class="p-8 border border-outline-variant rounded-xl hover:border-primary-container transition-colors group">
+<div class="w-12 h-12 bg-surface-container-high rounded-lg flex items-center justify-center mb-6 group-hover:bg-primary-container group-hover:text-white transition-all">
+<span class="material-symbols-outlined" data-icon="security">security</span>
+</div>
+<h5 class="font-headline-md text-on-surface mb-3">Anti-Ragging Committee</h5>
+<p class="text-on-surface-variant text-body-md">Providing a safe, inclusive, and welcoming environment for all students.</p>
+</div>
+</div>
+</section>
+<!-- Section 7: Industry Interface Teaser -->
+<section class="py-section-gap bg-surface">
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-gutter">
+<div class="bg-surface-container-highest rounded-3xl p-12 relative overflow-hidden">
+<div class="relative z-10 flex flex-col md:flex-row items-center justify-between gap-12">
+<div class="md:max-w-xl">
+<h2 class="font-headline-lg text-headline-lg text-on-surface mb-4">Bridging the Gap Between Industry &amp; Academia</h2>
+<p class="text-on-surface-variant mb-6">We collaborate with global leaders like IBM, Microsoft, and Infosys to ensure our students are industry-ready from day one.</p>
+<a class="text-primary font-bold flex items-center gap-2 hover:translate-x-2 transition-transform" href="#">
+                                Explore Industry Collaborations
+                                <span class="material-symbols-outlined" data-icon="arrow_forward">arrow_forward</span>
+</a>
+</div>
+<div class="grid grid-cols-2 gap-8 opacity-40">
+<span class="material-symbols-outlined text-8xl" data-icon="lan">lan</span>
+<span class="material-symbols-outlined text-8xl" data-icon="settings_input_component">settings_input_component</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Section 8: Admissions CTA -->
+<section class="bg-primary-container py-section-gap relative overflow-hidden">
+<div class="absolute right-0 top-0 h-full w-1/3 opacity-10">
+<span class="material-symbols-outlined text-[20rem]" data-icon="school">school</span>
+</div>
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-gutter text-center relative z-10">
+<h2 class="font-display-lg text-display-lg text-white mb-8">Join our legacy of excellence</h2>
+<p class="text-white/80 text-body-lg mb-12 max-w-2xl mx-auto">Admissions are now open for the upcoming academic session. Take the first step towards a brilliant engineering career.</p>
+<div class="flex flex-col sm:flex-row gap-6 justify-center">
+<button class="bg-white text-primary-container px-10 py-4 rounded-lg font-bold text-headline-md hover:shadow-xl transition-all">Apply Now</button>
+<button class="border-2 border-white text-white px-10 py-4 rounded-lg font-bold text-headline-md hover:bg-white/10 transition-all">Download Brochure</button>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer Section -->
+<footer class="bg-surface-container-highest dark:bg-surface-container-lowest border-t border-outline-variant">
+<div class="w-full py-section-gap px-margin-mobile md:px-gutter max-w-container-max mx-auto grid grid-cols-1 md:grid-cols-4 gap-gutter">
+<div class="col-span-1 md:col-span-1">
+<div class="text-headline-sm font-headline-sm font-bold text-primary dark:text-primary-fixed-dim mb-6">
+                    SSE
+                </div>
+<p class="text-on-surface-variant dark:text-on-tertiary-fixed-variant text-body-md mb-6">
+                    A premier destination for engineering studies, dedicated to technical innovation and character building.
+                </p>
+<div class="flex gap-4">
+<span class="material-symbols-outlined text-primary cursor-pointer" data-icon="facebook">face_nod</span>
+<span class="material-symbols-outlined text-primary cursor-pointer" data-icon="linkedin">link</span>
+<span class="material-symbols-outlined text-primary cursor-pointer" data-icon="x">1k</span>
+</div>
+</div>
+<div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface dark:text-on-surface-variant mb-6">Quick Links</h4>
+<ul class="space-y-3">
+<li><a class="text-on-surface-variant hover:underline" href="#">Admissions</a></li>
+<li><a class="text-on-surface-variant hover:underline" href="#">Departments</a></li>
+<li><a class="text-on-surface-variant hover:underline" href="#">Placements</a></li>
+<li><a class="text-on-surface-variant hover:underline" href="#">Research</a></li>
+</ul>
+</div>
+<div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface dark:text-on-surface-variant mb-6">Institutional</h4>
+<ul class="space-y-3">
+<li><a class="text-on-surface-variant hover:underline" href="#">Accreditation</a></li>
+<li><a class="text-on-surface-variant hover:underline" href="#">NIRF</a></li>
+<li><a class="text-on-surface-variant hover:underline" href="#">Governance</a></li>
+<li><a class="text-on-surface-variant hover:underline" href="#">Contact Us</a></li>
+</ul>
+</div>
+<div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface dark:text-on-surface-variant mb-6">Contact</h4>
+<p class="text-on-surface-variant text-body-md mb-4">
+                    Sanskrithi Campus, Beedupalli Knowledge Park, Prasanthigram, Puttaparthi, Andhra Pradesh - 515134
+                </p>
+<p class="text-on-surface-variant text-body-md">info@sseptp.org</p>
+<p class="text-on-surface-variant text-body-md">+91 999 999 9999</p>
+</div>
+</div>
+<div class="border-t border-outline-variant/30 py-8 px-margin-mobile md:px-gutter max-w-container-max mx-auto text-center text-label-md text-on-surface-variant">
+            © 2024 Sanskrithi School of Engineering. All rights reserved. Approved by AICTE &amp; Affiliated to JNTUA.
         </div>
-      </section>
-      <section class="section-nav" aria-label="About navigation"><div class="container"><div class="section-nav-panel"><div class="section-nav-heading">About</div><div class="section-nav-shell"><a class="section-link is-active" href="index.html"><strong>Overview</strong><small>Institutional story and identity</small></a><a class="section-link" href="vision-mission.html"><strong>Vision &amp; Mission</strong><small>Purpose and educational direction</small></a><a class="section-link" href="leadership.html"><strong>Leadership</strong><small>Institutional messages and governance</small></a><a class="section-link" href="quality.html"><strong>Quality &amp; Recognition</strong><small>NAAC, IQAC, committees</small></a><a class="section-link" href="industry-interface.html"><strong>Industry Interface</strong><small>Practice and employability linkage</small></a></div></div></div></section>
-      <section class="section"><div class="container"><p class="section-label">All About Content</p><div class="section-head"><h2>Everything from the current About area is now structured clearly.</h2><p>Die Inhalte bleiben erhalten, werden aber sauber gruppiert und besser auffindbar dargestellt.</p></div><div class="cards cols-4"><article class="card"><div class="icon">01</div><h3>About College & Heritage</h3><p>Institutional story, legacy, and campus identity in Andhra Pradesh.</p></article><article class="card"><div class="icon">02</div><h3>Leadership Messages</h3><p>Chairman, Principal, Dean, and Secretary messages in one coherent stream.</p></article><article class="card"><div class="icon">03</div><h3>Recognition & NAAC</h3><p>Recognition routes, NAAC (A Grade) trust signals, and quality markers.</p></article><article class="card"><div class="icon">04</div><h3>IQAC & Committees</h3><p>IQAC, academic/industry committees, and institutional governance visibility.</p></article></div></div></section>
-      <section class="section muted"><div class="container split"><div class="split-copy"><p class="section-label">Linked About Routes</p><h2>Included routes from the live About structure.</h2><p>/about/college, /about/vision-mission, /about/heritage, /about/leadership, /about/chairman-message, /about/principal-message, /about/dean-message, /about/secretary-message, /about/industry-interface, /about/recognition, /about/naac, /about/iqac, /about/committees.</p></div><div class="split-card"><ul class="mini-list"><li>Komplette About-Inhalte integriert</li><li>Bessere Leseführung und Hierarchie</li><li>Konsistent mit Homepage-Design</li><li>Klarere Einstiegspunkte für Eltern/Studierende</li></ul></div></div></section>
-      <section class="section"><div class="container cta-box"><div><p class="section-label">Next Step</p><h2>Weiter mit Academics/Admissions im gleichen Muster?</h2><p>Die gleiche Inhalts-Logik kann jetzt 1:1 auf die übrigen Hauptbereiche angewendet werden.</p></div><div class="button-row"><a class="button primary light" href="mailto:info@sseptp.org">info@sseptp.org</a><a class="button ghost" href="../contact.html">Contact page</a></div></div></section>
-    </main>
-
-    <footer class="site-footer">
-      <div class="container footer-grid">
-        <div>
-          <h4>Our Office</h4>
-          <p>Sanskrithi School of Engineering<br/>Andhra Pradesh<br/>Email: info@sseptp.org</p>
-        </div>
-        <div>
-          <h4>Explore</h4>
-          <ul><li><a href="index.html">About</a></li><li><a href="../admissions/index.html">Admissions</a></li><li><a href="../academics/index.html">Academics</a></li></ul>
-        </div>
-        <div>
-          <h4>Student Life</h4>
-          <ul><li><a href="../campus/index.html">Campus Life</a></li><li><a href="../campus/hostel.html">Hostel</a></li><li><a href="../placements/index.html">Placements</a></li></ul>
-        </div>
-        <div>
-          <h4>Contact</h4>
-          <p>Need admissions or placement support?<br/><a href="mailto:info@sseptp.org">info@sseptp.org</a></p>
-        </div>
-      </div>
-      <div class="container footer-bottom">
-        <p>© <span id="year"></span> Sanskrithi School of Engineering. All rights reserved.</p>
-        <p class="footer-note">Modern multi-page redesign focused on UX, admissions clarity, and stronger school positioning.</p>
-      </div>
-    </footer>
-
-    <script src="../script.js"></script>
-  </body>
-</html>
+</footer>
+</body></html>
