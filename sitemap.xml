@@ -1,8 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://sseptp.org/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>1.0</priority>
-  </url>
+  <url><loc>https://sseptp.org/</loc></url>
+  <url><loc>https://sseptp.org/about/index.html</loc></url>
+  <url><loc>https://sseptp.org/about/vision-mission.html</loc></url>
+  <url><loc>https://sseptp.org/about/leadership.html</loc></url>
+  <url><loc>https://sseptp.org/about/quality.html</loc></url>
+  <url><loc>https://sseptp.org/about/industry-interface.html</loc></url>
+  <url><loc>https://sseptp.org/admissions/index.html</loc></url>
+  <url><loc>https://sseptp.org/admissions/process.html</loc></url>
+  <url><loc>https://sseptp.org/admissions/fees.html</loc></url>
+  <url><loc>https://sseptp.org/admissions/enquiry.html</loc></url>
+  <url><loc>https://sseptp.org/academics/index.html</loc></url>
+  <url><loc>https://sseptp.org/academics/programs.html</loc></url>
+  <url><loc>https://sseptp.org/academics/labs.html</loc></url>
+  <url><loc>https://sseptp.org/academics/scholarships.html</loc></url>
+  <url><loc>https://sseptp.org/academics/rit.html</loc></url>
+  <url><loc>https://sseptp.org/campus/index.html</loc></url>
+  <url><loc>https://sseptp.org/campus/facilities.html</loc></url>
+  <url><loc>https://sseptp.org/campus/hostel.html</loc></url>
+  <url><loc>https://sseptp.org/campus/health-safety.html</loc></url>
+  <url><loc>https://sseptp.org/campus/sports.html</loc></url>
+  <url><loc>https://sseptp.org/placements/index.html</loc></url>
+  <url><loc>https://sseptp.org/placements/success-stories.html</loc></url>
+  <url><loc>https://sseptp.org/placements/contact.html</loc></url>
+  <url><loc>https://sseptp.org/contact.html</loc></url>
 </urlset>
