@@ -1,0 +1,268 @@
+:root {
+  --bg: #0b1120;
+  --bg-soft: #111a30;
+  --surface: #ffffff;
+  --surface-soft: #f3f6fb;
+  --text: #0f172a;
+  --text-soft: #475569;
+  --line: #dbe4f0;
+  --accent: #2563eb;
+  --accent-dark: #1d4ed8;
+  --accent-soft: rgba(37, 99, 235, 0.12);
+  --shadow: 0 24px 60px rgba(15, 23, 42, 0.12);
+  --radius: 22px;
+  --container: 1120px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: "Inter", system-ui, sans-serif;
+  color: var(--text);
+  background: var(--surface);
+  line-height: 1.6;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.container {
+  width: min(calc(100% - 2rem), var(--container));
+  margin: 0 auto;
+}
+
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  backdrop-filter: blur(14px);
+  background: rgba(255, 255, 255, 0.88);
+  border-bottom: 1px solid rgba(219, 228, 240, 0.7);
+}
+
+.nav-wrap,
+.footer-wrap,
+.split,
+.hero-grid,
+.cta-box {
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-wrap,
+.footer-wrap,
+.cta-box {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-wrap {
+  padding: 1rem 0;
+}
+
+.brand {
+  color: var(--text);
+  text-decoration: none;
+  font-weight: 800;
+  letter-spacing: -0.03em;
+}
+
+.nav {
+  display: flex;
+  gap: 1.25rem;
+}
+
+.nav a,
+.footer-note {
+  color: var(--text-soft);
+  text-decoration: none;
+}
+
+.hero {
+  background: linear-gradient(180deg, #eff6ff 0%, #ffffff 100%);
+  padding: 6rem 0 4rem;
+}
+
+.hero-grid,
+.split {
+  align-items: center;
+}
+
+.hero-grid {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+}
+
+.eyebrow,
+.section-label {
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--accent);
+  margin-bottom: 0.75rem;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+}
+
+h1 {
+  font-size: clamp(2.5rem, 6vw, 4.5rem);
+  line-height: 1.05;
+  letter-spacing: -0.05em;
+  margin-bottom: 1.25rem;
+}
+
+h2 {
+  font-size: clamp(1.8rem, 4vw, 3rem);
+  line-height: 1.1;
+  letter-spacing: -0.04em;
+  margin-bottom: 1rem;
+}
+
+h3 {
+  font-size: 1.25rem;
+  margin-bottom: 0.6rem;
+}
+
+.lead,
+.card p,
+.split p,
+.cta p,
+.metric-card span {
+  color: var(--text-soft);
+}
+
+.hero-actions {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 48px;
+  padding: 0 1.2rem;
+  border-radius: 999px;
+  text-decoration: none;
+  font-weight: 700;
+  transition: 0.2s ease;
+}
+
+.button.primary {
+  color: white;
+  background: var(--accent);
+}
+
+.button.primary:hover {
+  background: var(--accent-dark);
+}
+
+.button.secondary {
+  color: var(--text);
+  background: white;
+  border: 1px solid var(--line);
+}
+
+.hero-card,
+.card,
+.cta-box {
+  background: white;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+.hero-card {
+  padding: 1.75rem;
+}
+
+.hero-card ul {
+  margin: 0;
+  padding-left: 1.2rem;
+  color: var(--text-soft);
+}
+
+.section {
+  padding: 5rem 0;
+}
+
+.muted {
+  background: var(--surface-soft);
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.25rem;
+  margin-top: 2rem;
+}
+
+.card {
+  padding: 1.6rem;
+}
+
+.metric-card {
+  background: linear-gradient(180deg, white 0%, #f8fbff 100%);
+}
+
+.metric-card strong {
+  display: block;
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.cta-box {
+  padding: 2rem;
+  background: linear-gradient(135deg, #0f172a 0%, #172554 100%);
+}
+
+.cta-box h2,
+.cta-box p,
+.cta-box .section-label {
+  color: white;
+}
+
+.cta-box .section-label {
+  opacity: 0.72;
+}
+
+.site-footer {
+  padding: 1.4rem 0 2rem;
+  border-top: 1px solid var(--line);
+}
+
+@media (max-width: 900px) {
+  .hero-grid,
+  .cards,
+  .split,
+  .cta-box {
+    grid-template-columns: 1fr;
+    flex-direction: column;
+  }
+
+  .nav {
+    display: none;
+  }
+
+  .section,
+  .hero {
+    padding: 4rem 0;
+  }
+}
