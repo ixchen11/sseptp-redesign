@@ -8,8 +8,13 @@ ROOT = Path('/root/.openclaw/workspace/sseptp-redesign')
 SITE = {
     'title': 'Sanskrithi School of Engineering',
     'email': 'info@sseptp.org',
+    'enquiry_email': 'enquiry@sseptp.org',
+    'hr_email': 'hr@sseptp.org',
+    'phone': '+91 9100064545 / 74545',
+    'address': 'Puttaparthi, Sri Sathya Sai District, AP - 515134',
     'domain': 'https://sseptp.org',
-    'tagline': 'Modern engineering education for ambitious students',
+    'tagline': 'Autonomous engineering education with strong placements, quality systems, and global pathways',
+    'logo': 'https://sseptp.org/assets/sse-logo-D5ZBduKC.svg',
 }
 
 NAV = [
@@ -40,7 +45,7 @@ MEGA = {
         ('Overview', '/academics/index.html', 'Academic pathways and depth'),
         ('Programs', '/academics/programs.html', 'Undergraduate and advanced routes'),
         ('Labs', '/academics/labs.html', 'Applied learning environments'),
-        ('Scholarships', '/academics/scholarships.html', 'Support for student progression'),
+        ('Sai Prudent Scholarship', '/academics/scholarships.html', 'Merit and need-based support'),
         ('RIT Pathway', '/academics/rit.html', 'Europe-facing differentiator'),
     ],
     'Campus Life': [
@@ -60,393 +65,346 @@ MEGA = {
 PAGES = {
     'index.html': {
         'section': 'Home',
-        'title': 'Admissions Open 2026 | Modern Engineering Education',
-        'description': 'Explore admissions, academics, campus life, global pathways, placements, and student-first engineering education at Sanskrithi School of Engineering.',
+        'title': 'Admissions Open 2026 | Autonomous Engineering Education',
+        'description': 'Sanskrithi School of Engineering in Puttaparthi presents admissions, academics, placements, hostel life, RIT pathway, and institutional quality credentials in one clear experience.',
         'hero_kicker': 'Admissions Open 2026',
-        'hero_title': 'A flagship digital experience for a future-facing engineering school.',
-        'hero_text': 'Sanskrithi School of Engineering should feel ambitious, credible, and alive. This redesign turns the website into a modern admissions and trust platform built around how students and families actually decide.',
-        'hero_badges': ['Autonomous', 'Andhra Pradesh', 'NAAC quality story', 'Placement-first visibility'],
-        'hero_stats': [('600+', 'Offers highlighted on the current site'), ('80+', 'Corporate partners referenced'), ('95%', 'Placement rate claim retained'), ('19.6 LPA', 'High-value internship claim surfaced')],
-        'highlights': [('Student-first UX', 'Clear pathways for enquiry, programs, campus life, and placements.'), ('Content depth', 'Existing school content is preserved and reorganized, not flattened.'), ('Modern credibility', 'A stronger visual system, richer page hierarchy, and SEO-aware structure.')],
-        'hero_image': 'https://lh3.googleusercontent.com/aida-public/AB6AXuDBpSzTY3Q1ZpoTD-XEZOPsQgsVFTXmYyvvZ_vs6rfJ9FroP7GUJnT03jhrCnrvK8r9n28D5r_znI_vpXdfYpv_hD6q0fCZJUEOTj2lyKXDbbnS1lwMrK5DMow5Uq-jxEeR-iGXclXChuZMO5OTmmelstgo9gmPrioIGFzOTtFEse6vuCAMqUj--XQcdxxUffgUVXlif5w1M78bXd7P1uReJESyfkiw-5w6eOPpUqoHtOOXlkaKtQ8cZBcp6WhKhjU0w35IAScUFLs',
-        'service_cards': [( 'Academic Excellence', 'Build strong foundations through modern engineering education, faculty support, and structured academic growth.', '/academics/index.html'), ('Career-Ready Programs', 'Programs, labs, and industry-facing pathways that prepare students for real opportunities.', '/academics/programs.html'), ('Transition to Industry', 'Placements, mentoring, and employability support designed to help students move forward confidently.', '/placements/index.html')],
-        'news_items': [('Admissions Open 2026', 'Explore admissions, process, fees, and enquiry options in a much clearer student-friendly structure.', '/admissions/index.html', 'https://lh3.googleusercontent.com/aida-public/AB6AXuCDdGlk7sV3wNJDcmjjkVoUmrtDenQX-texqwsRNC-LgSaiuEfsQVXQuUd14MR9NyIRbI_xy77XNwBupPOHoxXZJm_OHpW33LId6_KKn4vVkgbJF759qb6Nx_KKeRxPqQgRgKZ5bFrJZFey4KeXUIYU52VTyyHuOQ__vXr-Zl3vhQVkjQm5nNRFkkHCc9Afsuf6rie7Pm8Jl1gjFeO0Gvx1ZQ8xqq5knoGHXdm_W85qRoHooXootkB7qsKvAx-hEExWkP9fWcUgxj4'), ('Placements & Global Pathways', 'See how placements, RIT, and industry-aligned learning are now positioned as major strengths of the school.', '/placements/index.html', 'https://lh3.googleusercontent.com/aida-public/AB6AXuAOG3A6GF1aUHRC5VsaczxMpKFwGiakGMk5gZcYud30YgIm10lClKKmU9BwGCbkxlzQfh641mu3i7XudQ5_iKMqBhqRqH6hj1ITHQywtidTM69egOxiycQF_ZjP2NqriF_pBpQRLc1u1q-E5ItG9uYMPLICE4tRRnb3GxnNymGnmofpuN3v5yX-5yehDXdsLqjtSzUsBZtswfi5cOxflv_DADKdJ6UPUBjQja0bhi4Bhl1-oxjytbcJqWKYzRqPkD3BeY2ozweN0_c')],
+        'hero_title': 'Autonomous engineering education with visible outcomes, quality systems, and global exposure.',
+        'hero_text': 'The homepage now leads with what the current SSETP site already proves: autonomous status, NAAC quality story, strong placement visibility, campus life, and the RIT pathway in partnership with European mentors.',
+        'hero_badges': ['Autonomous Institute', 'NAAC A Grade (3.17/4)', 'RIT Pathway', 'Placement-focused'],
+        'hero_stats': [('1675', 'Total offers highlighted on the site'), ('150', 'Recruiting companies'), ('95%', 'Placement rate shown for 2024-25'), ('36 LPA', 'Highest package highlighted')],
+        'highlights': [('Puttaparthi identity', 'The school is rooted in Sri Sathya Sai District and that context now appears clearly instead of being buried.'), ('Real differentiators', 'RIT, placements, hostel life, and quality credentials are surfaced as primary reasons to explore further.'), ('Clear contact routes', 'Admissions, general enquiries, and placement contact paths now feel intentional instead of footer-only.')],
+        'hero_image': 'https://sseptp.org/assets/ssecampus-tJIhAnGN.jpg',
+        'service_cards': [('Admissions & Enquiry', 'Admissions overview, process, fees, scholarship support, and direct enquiry routes in one guided flow.', '/admissions/index.html'), ('Academics & Global Pathways', 'Departments, laboratory infrastructure, curriculum governance, and the RIT program with RISE / INSO.', '/academics/index.html'), ('Placements & Campus Life', 'Placement evidence, recruiter trust, hostel life, facilities, and student experience built from the live SSETP content.', '/placements/index.html')],
+        'news_items': [('Placements 2024-25', 'The live placement story is now easier to scan: total offers, recruiters, placement rate, and internship visibility.', '/placements/index.html', 'https://sseptp.org/assets/placement-D9x0hLK2.jpg'), ('RIT Program', 'SSE’s Europe-facing software-engineering pathway is treated as a real differentiator instead of a buried secondary page.', '/academics/rit.html', 'https://sseptp.org/assets/ritprogram-Bc3C0C6e.jpg')],
         'content': [
-            {'type': 'feature_grid', 'kicker': 'Explore the School', 'title': 'The homepage now guides four high-intent journeys immediately.', 'text': 'Instead of hiding key information in menus or a single long scroll, the site now routes people into the decisions they actually need to make.', 'cards': [
-                ('Admissions', 'Overview, process, fees, and enquiry now sit in one clean stream.', '/admissions/index.html'),
-                ('Academics', 'Programs, labs, scholarships, and the RIT / Europe-facing pathway.', '/academics/index.html'),
-                ('Campus Life', 'Facilities, hostel, wellbeing, sports, and student experience.', '/campus/index.html'),
-                ('Placements', 'Outcomes, success stories, recruiter trust, and readiness.', '/placements/index.html'),
+            {'type': 'feature_grid', 'kicker': 'Explore SSE', 'title': 'The key journeys now reflect the real structure of the institution.', 'text': 'Instead of abstract marketing buckets, the homepage routes visitors into the concrete topics already present on the existing website.', 'cards': [
+                ('About SSE', 'Vision, mission, leadership, NAAC / IQAC context, recognition, and the industry advisory story.', '/about/index.html'),
+                ('Admissions', 'Overview, admission process, fee clarity, Sai Prudent Scholarship, and enquiry options.', '/admissions/index.html'),
+                ('Academics', 'Departments, curriculum process, laboratories, and the RIT pathway with European mentors.', '/academics/index.html'),
+                ('Campus & Placements', 'Facilities, hostel life, recruiters, CDC team, and placement outcomes.', '/campus/index.html'),
             ]},
-            {'type': 'metrics_band', 'items': [('24', 'structured pages'), ('5', 'core school pillars'), ('1', 'clear brand system'), ('0', 'needless dead-end navigation')]},
-            {'type': 'split', 'kicker': 'Why this works', 'title': 'It looks more modern, but the bigger win is decision clarity.', 'text': 'Good school UX is not decoration. It reduces doubt, shortens the path to enquiry, and helps parents and students find trust signals quickly.', 'bullets': ['Admissions path is clearer and easier to act on', 'Academics and differentiators are easier to compare', 'Campus and wellbeing content feels more vivid', 'Placements and quality signals carry more weight']},
-            {'type': 'quote_panel', 'kicker': 'Positioning', 'title': 'The school already had strong raw material.', 'text': 'Admissions Open 2026, autonomous positioning, NAAC story, RIT messaging, placement proof, hostel life, and quality governance were all present in the current site. The redesign gives those strengths a sharper stage.'},
+            {'type': 'metrics_band', 'items': [('24', 'structured redesign pages'), ('6', 'core academic departments surfaced'), ('1', 'clear admissions-first navigation'), ('3', 'direct contact routes: general, admissions, placements')]},
+            {'type': 'split', 'kicker': 'Why this structure fits SSE', 'title': 'The content is no longer generic — it mirrors the institution’s actual proof points.', 'text': 'The live SSETP site already contains strong material. The redesign reorganizes it so students, parents, and recruiters can reach the right trust signals faster.', 'bullets': ['NAAC, IQAC, affiliation, and autonomous positioning are easier to verify', 'Placement statistics and recruiter proof sit closer to the top-level journey', 'RIT and international academic differentiation are more visible', 'Contact routes use the real SSETP office, admissions, and HR mailboxes']},
+            {'type': 'quote_panel', 'kicker': 'Positioning', 'title': 'SSE does not need invented positioning — it already has one.', 'text': 'Autonomous status, quality systems, placement visibility, hostel life, department depth, and the RIT program are enough to tell a stronger story when the architecture is disciplined.'},
         ],
     },
     'about/index.html': {
         'section': 'About',
         'title': 'About the School',
-        'description': 'Learn about Sanskrithi School of Engineering, its identity, values, quality focus, and institutional direction.',
+        'description': 'Learn about Sanskrithi School of Engineering in Puttaparthi: its mission, heritage, leadership, recognition, and industry-facing academic direction.',
         'hero_kicker': 'About SSE',
-        'hero_title': 'Shaping engineers for tomorrow’s world.',
-        'hero_text': 'The school is positioned as a premier engineering institution in Andhra Pradesh focused on academic excellence and holistic student development. This page makes that story easier to understand and easier to trust.',
-        'hero_stats': [('15+', 'years impression referenced in current content'), ('4', 'institutional trust pillars'), ('1', 'clear school narrative'), ('100%', 'better visibility of quality signals')],
+        'hero_title': 'An engineering institution shaped by place, purpose, and quality systems.',
+        'hero_text': 'SSE is located in Puttaparthi in Sri Sathya Sai District and presents itself as a premier autonomous engineering institution with a visible NAAC quality story, leadership voice, and industry-linked academic intent.',
+        'hero_stats': [('Puttaparthi', 'Institutional home and identity'), ('A Grade', 'NAAC accreditation highlighted by the institution'), ('3.17/4', 'NAAC score referenced on the current site'), ('5', 'core About journeys brought into one structure')],
+        'hero_image': 'https://sseptp.org/assets/girlsnearsteps-DxC0q7RC.jpg',
         'content': [
-            {'type': 'feature_grid', 'kicker': 'Inside About', 'title': 'Institutional content now has a cleaner architecture.', 'text': 'Instead of scattering school identity across disconnected pages, the new About section creates a stronger narrative flow.', 'cards': [
-                ('Vision & Mission', 'Core purpose, values, and engineering direction.', '/about/vision-mission.html'),
-                ('Leadership', 'Chairman, principal, dean, secretary, and institutional voice.', '/about/leadership.html'),
-                ('Quality & Recognition', 'NAAC, IQAC, committees, and governance signals.', '/about/quality.html'),
-                ('Industry Interface', 'How academics stay connected to real-world practice.', '/about/industry-interface.html'),
+            {'type': 'feature_grid', 'kicker': 'Inside About', 'title': 'The institutional story is now grouped the way visitors actually look for it.', 'text': 'The live site spans heritage, mission, leadership, recognition, advisory structures, and quality cells. Those pieces now work together instead of scattering attention.', 'cards': [
+                ('Vision & Mission', 'The school’s published vision, mission, and student-development intent.', '/about/vision-mission.html'),
+                ('Leadership', 'Chairman, Principal, and Secretary messages collected into one coherent section.', '/about/leadership.html'),
+                ('Quality & Recognition', 'Autonomous status, AICTE / UGC recognition, NAAC, and IQAC context.', '/about/quality.html'),
+                ('Industry Advisory', 'Board members and the industry-academia bridge described on the current site.', '/about/industry-interface.html'),
             ]},
-            {'type': 'story_cards', 'kicker': 'Institutional Value', 'title': 'What students and families should feel from this section.', 'items': [('Confidence', 'The school looks organized, serious, and future-aware.'), ('Clarity', 'Important institutional information is easier to find.'), ('Trust', 'Recognition, quality systems, and leadership are more visible.') ]},
+            {'type': 'story_cards', 'kicker': 'Institutional reading', 'title': 'What this section should communicate clearly.', 'items': [('Heritage', 'Puttaparthi is not filler context; it helps explain the school’s values, location, and identity.'), ('Credibility', 'Recognition, NAAC, IQAC, and leadership are visible trust signals and should be easy to find.'), ('Direction', 'Industry relevance, global exposure, and student development belong in the same institutional narrative.')]},
         ],
     },
     'about/vision-mission.html': {
         'section': 'About',
         'title': 'Vision & Mission',
-        'description': 'Vision, mission, values, and educational direction at Sanskrithi School of Engineering.',
+        'description': 'The published vision and mission of Sanskrithi School of Engineering, focused on dynamic, socially responsible engineers with wisdom, initiative, and character.',
         'hero_kicker': 'Vision & Mission',
-        'hero_title': 'Academic purpose should feel clear, modern, and credible.',
-        'hero_text': 'This page gives the school a proper place to articulate long-term educational direction, student development goals, and engineering ethos.',
+        'hero_title': 'To develop dynamic and socially responsible engineers.',
+        'hero_text': 'The existing SSETP site already articulates a specific educational intention: wisdom, positive attitude, character, innovation, initiative, teamwork, and the ability to respond to change.',
+        'hero_image': 'https://sseptp.org/assets/principal-Cgd9y_bj.jpg',
         'content': [
-            {'type': 'split', 'kicker': 'Direction', 'title': 'A clearer home for institutional intent.', 'text': 'The current site already signals seriousness through accreditation, leadership messaging, and employability themes. This page gathers those signals into one coherent story.', 'bullets': ['Student growth alongside technical excellence', 'Industry relevance without losing academic depth', 'Engineering education for future careers', 'Holistic development beyond classroom performance']},
-            {'type': 'story_cards', 'kicker': 'Design intent', 'title': 'The UX goal here is confidence, not noise.', 'items': [('Readable', 'Shorter sections and stronger hierarchy improve scanability.'), ('Trustworthy', 'Values and mission feel more substantial when given space.'), ('Shareable', 'This page becomes a useful reference for parents and academic stakeholders.')]},
+            {'type': 'split', 'kicker': 'Vision', 'title': 'The school’s published vision is already strong and specific.', 'text': 'SSE describes its aim as developing dynamic and socially responsible engineers possessing wisdom, positive attitude, and impeccable character, with innovation, initiative, teamwork, and responsiveness to change as hallmarks.', 'bullets': ['Dynamic and socially responsible engineers', 'Wisdom, positive attitude, and impeccable character', 'Innovation, initiative, and teamwork', 'Ability to anticipate change and create opportunity']},
+            {'type': 'story_cards', 'kicker': 'Mission', 'title': 'The mission statement centers on quality, skills, and service.', 'items': [('Quality education', 'The college states that it serves society and the nation through quality education and skill development.'), ('Research and innovation', 'It commits to new benchmarks in engineering education through research, development, and innovation.'), ('Service orientation', 'The mission explicitly references service to society, industry, and the wider world.')]},
         ],
     },
     'about/leadership.html': {
         'section': 'About',
         'title': 'Leadership',
-        'description': 'Leadership, institutional messages, and school guidance.',
+        'description': 'Leadership messages and institutional voice from Sanskrithi School of Engineering.',
         'hero_kicker': 'Leadership',
-        'hero_title': 'Leadership content should feel human, grounded, and visible.',
-        'hero_text': 'The current site contains multiple leadership pages. Here they become one coherent leadership hub that feels more intentional and easier to navigate.',
+        'hero_title': 'Leadership pages should feel personal, not ceremonial.',
+        'hero_text': 'The existing website already publishes Chairman, Principal, and Secretary-facing content. This section makes those voices easier to reach and easier to understand in context.',
+        'hero_image': 'https://sseptp.org/assets/principal-Cgd9y_bj.jpg',
         'content': [
-            {'type': 'feature_grid', 'kicker': 'Leadership Pages', 'title': 'Existing leadership content now belongs to one coordinated section.', 'text': 'This creates stronger continuity between governance, academic quality, and student-facing communication.', 'cards': [
-                ('Chairman Message', 'Leadership voice and institutional direction.', '#'),
-                ('Principal Message', 'Academic leadership and student-facing school vision.', '#'),
-                ('Dean Message', 'Learning standards, programs, and delivery quality.', '#'),
-                ('Secretary Message', 'Institutional stewardship and administration.', '#'),
-            ]},
-            {'type': 'quote_panel', 'kicker': 'UX note', 'title': 'This section should reassure, not overwhelm.', 'text': 'Leadership pages often become overly formal and hard to scan. The new structure uses clearer grouping and simpler progression so the content feels more approachable.'},
+            {'type': 'feature_grid', 'kicker': 'Leadership voices', 'title': 'Three message pages now read as one coherent leadership layer.', 'text': 'Families want to know how the institution speaks for itself. These pages support that trust decision.', 'cards': [('Chairman Message', 'Institutional vision and educational direction.', '#'), ('Principal Message', 'Academic environment, standards, and student growth.', '#'), ('Secretary Message', 'Continuity, administration, and institutional support.', '#'), ('Shared purpose', 'Together these pages reinforce values, seriousness, and accountability.', '#')]},
+            {'type': 'split', 'kicker': 'Why it helps', 'title': 'Leadership copy works best when it strengthens admissions confidence.', 'text': 'Well-placed leadership pages can reassure students and parents that the institution is led deliberately and communicates with clarity.', 'bullets': ['Shows who leads the institution', 'Connects values to the student experience', 'Supports trust for parents and stakeholders', 'Adds substance beyond pure marketing copy']},
         ],
     },
     'about/quality.html': {
         'section': 'About',
-        'title': 'Quality, NAAC & Recognition',
-        'description': 'NAAC, IQAC, recognition, committees, and school quality systems.',
+        'title': 'Quality & Recognition',
+        'description': 'Autonomous status, affiliation and recognition, NAAC accreditation, IQAC, and institutional quality signals at Sanskrithi School of Engineering.',
         'hero_kicker': 'Quality & Recognition',
-        'hero_title': 'Quality systems are trust assets. They should not hide in the footer of the experience.',
-        'hero_text': 'The current site contains real quality-assurance content including NAAC, IQAC, committees, and recognition. This redesign gives those signals the visibility they deserve.',
-        'hero_stats': [('NAAC', 'A-grade story surfaced'), ('IQAC', 'continuous improvement positioning'), ('Committees', 'governance made visible'), ('Recognition', 'credibility kept discoverable')],
+        'hero_title': 'Recognition matters more when it is easy to verify.',
+        'hero_text': 'SSE already shows a real quality framework: autonomous positioning, AICTE and UGC recognition, NAAC A Grade accreditation, and an IQAC structure aimed at continuous improvement.',
+        'hero_image': 'https://sseptp.org/assets/ssecampus-tJIhAnGN.jpg',
         'content': [
-            {'type': 'feature_grid', 'kicker': 'Quality Framework', 'title': 'Quality is broader than a single badge or PDF link.', 'text': 'The strongest academic brands make their systems feel visible, active, and coherent.', 'cards': [
-                ('NAAC', 'Current site messaging explicitly references NAAC A-grade quality focus.', '#'),
-                ('IQAC', 'Internal quality improvement content remains visible and central.', '#'),
-                ('Committees', 'Academic audit and industry interaction stay connected to trust.', '#'),
-                ('Recognition', 'Affiliation and recognition continue to reinforce credibility.', '#'),
-            ]},
-            {'type': 'split', 'kicker': 'SEO value', 'title': 'This content also matters for search visibility.', 'text': 'Prospective families and students often search for accreditation, recognition, and official quality information. Making those topics clearer improves both trust and discoverability.', 'bullets': ['Better title and metadata targeting', 'Clearer topical relevance for quality queries', 'More meaningful internal linking across school pages', 'Improved scanability for official-information pages']},
+            {'type': 'feature_grid', 'kicker': 'Core credentials', 'title': 'The quality story is clearer when the signals are grouped together.', 'text': 'These are not decorative badges; they are central proof points for institutional trust.', 'cards': [('Autonomous Institute', 'Academic independence is a major part of the current SSE positioning.', '#'), ('AICTE Approved', 'Engineering programs are presented within the expected national approval framework.', '#'), ('UGC Recognized', 'Recognition signals are part of the institution’s credibility layer.', '#'), ('NAAC A Grade', 'The current site highlights an A Grade with a score of 3.17 out of 4.', '#')]},
+            {'type': 'story_cards', 'kicker': 'Quality systems', 'title': 'What the current site says about improvement culture.', 'items': [('IQAC', 'The Internal Quality Assurance Cell is described as a catalyst for academic and administrative enhancement.'), ('Continuous improvement', 'The institution frames quality as a recurring process, not a one-time badge.'), ('Stakeholder confidence', 'Recognition is used to strengthen trust for students, parents, and industry partners.')]},
         ],
     },
     'about/industry-interface.html': {
         'section': 'About',
         'title': 'Industry Interface',
-        'description': 'Industry exposure, relevance, and academic-to-career connection.',
+        'description': 'Industry advisory and collaboration context at Sanskrithi School of Engineering.',
         'hero_kicker': 'Industry Interface',
-        'hero_title': 'Students need to see the bridge between learning and work.',
-        'hero_text': 'The current site already leans into industry relevance through placements, partner references, and Europe-facing program claims. This page gives that story more shape and intent.',
+        'hero_title': 'Industry linkage should be treated as academic proof, not decoration.',
+        'hero_text': 'The current site already names an Industry Advisory Board with members from RISE, TCS, CGI, HCLTech, Brillio, HP, Mphasis, and Capgemini. That deserves a direct, concrete presentation.',
+        'hero_image': 'https://sseptp.org/assets/recruiters-B_A9F7qO.png',
         'content': [
-            {'type': 'split', 'kicker': 'Why it matters', 'title': 'Industry relevance becomes a visible institutional promise.', 'text': 'This is where the school can connect curriculum, mentorship, internships, software pathways, placement preparation, and project-based exposure into one stronger message.', 'bullets': ['Industry leaders referenced in placement messaging', 'Curriculum aligned with employability outcomes', 'Real-world training and project orientation', 'A clearer bridge between academics and careers']},
-            {'type': 'story_cards', 'kicker': 'Student lens', 'title': 'This page answers the practical question behind most admissions decisions.', 'items': [('Will I be job-ready?', 'That question needs a visible answer.'), ('Will learning be practical?', 'Industry interface helps make that believable.'), ('Will the school feel connected to the real world?', 'This is where that credibility becomes tangible.')]},
+            {'type': 'story_cards', 'kicker': 'What the page already proves', 'title': 'The board signals range and seriousness.', 'items': [('International connection', 'RISE-linked members strengthen the school’s global academic positioning.'), ('Employer relevance', 'Indian industry leaders help connect curriculum with market expectations.'), ('Academic bridge', 'The industry page supports the placement story and should sit close to it conceptually.')]},
+            {'type': 'split', 'kicker': 'Functional role', 'title': 'This page should explain why industry input matters.', 'text': 'The industry interface is valuable because it ties curriculum relevance, mentorship, guest talks, internships, and employability into one visible academic-support story.', 'bullets': ['Curriculum relevance', 'Internships and guest sessions', 'Board-level external guidance', 'Stronger placement credibility']},
         ],
     },
     'admissions/index.html': {
         'section': 'Admissions',
-        'title': 'Admissions Overview 2026',
-        'description': 'Admissions overview, eligibility, enquiry, and next steps for 2026.',
-        'hero_kicker': 'Admissions Open 2026',
-        'hero_title': 'A cleaner admissions path builds trust before a single call is made.',
-        'hero_text': 'The current site already contains overview, process, form, fee, and enquiry routes. The redesign turns those pieces into one coherent admissions journey.',
-        'hero_badges': ['Overview', 'Process', 'Fees', 'Enquiry'],
+        'title': 'Admissions Overview',
+        'description': 'Admissions guidance for Sanskrithi School of Engineering with overview, process, fees, scholarship information, and direct enquiry routes.',
+        'hero_kicker': 'Admissions',
+        'hero_title': 'A clearer front door for students and families.',
+        'hero_text': 'Admissions should not be scattered between footer links and disconnected subpages. This section brings together overview, process, fees, scholarship support, and the real enquiry contacts already published by SSETP.',
+        'hero_stats': [('2026', 'Admissions cycle surfaced prominently'), ('3', 'core enquiry mailboxes available'), ('1', 'clear admissions journey'), ('Puttaparthi', 'Campus destination now visible')],
+        'hero_image': 'https://sseptp.org/assets/girlsnearsteps-DxC0q7RC.jpg',
         'content': [
-            {'type': 'feature_grid', 'kicker': 'Admissions Journey', 'title': 'Everything a student looks for is now grouped together.', 'text': 'The structure reflects the current site’s own content tree, but in a cleaner and more conversion-friendly order.', 'cards': [
-                ('Admission Process', 'Step-by-step flow from interest to application.', '/admissions/process.html'),
-                ('Fees & Scholarships', 'Cost visibility and support information.', '/admissions/fees.html'),
-                ('Admission Enquiry', 'Lead capture and contact path.', '/admissions/enquiry.html'),
-                ('Programs First', 'Route students back to academics when they need fit before applying.', '/academics/programs.html'),
-            ]},
-            {'type': 'timeline', 'kicker': 'Expected path', 'title': 'Good admissions UX reduces uncertainty.', 'text': 'When structure is clearer, students ask better questions and are more likely to move forward confidently.', 'steps': ['Discover the right academic pathway.', 'Check eligibility, timing, and documents.', 'Review fees, support, and scholarships.', 'Submit enquiry or continue to the application route.']},
+            {'type': 'feature_grid', 'kicker': 'Admissions routes', 'title': 'The admissions section now answers the first four practical questions.', 'text': 'Visitors usually need orientation, process, money clarity, and a way to ask a real person. Those routes are now obvious.', 'cards': [('Admissions Overview', 'What SSE is, where it is, and why a student might shortlist it.', '/admissions/index.html'), ('Admission Process', 'A simplified step-by-step view for prospective students and families.', '/admissions/process.html'), ('Fees & Scholarship Support', 'Fee clarity plus Sai Prudent Scholarship visibility.', '/admissions/fees.html'), ('Enquiry', 'Direct access to enquiry@sseptp.org and institutional contact points.', '/admissions/enquiry.html')]},
+            {'type': 'quote_panel', 'kicker': 'Why this matters', 'title': 'Good admissions UX reduces hesitation.', 'text': 'Parents and students do not want to hunt for process, support, or contact information. This structure brings those decisions into one focused path.'},
         ],
     },
     'admissions/process.html': {
         'section': 'Admissions',
         'title': 'Admission Process',
-        'description': 'Admission process, decision flow, and next steps for students.',
+        'description': 'Step-by-step admission journey for prospective students at Sanskrithi School of Engineering.',
         'hero_kicker': 'Admission Process',
-        'hero_title': 'The process should feel simple, not hidden inside the website.',
-        'hero_text': 'This page gives a proper home to the school’s process content so students do not need to guess what happens next.',
+        'hero_title': 'A simple process view removes unnecessary uncertainty.',
+        'hero_text': 'This page turns admissions intent into a clean sequence so students and families know what to do next instead of guessing across multiple pages.',
+        'hero_image': 'https://sseptp.org/assets/ssecampus-tJIhAnGN.jpg',
         'content': [
-            {'type': 'timeline', 'kicker': 'How to Apply', 'title': 'A more useful structure for the current admissions routes.', 'text': 'The current site has both process and form-related paths. This page turns them into one understandable sequence.', 'steps': ['Choose the right program and confirm fit.', 'Check eligibility and prepare the right documents.', 'Understand fees, support, and scholarship options.', 'Submit enquiry or application and move toward counselling.']},
-            {'type': 'quote_panel', 'kicker': 'UX principle', 'title': 'Process pages should lower stress.', 'text': 'Parents and students rarely want marketing language here. They want clarity, confidence, and a sense that the institution is organized.'},
+            {'type': 'timeline', 'kicker': 'How to move forward', 'title': 'A practical admissions sequence', 'text': 'The operational details can expand later, but the information architecture should already reflect the real applicant journey.', 'steps': ['Start with an enquiry or admissions conversation to identify the right program and route.', 'Review eligibility, required documents, and any counselling or admission guidance shared by the institution.', 'Submit documents and complete the formal admission steps for the selected program.', 'Confirm fees, onboarding instructions, and campus reporting before joining.']},
+            {'type': 'cta_strip', 'title': 'Need help before applying?', 'text': 'For many students, the right next step is still a conversation.', 'primary': ('Send an enquiry', '/admissions/enquiry.html'), 'secondary': ('View fees', '/admissions/fees.html')},
         ],
     },
     'admissions/fees.html': {
         'section': 'Admissions',
         'title': 'Fees & Scholarships',
-        'description': 'Fees, affordability, and scholarship support for prospective students.',
+        'description': 'Admissions fee clarity and Sai Prudent Scholarship information at Sanskrithi School of Engineering.',
         'hero_kicker': 'Fees & Scholarships',
-        'hero_title': 'Financial clarity reduces friction and improves trust.',
-        'hero_text': 'The old site separates fees and scholarship content. This new page brings them into the same decision space, where families actually need them.',
+        'hero_title': 'Financial clarity should sit beside student support.',
+        'hero_text': 'SSE already publishes the Sai Prudent Scholarship story. This page brings cost conversations and support visibility into the same admissions decision flow.',
+        'hero_image': 'https://sseptp.org/assets/girlsnearsteps-DxC0q7RC.jpg',
         'content': [
-            {'type': 'split', 'kicker': 'Family confidence', 'title': 'Affordability information belongs close to admissions decisions.', 'text': 'On many college sites, cost-related information is too hard to find. This page gives it real visibility and ties it to scholarship support more naturally.', 'bullets': ['Fee structure visibility', 'Scholarship opportunities', 'Program-wise cost clarity', 'Admission support and counselling context']},
-            {'type': 'story_cards', 'kicker': 'Why this page matters', 'title': 'Clarity here can strongly affect conversion.', 'items': [('Less uncertainty', 'Students and parents are more likely to reach out.'), ('Better fit', 'Financial questions become easier to raise earlier.'), ('Stronger UX', 'The site feels transparent and better organized.')]},
+            {'type': 'story_cards', 'kicker': 'Sai Prudent Scholarship', 'title': 'The existing scholarship story is already concrete.', 'items': [('Established in 2010', 'The scholarship is presented as a long-running support initiative.'), ('Supported by partners', 'The current site references Anahata Stiftung and RISE, Austria.'), ('Merit + need', 'The program is described for deserving students from economically disadvantaged backgrounds.')]},
+            {'type': 'split', 'kicker': 'What this page should do', 'title': 'Students need both cost clarity and confidence that support exists.', 'text': 'Even before final fee tables are fully refined in the redesign, the page should clearly connect fees, scholarship logic, and enquiry support.', 'bullets': ['Explain fee structure clearly', 'Show scholarship support prominently', 'Link questions to admissions contact', 'Reduce early uncertainty for families']},
         ],
     },
     'admissions/enquiry.html': {
         'section': 'Admissions',
-        'title': 'Admission Enquiry',
-        'description': 'Admission enquiry, support, and next steps for prospective students.',
-        'hero_kicker': 'Admission Enquiry',
-        'hero_title': 'Interest should turn into action without confusion or dead ends.',
-        'hero_text': 'The current site includes enquiry and form routes. This page becomes the conversion hub for both.',
+        'title': 'Admissions Enquiry',
+        'description': 'Admissions enquiry routes for Sanskrithi School of Engineering.',
+        'hero_kicker': 'Admissions Enquiry',
+        'hero_title': 'Admissions contact should feel direct and human.',
+        'hero_text': 'The page uses the institution’s real enquiry routes instead of treating contact as an afterthought.',
+        'hero_image': 'https://sseptp.org/assets/ssecampus-tJIhAnGN.jpg',
         'content': [
-            {'type': 'feature_grid', 'kicker': 'Best next steps', 'title': 'This page should convert curiosity into contact.', 'text': 'A strong enquiry page should be clear, reassuring, and low-friction.', 'cards': [
-                ('Talk to Admissions', 'Phone, email, and response expectations.', '#'),
-                ('Share Your Interest', 'Program, background, and preferred contact mode.', '#'),
-                ('Ask About Eligibility', 'Clarify intake, timelines, and required documents.', '#'),
-                ('Continue to Application', 'Move toward the official form if ready.', '#'),
-            ]},
-            {'type': 'cta_strip', 'title': 'Need help choosing a program first?', 'text': 'Students who are not ready to enquire yet should not get stuck. Route them back into the academic discovery flow.', 'primary': ('Explore Programs', '/academics/programs.html'), 'secondary': ('Admissions Overview', '/admissions/index.html')},
+            {'type': 'feature_grid', 'kicker': 'Contact routes', 'title': 'Use the right route for the right question.', 'text': 'This page should prioritize response paths over decoration.', 'cards': [('Admissions Enquiry', 'enquiry@sseptp.org for student and parent admissions questions.', '#'), ('General Office', 'info@sseptp.org for broader institutional questions.', '#'), ('Phone Contact', '+91 9100064545 / 74545 for direct office contact.', '#'), ('Visit / Reach Campus', 'Puttaparthi, Sri Sathya Sai District, AP - 515134.', '#')]},
+            {'type': 'quote_panel', 'kicker': 'Live contact data', 'title': 'enquiry@sseptp.org | info@sseptp.org | +91 9100064545 / 74545', 'text': 'The admissions contact layer should use the same real data consistently across hero, body, and footer.'},
         ],
     },
     'academics/index.html': {
         'section': 'Academics',
         'title': 'Academics Overview',
-        'description': 'Programs, labs, scholarships, and academic pathways at Sanskrithi School of Engineering.',
+        'description': 'Academics at Sanskrithi School of Engineering: departments, curriculum process, laboratories, scholarship support, and the RIT pathway.',
         'hero_kicker': 'Academics',
-        'hero_title': 'Programs, labs, and learning pathways deserve a stronger academic stage.',
-        'hero_text': 'The current site already contains all-programs, undergraduate, M.Tech, CSE detail, courses, labs, and scholarship routes. This section turns them into one coherent academic hub.',
+        'hero_title': 'Academic depth, practical learning, and curriculum governance in one place.',
+        'hero_text': 'The live site already explains that SSE continuously revises curriculum through departmental committees, Boards of Studies, and the Academic Council while strengthening labs, research, and industry readiness.',
+        'hero_image': 'https://sseptp.org/assets/ritprogram-Bc3C0C6e.jpg',
+        'hero_stats': [('6', 'engineering departments surfaced'), ('BoS', 'Board of Studies layer present in current copy'), ('DAC', 'Department Academic Committees referenced'), ('RIT', 'international academic differentiator')],
         'content': [
-            {'type': 'feature_grid', 'kicker': 'Academic Navigation', 'title': 'The new structure reflects the current academic content more honestly.', 'text': 'Instead of a generic programs section, this site now gives different academic decisions their own clearer pages.', 'cards': [
-                ('Programs', 'Undergraduate, M.Tech, and department-level pathways.', '/academics/programs.html'),
-                ('Labs', 'Hands-on infrastructure and applied learning spaces.', '/academics/labs.html'),
-                ('Scholarships', 'Academic support and accessibility signals.', '/academics/scholarships.html'),
-                ('RIT Pathway', 'The Europe / Vienna / software differentiator.', '/academics/rit.html'),
-            ]},
-            {'type': 'metrics_band', 'items': [('CSE', 'department detail found'), ('4 Years', 'visible CSE duration'), ('120', 'CSE seats referenced'), ('10+2', 'eligibility reference found')]},
+            {'type': 'feature_grid', 'kicker': 'Academic structure', 'title': 'The key academic journeys are clearer when treated as one system.', 'text': 'Programs, labs, support, and international pathways should reinforce each other instead of living on unrelated pages.', 'cards': [('Programs', 'Core departments and engineering pathways currently highlighted by SSE.', '/academics/programs.html'), ('Laboratories', 'Practical infrastructure across computing, electronics, civil, electrical, and mechanical domains.', '/academics/labs.html'), ('Sai Prudent Scholarship', 'Student support tied to progression and access.', '/academics/scholarships.html'), ('RIT Pathway', 'Software-engineering learning in cooperation with RISE and INSO.', '/academics/rit.html')]},
+            {'type': 'split', 'kicker': 'Published academic process', 'title': 'Curriculum revision is part of the academic story.', 'text': 'The current SSETP copy explicitly references DACs, Boards of Studies, and the Academic Council. That governance detail is useful because it signals seriousness and structured academic review.', 'bullets': ['Departments review and discuss syllabus content', 'Board of Studies finalizes course structure and syllabus', 'Academic Council approves broader academic matters', 'Infrastructure and research are framed as part of academic quality']},
         ],
     },
     'academics/programs.html': {
         'section': 'Academics',
         'title': 'Programs',
-        'description': 'Programs, departments, and academic pathways.',
+        'description': 'Engineering departments and program areas at Sanskrithi School of Engineering.',
         'hero_kicker': 'Programs',
-        'hero_title': 'Program information should guide fit, not overwhelm it.',
-        'hero_text': 'The current site explicitly includes all-programme, undergraduate, M.Tech, and department-specific routes like CSE. This page gives those options a cleaner and more premium academic home.',
-        'hero_stats': [('CSE', 'department route surfaced'), ('4 Years', 'duration shown in source content'), ('120', 'seats found in current bundle'), ('AI/ML', 'specialization language retained')],
+        'hero_title': 'Six engineering departments deserve a cleaner overview.',
+        'hero_text': 'The academic structure highlighted on the current site spans Computer Science, ECE, EEE, Civil, Mechanical, and Information Technology.',
+        'hero_image': 'https://sseptp.org/assets/ssecampus-tJIhAnGN.jpg',
         'content': [
-            {'type': 'feature_grid', 'kicker': 'Program signals from the current site', 'title': 'There is already real academic substance to build on.', 'text': 'At least one department route already contains structured detail. That gives this redesign a stronger academic base than a generic brochure rewrite.', 'cards': [
-                ('Computer Science & Engineering', 'Advanced programming labs, AI and machine learning, industry partnerships, and modern software development methodologies.', '#'),
-                ('Undergraduate Routes', 'A clearer home for all B.Tech pathways and student decision support.', '#'),
-                ('M.Tech Routes', 'Advanced study options should stand alongside undergraduate choices.', '#'),
-                ('Courses Overview', 'A stronger summary layer above detailed department pages.', '#'),
-            ]},
-            {'type': 'story_cards', 'kicker': 'Program UX', 'title': 'A great academics page balances aspiration with usability.', 'items': [('Easy comparison', 'Students can scan broad choices before diving deeper.'), ('Sharper messaging', 'Department value feels more intentional and modern.'), ('Better SEO', 'Programs become clearer topical destinations for search intent.')]},
+            {'type': 'feature_grid', 'kicker': 'Departments', 'title': 'A simpler department overview.', 'text': 'Instead of forcing users through one long undifferentiated academic page, the programs view can establish the range immediately.', 'cards': [('Computer Science & Engineering', 'Programming, software, AI/ML, databases, networks, and strong alignment with the RIT pathway.', '#'), ('Electronics & Communication', 'Communication systems, embedded systems, VLSI, and signal-oriented engineering.', '#'), ('Electrical & Electronics / Civil', 'Power, control, infrastructure, and core engineering disciplines with practical lab support.', '#'), ('Mechanical / Information Technology', 'Mechanical systems, manufacturing, and IT-focused software and systems pathways.', '#')]},
+            {'type': 'quote_panel', 'kicker': 'Academic intent', 'title': 'Programs should be explained through outcomes, facilities, and relevance.', 'text': 'The redesign should keep moving away from abstract brochure language and toward department-specific clarity.'},
         ],
     },
     'academics/labs.html': {
         'section': 'Academics',
-        'title': 'Labs & Applied Learning',
-        'description': 'Laboratories, applied learning, and practical engineering education.',
-        'hero_kicker': 'Labs & Applied Learning',
-        'hero_title': 'Practical learning deserves visual and structural weight.',
-        'hero_text': 'The current site includes a dedicated labs route. This page turns that into a stronger academic selling point for modern engineering education.',
+        'title': 'Laboratory Facilities',
+        'description': 'Laboratory infrastructure and practical learning environments at Sanskrithi School of Engineering.',
+        'hero_kicker': 'Laboratory Facilities',
+        'hero_title': 'Hands-on learning is one of the easiest academic strengths to show.',
+        'hero_text': 'The live site already presents a deep laboratory story across departments, from programming and networking labs to VLSI, manufacturing, structures, and power systems.',
+        'hero_image': 'https://sseptp.org/assets/ritprogram-Bc3C0C6e.jpg',
         'content': [
-            {'type': 'split', 'kicker': 'Hands-on depth', 'title': 'Labs are where engineering becomes real.', 'text': 'Students and families evaluate labs as proof that learning is practical. This page creates room for facilities, equipment, project work, demos, and discipline-specific lab stories.', 'bullets': ['Department labs and workshop spaces', 'Applied problem-solving environments', 'Project-based and practical learning', 'Stronger visual storytelling potential']},
-            {'type': 'quote_panel', 'kicker': 'Design note', 'title': 'This page should eventually become highly visual.', 'text': 'Labs are one of the best opportunities to lift the school’s perceived quality through strong photography, diagrams, and project evidence.'},
+            {'type': 'story_cards', 'kicker': 'Examples from the live site', 'title': 'Laboratory content should stay concrete.', 'items': [('CSE labs', 'Programming, databases, computer networks, and AI / machine learning are explicitly called out.'), ('ECE / EEE labs', 'Digital electronics, communication systems, VLSI, electrical machines, power systems, and control labs are part of the published story.'), ('Core engineering labs', 'Mechanical, civil, manufacturing, structural, geotechnical, and environmental labs broaden the practical picture.')]},
+            {'type': 'split', 'kicker': 'Why this page works', 'title': 'Practical infrastructure makes academic claims believable.', 'text': 'Lab pages are strongest when they show how theory becomes practice.', 'bullets': ['Department-specific facilities', 'Equipment and experimentation context', 'Practical relevance to curriculum', 'Research and project-readiness signals']},
         ],
     },
     'academics/scholarships.html': {
         'section': 'Academics',
-        'title': 'Scholarships',
-        'description': 'Scholarship pathways and academic support for students.',
-        'hero_kicker': 'Scholarships',
-        'hero_title': 'Support options should be easy to find, not hidden in navigation.',
-        'hero_text': 'The existing scholarship route is important enough to keep as its own page. It helps families understand that access and affordability matter here too.',
+        'title': 'Sai Prudent Scholarship',
+        'description': 'Sai Prudent Scholarship support at Sanskrithi School of Engineering.',
+        'hero_kicker': 'Student Support',
+        'hero_title': 'Scholarship content should be part of student confidence, not a side note.',
+        'hero_text': 'The Sai Prudent Scholarship is already one of the more concrete support stories on the current site and should remain visible from both academics and admissions.',
+        'hero_image': 'https://sseptp.org/assets/girlsnearsteps-DxC0q7RC.jpg',
         'content': [
-            {'type': 'feature_grid', 'kicker': 'Support Signals', 'title': 'Scholarship content works best when it is practical and direct.', 'text': 'This page can later hold merit support, need-based guidance, special categories, and application instructions.', 'cards': [
-                ('Eligibility', 'Who can apply and on what basis.', '#'),
-                ('Application Support', 'When and how to request scholarship guidance.', '#'),
-                ('Merit Recognition', 'Academic achievement and excellence pathways.', '#'),
-                ('Affordability Clarity', 'How support connects to fees and admissions.', '#'),
-            ]},
-            {'type': 'cta_strip', 'title': 'Need financial context first?', 'text': 'This page should work naturally with fees and admissions, not live in isolation.', 'primary': ('Fees & Scholarships', '/admissions/fees.html'), 'secondary': ('Admissions Overview', '/admissions/index.html')},
+            {'type': 'story_cards', 'kicker': 'Key facts', 'title': 'What the current site already states clearly.', 'items': [('Purpose', 'Support deserving students from economically disadvantaged backgrounds.'), ('Partners', 'Supported by Anahata Stiftung and RISE, Austria according to the current site.'), ('Selection logic', 'Academic merit, need, attendance, conduct, and participation are part of the eligibility story.')]},
+            {'type': 'cta_strip', 'title': 'Need support or clarification?', 'text': 'Scholarship questions should connect directly back to admissions and enquiry routes.', 'primary': ('Admissions enquiry', '/admissions/enquiry.html'), 'secondary': ('Contact SSE', '/contact.html')},
         ],
     },
     'academics/rit.html': {
         'section': 'Academics',
-        'title': 'RIT / Europe Pathway',
-        'description': 'RIT, Vienna mentors, European software exposure, and career-ready learning.',
-        'hero_kicker': 'RIT / Europe Pathway',
-        'hero_title': 'The Europe-facing software story is a differentiator. It deserves its own premium space.',
-        'hero_text': 'The current site strongly emphasizes Europe, Vienna mentors, real-world training, and software-focused learning. Instead of burying that in homepage slides, the redesign turns it into a dedicated academic pathway page.',
-        'hero_badges': ['Europe-facing', 'Vienna mentors', 'Real projects', 'Software career lens'],
+        'title': 'RIT Pathway',
+        'description': 'RISE Institute of Higher Technologies (RIT) pathway at Sanskrithi School of Engineering in cooperation with European mentors.',
+        'hero_kicker': 'RIT Pathway',
+        'hero_title': 'A real academic differentiator with international visibility.',
+        'hero_text': 'The RIT Program is one of the most distinctive parts of the current SSETP site: a software-engineering learning pathway with RISE / INSO and mentors linked to Vienna and Graz.',
+        'hero_image': 'https://sseptp.org/assets/ritprogram-Bc3C0C6e.jpg',
         'content': [
-            {'type': 'feature_grid', 'kicker': 'Current messaging preserved', 'title': 'This content already exists on the current site and should remain highly visible.', 'text': 'Rather than shrinking it into one marketing line, the redesign gives it context and room.', 'cards': [
-                ('Europe to India', '“We Brought Europe to India | For You”', '#'),
-                ('European Experts', '“Learn From European Software Experts. Every Day”', '#'),
-                ('Vienna Mentors', '“4-Year RIT Program | Vienna Mentors | Real Projects | Java to GitHub”', '#'),
-                ('Career Relevance', 'A clearer bridge from academic story to employability story.', '#'),
-            ]},
-            {'type': 'story_cards', 'kicker': 'Brand value', 'title': 'This page is one of the strongest visual and strategic differentiators on the site.', 'items': [('Distinctive', 'It gives the school a story that feels more memorable.'), ('Future-oriented', 'The software and global angle feels youthful and ambitious.'), ('SEO-useful', 'It creates a clearer landing page for RIT / Europe-themed interest.')]},
+            {'type': 'feature_grid', 'kicker': 'Program structure', 'title': 'The current RIT page already has a usable four-module logic.', 'text': 'That structure should be preserved and made easier to digest in the redesign.', 'cards': [('Module 1', 'Foundation setup: tools, communication habits, typing, and programming mindset.', '#'), ('Module 2', 'Programming basics with introductory Java problem solving.', '#'), ('Module 3', 'Advanced Java assignments with more depth and longer timelines.', '#'), ('Module 4', 'Software architecture, OOP, design patterns, SQLite, Git, and GitHub.', '#')]},
+            {'type': 'story_cards', 'kicker': 'Why it matters', 'title': 'RIT strengthens SSE’s software-engineering identity.', 'items': [('International mentors', 'The live page names mentors connected to RISE and European universities.'), ('Practical focus', 'The program is assignment-heavy and problem-solving oriented.'), ('Career relevance', 'It gives CSE students a visible pathway beyond generic department copy.')]},
         ],
     },
     'campus/index.html': {
         'section': 'Campus Life',
         'title': 'Campus Life Overview',
-        'description': 'Student life, facilities, hostel, wellbeing, and sports at Sanskrithi School of Engineering.',
-        'hero_kicker': 'Life @ SSE',
-        'hero_title': 'Campus life should feel vibrant, welcoming, and worth joining.',
-        'hero_text': 'The current site already has a richer student-life structure than most simple college websites. This redesign gives it the visibility and emotional energy it deserves.',
+        'description': 'Campus life, facilities, hostel, wellbeing, and student experience at Sanskrithi School of Engineering.',
+        'hero_kicker': 'Campus Life',
+        'hero_title': 'Campus pages should help families picture daily life, not just buildings.',
+        'hero_text': 'The current SSETP material already covers accommodation, dining, facilities, student activities, and sports. This section reorganizes that material into clearer trust-building pages.',
+        'hero_image': 'https://sseptp.org/assets/ssecampus-tJIhAnGN.jpg',
         'content': [
-            {'type': 'feature_grid', 'kicker': 'Campus Sections', 'title': 'Student experience already existed in the old site. Now it is easier to discover.', 'text': 'Life overview, facilities, hostel life, health & safety, and sports all sit in one cleaner section tree.', 'cards': [
-                ('Facilities', 'Academic and on-campus infrastructure in one clearer destination.', '/campus/facilities.html'),
-                ('Hostel Life', 'Accommodation, food, recreation, and student comfort.', '/campus/hostel.html'),
-                ('Health & Safety', 'A visible space for wellbeing and trust.', '/campus/health-safety.html'),
-                ('Sports', 'Student activity, balance, and youthful energy beyond the classroom.', '/campus/sports.html'),
-            ]},
-            {'type': 'quote_panel', 'kicker': 'Experience matters', 'title': 'A good campus section should help students imagine belonging here.', 'text': 'This part of the website does more than inform. It builds emotional confidence around the school experience.'},
+            {'type': 'feature_grid', 'kicker': 'Student experience', 'title': 'Campus life is now structured around the questions families actually ask.', 'text': 'Where will students live, what facilities exist, how is wellbeing handled, and what does student life look like beyond class?', 'cards': [('Facilities', 'Academic and support spaces that shape the day-to-day experience.', '/campus/facilities.html'), ('Hostel Life', 'Accommodation, dining, safety, and student community.', '/campus/hostel.html'), ('Health & Safety', 'Wellbeing, support, and trust signals for parents and students.', '/campus/health-safety.html'), ('Sports', 'Participation, energy, and campus-life balance.', '/campus/sports.html')]},
+            {'type': 'quote_panel', 'kicker': 'Campus reading', 'title': 'A good campus section reduces emotional uncertainty.', 'text': 'Students do not choose only on academics. Families also want to see where a student will live, move, eat, and feel supported.'},
         ],
     },
     'campus/facilities.html': {
         'section': 'Campus Life',
         'title': 'Facilities',
-        'description': 'Academic and campus facilities that shape the student experience.',
+        'description': 'Campus facilities at Sanskrithi School of Engineering.',
         'hero_kicker': 'Facilities',
-        'hero_title': 'Facilities help students picture their daily life here.',
-        'hero_text': 'The original site separates academic facilities and campus facilities. The new structure lets them work together while still allowing more detailed content blocks underneath.',
+        'hero_title': 'Facilities pages should show practical support, not generic pride.',
+        'hero_text': 'The campus content already points to academic spaces, accommodation support, common areas, dining, and connectivity. This page groups those facility stories in one clear layer.',
+        'hero_image': 'https://sseptp.org/assets/ssecampus-tJIhAnGN.jpg',
         'content': [
-            {'type': 'split', 'kicker': 'What belongs here', 'title': 'A stronger home for environment and infrastructure.', 'text': 'This page can combine classrooms, labs, campus resources, learning spaces, support spaces, and infrastructure that shapes confidence in the school.', 'bullets': ['Academic facilities and learning spaces', 'On-campus support infrastructure', 'Study environment and accessibility', 'A stronger photo-led storytelling layer']},
-            {'type': 'story_cards', 'kicker': 'Perception', 'title': 'Facilities pages strongly influence quality perception.', 'items': [('Visible resources', 'Students want to see where learning happens.'), ('Campus confidence', 'Parents want reassurance about environment and support.'), ('Brand uplift', 'High-quality facility pages make the institution feel more established.')]},
+            {'type': 'story_cards', 'kicker': 'Facility themes', 'title': 'What the current SSETP content already emphasizes.', 'items': [('Academic environment', 'Laboratories, classrooms, and department spaces support the academic promise.'), ('Residential support', 'Hostel blocks, common rooms, dining, and Wi-Fi shape the lived student experience.'), ('Daily usability', 'Families want to know the campus is functional and student-ready, not just visually attractive.')]},
+            {'type': 'cta_strip', 'title': 'Want the residential view too?', 'text': 'Facilities and hostel life work best when linked tightly in the navigation.', 'primary': ('View hostel life', '/campus/hostel.html'), 'secondary': ('Contact SSE', '/contact.html')},
         ],
     },
     'campus/hostel.html': {
         'section': 'Campus Life',
         'title': 'Hostel Life',
-        'description': 'Hostel life, accommodation, food, and student comfort.',
+        'description': 'Hostel accommodations and student living experience at Sanskrithi School of Engineering.',
         'hero_kicker': 'Hostel Life',
-        'hero_title': 'Hostel content should reassure both students and families.',
-        'hero_text': 'The current site already mentions comfortable accommodations, nutritious mess food, recreation rooms, and 24/7 security. Those are exactly the right trust points to preserve and sharpen.',
+        'hero_title': 'Hostel content should answer the parental trust question directly.',
+        'hero_text': 'The live site already gives hostel-specific detail on boys and girls blocks, common rooms, Wi-Fi, dining, security, activities, and rules.',
+        'hero_image': 'https://sseptp.org/assets/girlsnearsteps-DxC0q7RC.jpg',
         'content': [
-            {'type': 'feature_grid', 'kicker': 'Current hostel signals', 'title': 'The existing hostel messaging already has the right instincts.', 'text': 'The redesign simply gives that content stronger presentation and clearer discoverability.', 'cards': [
-                ('Comfortable Accommodations', 'A grounded and supportive living environment for students.', '#'),
-                ('Nutritious Mess Food', 'Daily life support matters in real decision-making.', '#'),
-                ('Recreation Rooms', 'Community and student comfort beyond classes.', '#'),
-                ('24/7 Security', 'A high-value reassurance signal for families.', '#'),
-            ]},
-            {'type': 'quote_panel', 'kicker': 'Why this converts', 'title': 'Accommodation content often carries more emotional weight than brochures expect.', 'text': 'When students move away from home, hostel trust becomes a major part of the admissions experience.'},
+            {'type': 'feature_grid', 'kicker': 'Residential life', 'title': 'The current hostel story already has useful structure.', 'text': 'This content should stay specific, because specificity builds trust.', 'cards': [('Accommodation', 'Separate hostel blocks, furnished rooms, and supervised residential arrangements.', '#'), ('Dining & Mess', 'Meal support, kitchen facilities, and dining-hall context are already part of the live copy.', '#'), ('Student Activities', 'Cultural events, sports, and hostel committees contribute to community life.', '#'), ('Safety & Rules', 'Security, timings, conduct, and support expectations matter to families.', '#')]},
+            {'type': 'story_cards', 'kicker': 'Concrete points from the live content', 'title': 'The page already has trust-building detail.', 'items': [('24×7 security', 'Security is explicitly part of the current hostel presentation.'), ('Common spaces', 'Common rooms and shared facilities make the residential environment feel more real.'), ('Dining support', 'Mess and meal arrangements are already described, so they should remain prominent.')]},
         ],
     },
     'campus/health-safety.html': {
         'section': 'Campus Life',
         'title': 'Health & Safety',
-        'description': 'Health, safety, and student wellbeing on campus.',
+        'description': 'Health, safety, and student wellbeing information at Sanskrithi School of Engineering.',
         'hero_kicker': 'Health & Safety',
-        'hero_title': 'Safety information should be visible, calm, and confidence-building.',
-        'hero_text': 'Because the current site already includes health and safety as a dedicated route, the redesign keeps it visible and student-centered.',
+        'hero_title': 'Wellbeing pages need calm clarity, not promotional noise.',
+        'hero_text': 'The broader campus and hostel material already references medical support, first aid, security, and student rules. This page gives those concerns a dedicated place in the navigation.',
+        'hero_image': 'https://sseptp.org/assets/ssecampus-tJIhAnGN.jpg',
         'content': [
-            {'type': 'split', 'kicker': 'Why it matters', 'title': 'Wellbeing content supports trust and conversion.', 'text': 'Health and safety content helps families understand that student care is taken seriously. It also helps the school appear more complete and responsible.', 'bullets': ['Campus safety information', 'Student support and wellbeing', 'Residential reassurance', 'Operational readiness and care']},
-            {'type': 'story_cards', 'kicker': 'Tone', 'title': 'The goal here is reassurance without alarm.', 'items': [('Clear', 'Students find what they need quickly.'), ('Calm', 'The content tone supports trust.'), ('Complete', 'The school feels more prepared and professional.')]},
+            {'type': 'split', 'kicker': 'What families care about', 'title': 'Safety information is one of the highest-trust parts of a school website.', 'text': 'It helps when health and safety are treated as a service page with concrete reassurance instead of vague adjectives.', 'bullets': ['Campus and hostel security visibility', 'Medical / first-aid support context', 'Student support expectations', 'Clear contact routes when help is needed']},
+            {'type': 'cta_strip', 'title': 'Need a direct answer?', 'text': 'For many safety questions, direct contact is still the right interaction.', 'primary': ('Contact SSE', '/contact.html'), 'secondary': ('Hostel life', '/campus/hostel.html')},
         ],
     },
     'campus/sports.html': {
         'section': 'Campus Life',
-        'title': 'Sports & Student Activities',
-        'description': 'Sports, student activities, clubs, and campus energy.',
-        'hero_kicker': 'Sports & Activities',
-        'hero_title': 'A youthful school brand needs visible energy and momentum.',
-        'hero_text': 'Sports and student activities make the institution feel alive. This page gives that side of the school a more expressive, modern role in the experience.',
+        'title': 'Sports',
+        'description': 'Sports and student participation at Sanskrithi School of Engineering.',
+        'hero_kicker': 'Sports & Participation',
+        'hero_title': 'Sports pages should support the idea of a balanced student life.',
+        'hero_text': 'Campus-life content is stronger when it shows that SSE is not only about classrooms and placements, but also about teamwork, participation, and student energy.',
+        'hero_image': 'https://sseptp.org/assets/ssecampus-tJIhAnGN.jpg',
         'content': [
-            {'type': 'feature_grid', 'kicker': 'Student energy', 'title': 'Beyond academics, the site should show movement and participation.', 'text': 'A modern school website should not feel static. This page helps communicate confidence, community, and balance.', 'cards': [
-                ('Sports Culture', 'Competitive and recreational student participation.', '#'),
-                ('Events', 'Inter-college, campus, and community events.', '#'),
-                ('Clubs', 'Technical, cultural, and leadership communities.', '#'),
-                ('Student Confidence', 'Growth through teamwork, discipline, and visibility.', '#'),
-            ]},
-            {'type': 'quote_panel', 'kicker': 'Brand impact', 'title': 'This page makes the school feel younger and more alive.', 'text': 'That matters because emotional perception often decides whether a school feels exciting or forgettable.'},
+            {'type': 'story_cards', 'kicker': 'Role of sports', 'title': 'Why this page belongs in the structure.', 'items': [('Balance', 'Sports helps round out the academic and residential story.'), ('Teamwork', 'It reinforces the collaborative values described elsewhere across the site.'), ('Campus energy', 'It makes student life feel active and lived-in rather than static.')]},
         ],
     },
     'placements/index.html': {
         'section': 'Placements',
         'title': 'Placements Overview',
-        'description': 'Placement outcomes, recruiters, success stories, and career readiness.',
+        'description': 'Placement outcomes, recruiter relationships, training, and CDC team information at Sanskrithi School of Engineering.',
         'hero_kicker': 'Placements',
-        'hero_title': 'Career outcomes are one of the strongest stories on the current site. Now they look like it.',
-        'hero_text': 'The current site surfaces strong placement marketing: 600+ offers, 80+ corporate partners, 95% placement rate, and curriculum design by industry leaders. The redesign gives that story a stronger and more premium structure.',
-        'hero_stats': [('600+', 'Offers'), ('80+', 'Corporate partners'), ('95%', 'Placement rate'), ('19.6 LPA', 'internship claim found in source site')],
+        'hero_title': 'Placements are one of SSE’s strongest public proof points.',
+        'hero_text': 'The current site already publishes strong placement evidence: 1675 total offers, 800 students placed, 150 recruiting companies, 36 LPA highest package, and 95% placement rate for 2024-25. This redesign gives that story the prominence it deserves.',
+        'hero_stats': [('1675', 'Total offers'), ('800', 'Students placed'), ('150', 'Recruiting companies'), ('36 LPA', 'Highest package')],
+        'hero_image': 'https://sseptp.org/assets/placement-D9x0hLK2.jpg',
         'content': [
-            {'type': 'feature_grid', 'kicker': 'Placement Structure', 'title': 'Placement content becomes a real section, not just a homepage slide.', 'text': 'Students, parents, and recruiters can now move through the placement story with more confidence.', 'cards': [
-                ('Placement Story', 'Overview of outcomes, preparation, and employer trust.', '/placements/index.html'),
-                ('Success Stories', 'Proof through named journeys and student results.', '/placements/success-stories.html'),
-                ('Placement Contact', 'A clear path for recruiter or student enquiry.', '/placements/contact.html'),
-                ('Academics Link', 'Tighter connection back to programs and industry interface.', '/academics/rit.html'),
-            ]},
-            {'type': 'story_cards', 'kicker': 'Why it performs', 'title': 'Placement pages influence both trust and aspiration.', 'items': [('Students', 'want confidence that outcomes are real.'), ('Parents', 'look for return on effort and investment.'), ('Recruiters', 'respond better to clear professional presentation.')]},
+            {'type': 'feature_grid', 'kicker': 'Placement section', 'title': 'This content should feel evidence-led, not vague.', 'text': 'SSE already has enough material to present placements as a major strength.', 'cards': [('Placement Highlights', 'Published numbers, recruiter relationships, and internship visibility.', '/placements/index.html'), ('Success Stories', 'Outcome-led examples framed without unnecessary filler.', '/placements/success-stories.html'), ('Placement Contact', 'CDC team, coordinators, and recruiter-facing routes.', '/placements/contact.html'), ('Training Readiness', 'Aptitude, technical, communication, and interview-prep support described on the current site.', '#')]},
+            {'type': 'split', 'kicker': 'Placement narrative', 'title': 'The live copy already explains the student-readiness model.', 'text': 'SSE frames its placement cell as more than a recruitment desk: it starts early, shapes readiness, and connects training with market expectations.', 'bullets': ['Training starts from the second year', 'Technical, aptitude, and communication preparation are all emphasized', 'Recruiter trust is reinforced visually through company visibility', 'The CDC team is visible and should stay reachable']},
         ],
     },
     'placements/success-stories.html': {
         'section': 'Placements',
         'title': 'Success Stories',
-        'description': 'Student outcomes, testimonials, and placement success stories.',
+        'description': 'Placement outcome snapshots at Sanskrithi School of Engineering.',
         'hero_kicker': 'Success Stories',
-        'hero_title': 'Outcomes feel stronger when students can imagine themselves in them.',
-        'hero_text': 'The current site already includes success-story style placement content and testimonial language. This page gives that proof a cleaner, more premium destination.',
+        'hero_title': 'Outcome pages work best when they stay close to evidence.',
+        'hero_text': 'Rather than inventing polished student profiles, this redesign treats the success-stories layer as a structured extension of the published placement performance and recruiter ecosystem.',
+        'hero_image': 'https://sseptp.org/assets/recruiters-B_A9F7qO.png',
         'content': [
-            {'type': 'feature_grid', 'kicker': 'What this page should prove', 'title': 'Success stories should be specific, aspirational, and credible.', 'text': 'The extracted current-site content already uses testimonial-style proof points. The new design turns that into a stronger narrative format.', 'cards': [
-                ('Dream Outcomes', 'Aspirational but believable examples of student success.', '#'),
-                ('Training Impact', 'How curriculum and placement preparation contributed.', '#'),
-                ('Industry Readiness', 'Projects, confidence, and interview preparation.', '#'),
-                ('Progression Stories', 'Employment, internships, and higher-growth pathways.', '#'),
-            ]},
-            {'type': 'quote_panel', 'kicker': 'Trust principle', 'title': 'Specificity creates credibility.', 'text': 'Well-structured success stories can become some of the highest-performing pages on a school site because they answer the question: what happens after admission?'}
+            {'type': 'story_cards', 'kicker': 'Outcome lens', 'title': 'What this page should show clearly.', 'items': [('High-value offers', 'The current site already highlights strong top-end packages.'), ('Broad recruiter base', 'The number of recruiting companies matters because it signals scale, not just a few standout cases.'), ('Training-to-offer logic', 'Success stories should connect back to the placement training model rather than reading like isolated testimonials.')]},
+            {'type': 'metrics_band', 'items': [('95%', 'placement rate'), ('1500', 'internship offers'), ('2', 'international offers'), ('7.5 LPA', 'average package highlighted')]},
         ],
     },
     'placements/contact.html': {
         'section': 'Placements',
         'title': 'Placement Contact',
-        'description': 'Placement contact for recruiters, students, and partnership enquiries.',
+        'description': 'Training & Placement / CDC contact routes at Sanskrithi School of Engineering.',
         'hero_kicker': 'Placement Contact',
-        'hero_title': 'Recruiter and placement enquiries need a direct, professional path.',
-        'hero_text': 'The current site includes a placement contact route. This dedicated page makes the school feel easier to work with and better organized.',
+        'hero_title': 'Recruiter and placement contact should be easy to find.',
+        'hero_text': 'The current site already names members of the CDC / Training & Placement team including Kiran Ravi Srivastava, Dr. Bala Koteswari, and Rakesh Yadav Kodari.',
+        'hero_image': 'https://sseptp.org/assets/placement-D9x0hLK2.jpg',
         'content': [
-            {'type': 'split', 'kicker': 'Who this helps', 'title': 'This page serves both opportunity and trust.', 'text': 'Placement contact is useful for recruiters, students, and parents. It signals openness, confidence, and a functioning career-support structure.', 'bullets': ['Recruiter enquiries', 'Student placement support', 'Internship and partnership conversations', 'Career cell visibility']},
-            {'type': 'cta_strip', 'title': 'Looking for outcomes first?', 'text': 'Users should be able to move naturally between proof and contact.', 'primary': ('Success Stories', '/placements/success-stories.html'), 'secondary': ('Placements Overview', '/placements/index.html')},
+            {'type': 'story_cards', 'kicker': 'Published team visibility', 'title': 'The live site already gives this page strong raw material.', 'items': [('CDC Head', 'Ms. Kiran Ravi Srivastava is named as CDC – Head.'), ('Coordinators', 'Dr. Bala Koteswari and Mr. Rakesh Yadav Kodari are visible as coordinators.'), ('Training layer', 'The team structure supports the broader placement-readiness narrative.')]},
+            {'type': 'cta_strip', 'title': 'Need the placements mailbox?', 'text': 'Recruiters and career-related queries should be routed clearly to the team.', 'primary': ('Contact page', '/contact.html'), 'secondary': ('Placement overview', '/placements/index.html')},
         ],
     },
     'contact.html': {
         'section': 'Contact',
         'title': 'Contact & Enquiry',
-        'description': 'Contact Sanskrithi School of Engineering for admissions, academics, and institutional queries.',
+        'description': 'Contact Sanskrithi School of Engineering for admissions, academics, placements, and institutional enquiries.',
         'hero_kicker': 'Contact SSE',
-        'hero_title': 'A serious school website needs contact routes that feel intentional.',
-        'hero_text': 'This page gives admissions, academic, placement, and institutional conversations a clearer front door instead of leaving contact as a footer afterthought.',
+        'hero_title': 'Real contact routes deserve a proper page.',
+        'hero_text': 'This page is built around the published SSETP contact details: Puttaparthi campus address, office phone numbers, and dedicated mailboxes for general, admissions, and placement / HR conversations.',
+        'hero_badges': ['info@sseptp.org', 'enquiry@sseptp.org', 'hr@sseptp.org', '+91 9100064545 / 74545'],
+        'hero_stats': [('Puttaparthi', 'Sri Sathya Sai District campus'), ('3', 'email routes'), ('2', 'published phone numbers'), ('1', 'clear contact hub')],
+        'hero_image': 'https://sseptp.org/assets/ssecampus-tJIhAnGN.jpg',
         'content': [
-            {'type': 'feature_grid', 'kicker': 'Contact Routes', 'title': 'Different users need different next steps.', 'text': 'This page can later expand with forms, department contacts, maps, office hours, and phone numbers.', 'cards': [
-                ('Admissions Enquiry', 'For students and families beginning the process.', '/admissions/enquiry.html'),
-                ('Placement Contact', 'For recruiter and career-cell conversations.', '/placements/contact.html'),
-                ('Academic Questions', 'Route deeper program questions to academics.', '/academics/index.html'),
-                ('General Information', 'Institutional queries, visits, and campus contact.', '#'),
-            ]},
-            {'type': 'story_cards', 'kicker': 'UX value', 'title': 'Contact should feel easy, not generic.', 'items': [('More confidence', 'Clear next steps reduce hesitation.'), ('Better routing', 'Users land in the right conversation faster.'), ('Higher trust', 'The school feels more operationally mature.')]},
+            {'type': 'feature_grid', 'kicker': 'Contact paths', 'title': 'The page now separates the most common types of conversations.', 'text': 'That makes contact feel deliberate and reduces the chance that important questions disappear into a generic mailbox.', 'cards': [('General Office', 'info@sseptp.org for institutional and broad enquiries.', '#'), ('Admissions', 'enquiry@sseptp.org for prospective-student and parent conversations.', '#'), ('Placements / HR', 'hr@sseptp.org for recruiter and placement-related questions.', '#'), ('Call or Visit', '+91 9100064545 / 74545 | Puttaparthi, Sri Sathya Sai District, AP - 515134', '#')]},
+            {'type': 'split', 'kicker': 'Social presence', 'title': 'The institution already publishes its main public channels.', 'text': 'The redesign can later extend this page with linked contact modules for Facebook, X, and Instagram, but the primary user need is still fast, trustworthy institutional contact.', 'bullets': ['Facebook: sseptp', 'X: SanskrithiGroup', 'Instagram: sanskrithigroup_ptp', 'Address and phone remain the primary trust anchors']},
         ],
     },
+
 }
 
 STYLE = r'''
-:root{--navy:#001A3D;--navy-2:#0d2d61;--navy-3:#173d7d;--orange:#F27405;--orange-2:#ff9b3d;--orange-3:#ffd2ad;--ink:#162230;--muted:#64748b;--line:rgba(0,26,61,.1);--surface:#ffffff;--surface-2:#f8fbff;--surface-3:#fff7ef;--shadow-xl:0 28px 80px rgba(0,26,61,.16);--shadow-lg:0 18px 42px rgba(0,26,61,.10);--radius-xl:30px;--radius-lg:22px;--radius-md:16px;--container:1180px}
+:root{--navy:#001A3D;--navy-2:#0d2d61;--navy-3:#173d7d;--orange:#f26522;--orange-2:#ff8c42;--orange-3:#ffd2ad;--ink:#162230;--muted:#64748b;--line:rgba(0,26,61,.1);--surface:#ffffff;--surface-2:#f8fbff;--surface-3:#fff7ef;--shadow-xl:0 28px 80px rgba(0,26,61,.16);--shadow-lg:0 18px 42px rgba(0,26,61,.10);--radius-xl:30px;--radius-lg:22px;--radius-md:16px;--container:1180px}
 *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,system-ui,sans-serif;color:var(--ink);background:linear-gradient(180deg,#fffaf6 0%,#fff 16%,#f8fbff 100%);line-height:1.68}img{display:block;max-width:100%}a{-webkit-tap-highlight-color:transparent}.container{width:min(calc(100% - 2rem),var(--container));margin:0 auto}.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
-.site-header{position:sticky;top:0;z-index:80;background:var(--navy);color:#fff;box-shadow:0 10px 24px rgba(0,0,0,.08)}.nav-wrap,.footer-wrap,.section-head,.hero-actions,.button-row,.cta-box,.breadcrumb{display:flex;gap:1rem}.nav-wrap,.footer-wrap,.cta-box{align-items:center;justify-content:space-between}.nav-wrap{min-height:80px}.brand{display:inline-flex;align-items:center;gap:.9rem;color:#fff;text-decoration:none;font-weight:800;letter-spacing:-.04em}.brand span:last-child{max-width:20rem}.brand-mark{display:grid;place-items:center;width:2.7rem;aspect-ratio:1;border-radius:16px;background:linear-gradient(135deg,var(--orange) 0%,#d66704 100%);color:#fff;font-size:.83rem;letter-spacing:.08em;box-shadow:0 10px 24px rgba(242,116,5,.28)}.nav{display:flex;align-items:stretch;gap:0;flex-wrap:wrap}.nav a{text-decoration:none;color:rgba(255,255,255,.9);font-weight:700;padding:1.45rem 1.25rem;position:relative;display:inline-flex;align-items:center}.nav a.active,.nav a:hover{color:#fff;background:rgba(255,255,255,.08)}.nav a.active{background:var(--orange)}.nav a.active:after{display:none}.nav-cta{margin-left:.5rem;padding:1rem 1rem !important;border-radius:12px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.12)}.nav-cta:hover{background:rgba(255,255,255,.16) !important}.nav-toggle{display:none;flex-direction:column;justify-content:center;gap:.26rem;width:2.9rem;height:2.9rem;border:1px solid rgba(255,255,255,.14);border-radius:14px;background:transparent;cursor:pointer}.nav-toggle span:not(.sr-only){display:block;width:1.1rem;height:2px;margin:0 auto;background:#fff}
-.hero{position:relative;overflow:clip;padding:4.4rem 0 3.8rem;background:radial-gradient(circle at 100% 0,rgba(242,116,5,.18),transparent 30%),radial-gradient(circle at 0 20%,rgba(23,61,125,.10),transparent 24%),linear-gradient(180deg,#fff2e5 0%,#fff8f2 38%,#fff 72%,#f8fbff 100%)}.hero:before{content:'';position:absolute;right:-8rem;top:-6rem;width:22rem;height:22rem;border-radius:50%;background:radial-gradient(circle,rgba(255,155,61,.18),transparent 65%);filter:blur(10px)}.hero-layout{display:grid;grid-template-columns:minmax(0,1.02fr) minmax(340px,.98fr);gap:2.6rem;align-items:center}.eyebrow,.section-label{display:inline-flex;align-items:center;gap:.5rem;margin:0 0 1rem;color:var(--orange);font-size:.8rem;font-weight:800;letter-spacing:.16em;text-transform:uppercase}.eyebrow:before,.section-label:before{content:'';width:1.2rem;height:2px;border-radius:999px;background:linear-gradient(90deg,var(--orange),var(--orange-2))}h1,h2,h3,p,ul{margin-top:0}h1{margin-bottom:1.15rem;font-size:clamp(2.8rem,7vw,5.2rem);line-height:.95;letter-spacing:-.065em;max-width:11ch}h2{margin-bottom:1rem;font-size:clamp(2rem,4vw,3.1rem);line-height:1.04;letter-spacing:-.05em}h3{margin-bottom:.7rem;font-size:1.2rem;letter-spacing:-.03em}.lead,.section-head p,.card p,.split-copy p,.story p,.footer-note,.hero-badges span,.hero-stats span,.breadcrumb a,.breadcrumb span,.section-nav-shell small{color:var(--muted)}.hero-copy{position:relative;z-index:1}.hero-actions{flex-wrap:wrap;margin:2rem 0 1.4rem}.button{display:inline-flex;align-items:center;justify-content:center;min-height:52px;padding:0 1.25rem;border-radius:999px;text-decoration:none;font-weight:800;transition:transform .2s ease,box-shadow .2s ease,border-color .2s ease,background .2s ease}.button:hover{transform:translateY(-1px)}.button.primary{background:linear-gradient(135deg,var(--orange) 0%,#d66704 100%);color:#fff;box-shadow:0 14px 30px rgba(242,116,5,.24)}.button.secondary,.button.ghost{background:#fff;border:1px solid var(--line);color:var(--ink)}.button.light{background:#fff;color:var(--navy)}.hero-badges{display:flex;gap:.7rem;flex-wrap:wrap}.hero-badges span{padding:.72rem .95rem;border-radius:999px;background:rgba(255,255,255,.82);border:1px solid rgba(0,26,61,.08);font-weight:700}.hero-panel,.card,.split-card,.story,.timeline article,.cta-box,.metric,.pillars article,.spotlight{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius-xl);box-shadow:var(--shadow-lg)}.hero-panel{padding:1.4rem;background:linear-gradient(180deg,var(--navy) 0%,var(--navy-2) 78%,var(--navy-3) 100%);color:#fff;box-shadow:var(--shadow-xl)}.panel-topline{height:10px;width:42%;border-radius:999px;background:linear-gradient(90deg,var(--orange),var(--orange-2));margin-bottom:1.2rem}.hero-stats,.cards,.timeline,.pillars,.story-grid,.metrics-grid,.section-nav-shell{display:grid;gap:1rem}.hero-stats{grid-template-columns:repeat(2,minmax(0,1fr))}.hero-stats article{padding:1.15rem;border:1px solid rgba(255,255,255,.14);border-radius:18px;background:rgba(255,255,255,.06);backdrop-filter:blur(8px)}.hero-stats strong{display:block;margin-bottom:.35rem;font-size:1.55rem}.breadcrumb{align-items:center;flex-wrap:wrap;padding:1rem 0 0}.breadcrumb a{text-decoration:none}.section-nav{margin-top:-1.3rem;position:relative;z-index:3}.section-nav-panel{border-radius:18px;overflow:hidden;box-shadow:0 10px 25px -5px rgba(0,0,0,.1),0 8px 10px -6px rgba(0,0,0,.1);border-top:4px solid var(--orange);background:#fff}.section-nav-heading{padding:1rem 1.25rem;background:linear-gradient(180deg,#fff,#fff7ef);font-weight:800;color:var(--navy);border-bottom:1px solid rgba(0,26,61,.08)}.section-nav-shell{grid-template-columns:repeat(5,minmax(0,1fr));padding:1.1rem}.section-link{display:flex;flex-direction:column;gap:.24rem;padding:1rem 1rem;border-radius:14px;text-decoration:none;color:var(--ink);background:#fff;border:1px solid transparent;min-height:102px;justify-content:center}.section-link.is-active{background:linear-gradient(180deg,#fff3e7,#fff);border-color:rgba(242,116,5,.24);box-shadow:inset 0 0 0 1px rgba(242,116,5,.08)}.section-link:hover{transform:translateY(-1px);border-color:rgba(242,116,5,.18);background:linear-gradient(180deg,#fff8f1,#fff)}.section-nav-shell strong{font-size:1rem;color:var(--navy)}.section-nav-shell small{font-size:.88rem;line-height:1.45}.hero-subpage{padding-top:3.5rem;padding-bottom:3rem}.hero-subpage .hero-layout{grid-template-columns:minmax(0,1fr) minmax(300px,.72fr)}.hero-subpage .hero-copy{background:rgba(255,255,255,.72);border:1px solid rgba(0,26,61,.08);box-shadow:var(--shadow-lg);border-radius:28px;padding:2rem}.hero-subpage .hero-panel{background:linear-gradient(180deg,#fff 0%,#f8fbff 100%);color:var(--ink)}.hero-subpage .hero-stats article{background:linear-gradient(180deg,#fff8f1,#fff);border-color:rgba(0,26,61,.08)}.hero-subpage .hero-stats span{color:var(--muted)}.section{padding:4.6rem 0}.section-head{align-items:end;justify-content:space-between;margin-bottom:1.9rem}.section-head>*{flex:1}.cards.cols-4{grid-template-columns:repeat(4,minmax(0,1fr))}.cards.cols-3{grid-template-columns:repeat(3,minmax(0,1fr))}.cards.cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}.card,.split-card,.story,.timeline article,.metric,.spotlight{padding:1.55rem}.card{position:relative;overflow:hidden;background:linear-gradient(180deg,#fff 0%,#fbfdff 100%);transition:transform .2s ease,box-shadow .2s ease}.card:hover{transform:translateY(-3px);box-shadow:0 24px 44px rgba(0,26,61,.12)}.card:after{content:'';position:absolute;right:-2.5rem;bottom:-2.5rem;width:7rem;height:7rem;border-radius:50%;background:rgba(242,116,5,.10)}.card a{font-weight:800;color:var(--navy);text-decoration:none}.icon{display:inline-grid;place-items:center;width:3rem;height:3rem;margin-bottom:1rem;border-radius:16px;background:linear-gradient(135deg,#fff0e2,#ffe0c0);color:var(--orange);font-weight:800}.split{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:2rem;align-items:center}.split-card{background:linear-gradient(180deg,#fff8f0 0%,#fff 100%);border-top:4px solid var(--orange)}.mini-list{margin:1rem 0 0;padding-left:1.15rem}.mini-list li+li{margin-top:.45rem}.metrics-grid{grid-template-columns:repeat(4,minmax(0,1fr))}.metric{text-align:center;background:linear-gradient(180deg,#fff7ef 0%,#fff 100%);border-top:4px solid rgba(242,116,5,.72)}.metric strong{display:block;font-size:2rem;letter-spacing:-.04em;color:var(--navy)}.timeline{grid-template-columns:repeat(4,minmax(0,1fr))}.timeline article{background:linear-gradient(180deg,#fff 0%,#f8fbff 100%);border-top:4px solid rgba(0,26,61,.08)}.step-no{display:inline-grid;place-items:center;width:2.35rem;height:2.35rem;margin-bottom:1rem;border-radius:999px;background:var(--navy);color:#fff;font-weight:800}.story-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.story{background:linear-gradient(180deg,#fff 0%,#fff9f4 100%);border-top:4px solid rgba(242,116,5,.72)}.story strong{display:block;margin-bottom:.45rem;color:var(--navy)}.quote-panel{padding:2rem;border-radius:var(--radius-xl);background:linear-gradient(135deg,var(--navy) 0%,var(--navy-2) 66%,var(--navy-3) 100%);color:#fff;box-shadow:var(--shadow-xl)}.quote-panel p,.quote-panel .section-label{color:rgba(255,255,255,.82)}.quote-panel h2{color:#fff;max-width:18ch}.cta-strip{padding:1.4rem 1.5rem;border-radius:var(--radius-lg);background:linear-gradient(180deg,#fff4e8 0%,#fff 100%);border:1px solid rgba(242,116,5,.18);display:flex;gap:1rem;justify-content:space-between;align-items:center}.cta-strip-copy{max-width:46rem}.pillars{grid-template-columns:repeat(3,minmax(0,1fr))}.pillars article{padding:1.35rem 1.4rem;background:linear-gradient(180deg,#fff 0%,#fff8f1 100%)}.pillars strong{display:block;margin-bottom:.3rem;color:var(--navy)}.cta-box{padding:2rem;background:linear-gradient(135deg,var(--navy) 0%,var(--navy-2) 62%,var(--navy-3) 100%);color:#fff;box-shadow:var(--shadow-xl)}.cta-box .section-label,.cta-box h2,.cta-box p,.cta-box .button.ghost{color:#fff}.cta-box .button.ghost{border-color:rgba(255,255,255,.24);background:transparent}.site-footer{padding:1.7rem 0 2.3rem;border-top:1px solid rgba(0,26,61,.08)}.footer-wrap p{margin:0}.muted{background:linear-gradient(180deg,#fff8f1 0%,#fff 100%)}
+.site-header{position:sticky;top:0;z-index:80;background:var(--navy);color:#fff;box-shadow:0 10px 24px rgba(0,0,0,.08)}.nav-wrap,.footer-wrap,.section-head,.hero-actions,.button-row,.cta-box,.breadcrumb{display:flex;gap:1rem}.nav-wrap,.footer-wrap,.cta-box{align-items:center;justify-content:space-between}.nav-wrap{min-height:80px}.brand{display:inline-flex;align-items:center;gap:.9rem;color:#fff;text-decoration:none;font-weight:800;letter-spacing:-.04em}.brand span:last-child{max-width:20rem}.brand-mark{display:block;width:3rem;height:3rem;object-fit:contain;filter:drop-shadow(0 10px 24px rgba(242,101,34,.18))}.nav{display:flex;align-items:stretch;gap:0;flex-wrap:wrap}.nav a{text-decoration:none;color:rgba(255,255,255,.9);font-weight:700;padding:1.45rem 1.25rem;position:relative;display:inline-flex;align-items:center}.nav a.active,.nav a:hover{color:#fff;background:rgba(255,255,255,.08)}.nav a.active{background:var(--orange)}.nav a.active:after{display:none}.nav-cta{margin-left:.5rem;padding:1rem 1rem !important;border-radius:12px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.12)}.nav-cta:hover{background:rgba(255,255,255,.16) !important}.nav-toggle{display:none;flex-direction:column;justify-content:center;gap:.26rem;width:2.9rem;height:2.9rem;border:1px solid rgba(255,255,255,.14);border-radius:14px;background:transparent;cursor:pointer}.nav-toggle span:not(.sr-only){display:block;width:1.1rem;height:2px;margin:0 auto;background:#fff}
+.hero{position:relative;overflow:clip;padding:4.4rem 0 3.8rem;background:radial-gradient(circle at 100% 0,rgba(242,116,5,.18),transparent 30%),radial-gradient(circle at 0 20%,rgba(23,61,125,.10),transparent 24%),linear-gradient(180deg,#fff2e5 0%,#fff8f2 38%,#fff 72%,#f8fbff 100%)}.hero:before{content:'';position:absolute;right:-8rem;top:-6rem;width:22rem;height:22rem;border-radius:50%;background:radial-gradient(circle,rgba(255,155,61,.18),transparent 65%);filter:blur(10px)}.hero-layout{display:grid;grid-template-columns:minmax(0,1.02fr) minmax(340px,.98fr);gap:2.6rem;align-items:center}.eyebrow,.section-label{display:inline-flex;align-items:center;gap:.5rem;margin:0 0 1rem;color:var(--orange);font-size:.8rem;font-weight:800;letter-spacing:.16em;text-transform:uppercase}.eyebrow:before,.section-label:before{content:'';width:1.2rem;height:2px;border-radius:999px;background:linear-gradient(90deg,var(--orange),var(--orange-2))}h1,h2,h3,p,ul{margin-top:0}h1{margin-bottom:1.15rem;font-size:clamp(2.8rem,7vw,5.2rem);line-height:.95;letter-spacing:-.065em;max-width:11ch}h2{margin-bottom:1rem;font-size:clamp(2rem,4vw,3.1rem);line-height:1.04;letter-spacing:-.05em}h3{margin-bottom:.7rem;font-size:1.2rem;letter-spacing:-.03em}.lead,.section-head p,.card p,.split-copy p,.story p,.footer-note,.hero-badges span,.hero-stats span,.breadcrumb a,.breadcrumb span,.section-nav-shell small{color:var(--muted)}.hero-copy{position:relative;z-index:1}.hero-actions{flex-wrap:wrap;margin:2rem 0 1.4rem}.button{display:inline-flex;align-items:center;justify-content:center;min-height:52px;padding:0 1.25rem;border-radius:999px;text-decoration:none;font-weight:800;transition:transform .2s ease,box-shadow .2s ease,border-color .2s ease,background .2s ease}.button:hover{transform:translateY(-1px)}.button.primary{background:linear-gradient(135deg,var(--orange) 0%,#d66704 100%);color:#fff;box-shadow:0 14px 30px rgba(242,116,5,.24)}.button.secondary,.button.ghost{background:#fff;border:1px solid var(--line);color:var(--ink)}.button.light{background:#fff;color:var(--navy)}.hero-badges{display:flex;gap:.7rem;flex-wrap:wrap}.hero-badges span{padding:.72rem .95rem;border-radius:999px;background:rgba(255,255,255,.82);border:1px solid rgba(0,26,61,.08);font-weight:700}.hero-panel,.card,.split-card,.story,.timeline article,.cta-box,.metric,.pillars article,.spotlight{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius-xl);box-shadow:var(--shadow-lg)}.hero-panel{padding:1.4rem;background:linear-gradient(180deg,var(--navy) 0%,var(--navy-2) 78%,var(--navy-3) 100%);color:#fff;box-shadow:var(--shadow-xl)}.panel-topline{height:10px;width:42%;border-radius:999px;background:linear-gradient(90deg,var(--orange),var(--orange-2));margin-bottom:1.2rem}.hero-stats,.cards,.timeline,.pillars,.story-grid,.metrics-grid,.section-nav-shell{display:grid;gap:1rem}.hero-stats{grid-template-columns:repeat(2,minmax(0,1fr))}.hero-stats article{padding:1.15rem;border:1px solid rgba(255,255,255,.14);border-radius:18px;background:rgba(255,255,255,.06);backdrop-filter:blur(8px)}.hero-stats strong{display:block;margin-bottom:.35rem;font-size:1.55rem}.breadcrumb{align-items:center;flex-wrap:wrap;padding:1rem 0 0}.breadcrumb a{text-decoration:none}.section-nav{margin-top:-1.3rem;position:relative;z-index:3}.section-nav-panel{border-radius:18px;overflow:hidden;box-shadow:0 10px 25px -5px rgba(0,0,0,.1),0 8px 10px -6px rgba(0,0,0,.1);border-top:4px solid var(--orange);background:#fff}.section-nav-heading{padding:1rem 1.25rem;background:linear-gradient(180deg,#fff,#fff7ef);font-weight:800;color:var(--navy);border-bottom:1px solid rgba(0,26,61,.08)}.section-nav-shell{grid-template-columns:repeat(5,minmax(0,1fr));padding:1.1rem}.section-link{display:flex;flex-direction:column;gap:.24rem;padding:1rem 1rem;border-radius:14px;text-decoration:none;color:var(--ink);background:#fff;border:1px solid transparent;min-height:102px;justify-content:center}.section-link.is-active{background:linear-gradient(180deg,#fff3e7,#fff);border-color:rgba(242,116,5,.24);box-shadow:inset 0 0 0 1px rgba(242,116,5,.08)}.section-link:hover{transform:translateY(-1px);border-color:rgba(242,116,5,.18);background:linear-gradient(180deg,#fff8f1,#fff)}.section-nav-shell strong{font-size:1rem;color:var(--navy)}.section-nav-shell small{font-size:.88rem;line-height:1.45}.hero-subpage{padding-top:3.5rem;padding-bottom:3rem}.hero-subpage .hero-layout{grid-template-columns:minmax(0,1fr) minmax(300px,.72fr)}.hero-subpage{background:linear-gradient(rgba(255,248,242,.92),rgba(248,251,255,.96)),var(--hero-image) center/cover no-repeat}.hero-subpage .hero-copy{background:rgba(255,255,255,.72);border:1px solid rgba(0,26,61,.08);box-shadow:var(--shadow-lg);border-radius:28px;padding:2rem}.hero-subpage .hero-panel{background:linear-gradient(180deg,#fff 0%,#f8fbff 100%);color:var(--ink)}.hero-subpage .hero-stats article{background:linear-gradient(180deg,#fff8f1,#fff);border-color:rgba(0,26,61,.08)}.hero-subpage .hero-stats span{color:var(--muted)}.section{padding:4.6rem 0}.section-head{align-items:end;justify-content:space-between;margin-bottom:1.9rem}.section-head>*{flex:1}.cards.cols-4{grid-template-columns:repeat(4,minmax(0,1fr))}.cards.cols-3{grid-template-columns:repeat(3,minmax(0,1fr))}.cards.cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}.card,.split-card,.story,.timeline article,.metric,.spotlight{padding:1.55rem}.card{position:relative;overflow:hidden;background:linear-gradient(180deg,#fff 0%,#fbfdff 100%);transition:transform .2s ease,box-shadow .2s ease}.card:hover{transform:translateY(-3px);box-shadow:0 24px 44px rgba(0,26,61,.12)}.card:after{content:'';position:absolute;right:-2.5rem;bottom:-2.5rem;width:7rem;height:7rem;border-radius:50%;background:rgba(242,116,5,.10)}.card a{font-weight:800;color:var(--navy);text-decoration:none}.icon{display:inline-grid;place-items:center;width:3rem;height:3rem;margin-bottom:1rem;border-radius:16px;background:linear-gradient(135deg,#fff0e2,#ffe0c0);color:var(--orange);font-weight:800}.split{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:2rem;align-items:center}.split-card{background:linear-gradient(180deg,#fff8f0 0%,#fff 100%);border-top:4px solid var(--orange)}.mini-list{margin:1rem 0 0;padding-left:1.15rem}.mini-list li+li{margin-top:.45rem}.metrics-grid{grid-template-columns:repeat(4,minmax(0,1fr))}.metric{text-align:center;background:linear-gradient(180deg,#fff7ef 0%,#fff 100%);border-top:4px solid rgba(242,116,5,.72)}.metric strong{display:block;font-size:2rem;letter-spacing:-.04em;color:var(--navy)}.timeline{grid-template-columns:repeat(4,minmax(0,1fr))}.timeline article{background:linear-gradient(180deg,#fff 0%,#f8fbff 100%);border-top:4px solid rgba(0,26,61,.08)}.step-no{display:inline-grid;place-items:center;width:2.35rem;height:2.35rem;margin-bottom:1rem;border-radius:999px;background:var(--navy);color:#fff;font-weight:800}.story-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.story{background:linear-gradient(180deg,#fff 0%,#fff9f4 100%);border-top:4px solid rgba(242,116,5,.72)}.story strong{display:block;margin-bottom:.45rem;color:var(--navy)}.quote-panel{padding:2rem;border-radius:var(--radius-xl);background:linear-gradient(135deg,var(--navy) 0%,var(--navy-2) 66%,var(--navy-3) 100%);color:#fff;box-shadow:var(--shadow-xl)}.quote-panel p,.quote-panel .section-label{color:rgba(255,255,255,.82)}.quote-panel h2{color:#fff;max-width:18ch}.cta-strip{padding:1.4rem 1.5rem;border-radius:var(--radius-lg);background:linear-gradient(180deg,#fff4e8 0%,#fff 100%);border:1px solid rgba(242,116,5,.18);display:flex;gap:1rem;justify-content:space-between;align-items:center}.cta-strip-copy{max-width:46rem}.pillars{grid-template-columns:repeat(3,minmax(0,1fr))}.pillars article{padding:1.35rem 1.4rem;background:linear-gradient(180deg,#fff 0%,#fff8f1 100%)}.pillars strong{display:block;margin-bottom:.3rem;color:var(--navy)}.cta-box{padding:2rem;background:linear-gradient(135deg,var(--navy) 0%,var(--navy-2) 62%,var(--navy-3) 100%);color:#fff;box-shadow:var(--shadow-xl)}.cta-box .section-label,.cta-box h2,.cta-box p,.cta-box .button.ghost{color:#fff}.cta-box .button.ghost{border-color:rgba(255,255,255,.24);background:transparent}.site-footer{padding:1.7rem 0 2.3rem;border-top:1px solid rgba(0,26,61,.08)}.footer-wrap p{margin:0}.muted{background:linear-gradient(180deg,#fff8f1 0%,#fff 100%)}
 
 .hero-home{min-height:560px;display:flex;align-items:center}.hero-home:after{content:'';position:absolute;inset:0;background:linear-gradient(rgba(0,26,61,.58),rgba(0,26,61,.54)),var(--hero-image) center/cover no-repeat;z-index:0}.hero-home .container,.hero-home .hero-copy,.hero-home .hero-panel{position:relative;z-index:1}.hero-home .hero-copy h1,.hero-home .hero-copy .lead,.hero-home .hero-copy .eyebrow,.hero-home .hero-badges span{color:#fff}.hero-home .eyebrow:before{background:linear-gradient(90deg,#fff,var(--orange-2))}.hero-home .hero-badges span{background:rgba(255,255,255,.12);border-color:rgba(255,255,255,.16)}
 .feature-services{margin-top:-5.5rem;position:relative;z-index:5;padding-bottom:1rem}.feature-services-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1.5rem}.feature-service-card{display:flex;flex-direction:column;background:#fff;border-radius:22px;overflow:hidden;box-shadow:0 4px 20px rgba(0,0,0,.08);min-height:100%}.feature-service-top{background:var(--navy);padding:2.2rem 1.8rem;text-align:center;color:#fff}.feature-service-top h3{margin:0;color:#fff}.feature-service-icon{width:4rem;height:4rem;border-radius:999px;margin:0 auto 1rem;display:grid;place-items:center;background:rgba(255,255,255,.08);color:var(--orange);font-weight:800;border:1px solid rgba(255,255,255,.14)}.feature-service-body{padding:1.8rem;text-align:center;flex:1}.feature-service-body a{color:var(--orange);font-weight:800;text-decoration:none}.feature-service-bar{height:.45rem;background:var(--orange)}
@@ -517,6 +475,8 @@ def render_section_nav(page_path: str, section: str) -> str:
         items = MEGA.get(section, [])
         nav_label = f'{section} navigation'
         heading = section
+    if not items:
+        return ''
     link_html = []
     for label, href, desc in items:
         active = ' is-active' if href == current else ''
@@ -618,7 +578,7 @@ def schema_json(path: str, cfg: dict) -> str:
 def page_html(path: str, cfg: dict) -> str:
     prefix = rel_prefix(path)
     title_plain = cfg['title'].replace('|', '–')
-    hero_stats = cfg.get('hero_stats', [('Modern UX', 'Cleaner navigation and stronger hierarchy'), ('Orange + Navy', 'More youthful and premium visual direction'), ('SEO-ready', 'Clearer page focus and metadata'), ('Scalable', 'Prepared for richer real content later')])
+    hero_stats = cfg.get('hero_stats', [('Puttaparthi', 'Sri Sathya Sai District campus'), ('Autonomous', 'Core institutional positioning'), ('Admissions 2026', 'Current student-intake framing'), ('3 routes', 'General, admissions, and placement contact paths')])
     stats_html = ''.join(f'<article><strong>{escape(a)}</strong><span>{escape(b)}</span></article>' for a, b in hero_stats)
     badges = ''.join(f'<span>{escape(item)}</span>' for item in cfg.get('hero_badges', []))
     highlights = cfg.get('highlights')
@@ -650,7 +610,7 @@ def page_html(path: str, cfg: dict) -> str:
     <header class="site-header">
       <div class="container nav-wrap">
         <a class="brand" href="{href_from(path, '/index.html')}">
-          <span class="brand-mark">SSE</span>
+          <img class="brand-mark" src="{escape(SITE['logo'])}" alt="{escape(SITE['title'])} logo" />
           <span>{escape(SITE['title'])}</span>
         </a>
         <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
@@ -662,7 +622,7 @@ def page_html(path: str, cfg: dict) -> str:
 
     <main>
       {'' if path == 'index.html' else f'<div class="container">{breadcrumbs(path, cfg['section'], title_plain)}</div>'}
-      <section class="hero{' hero-home' if path == 'index.html' else ' hero-subpage'}"{f' style="--hero-image:url(\'{cfg.get("hero_image", "")}\')"' if path == 'index.html' and cfg.get('hero_image') else ''}>
+      <section class="hero{' hero-home' if path == 'index.html' else ' hero-subpage'}"{f' style="--hero-image:url(\'{cfg.get("hero_image", "")}\')"' if cfg.get('hero_image') else ''}>
         <div class="container hero-layout">
           <div class="hero-copy">
             <p class="eyebrow">{escape(cfg['hero_kicker'])}</p>
@@ -690,8 +650,8 @@ def page_html(path: str, cfg: dict) -> str:
         <div class="container cta-box">
           <div>
             <p class="section-label">Next Step</p>
-            <h2>Ready to turn this structure into a stronger admissions and brand experience?</h2>
-            <p>This site now has the right architecture for richer official text, photography, enquiry flows, department detail, and stronger SEO landing pages.</p>
+            <h2>Ready to explore admissions, academics, placements, or campus life in more detail?</h2>
+            <p>The core structure now reflects SSETP’s real content, branding, and contact routes and is ready for the remaining page-by-page refinement.</p>
           </div>
           <div class="button-row">
             <a class="button primary light" href="mailto:{SITE['email']}">{SITE['email']}</a>
@@ -705,7 +665,7 @@ def page_html(path: str, cfg: dict) -> str:
       <div class="container footer-grid">
         <div>
           <h4>Our Office</h4>
-          <p>Sanskrithi School of Engineering<br/>Andhra Pradesh<br/>Email: {escape(SITE['email'])}</p>
+          <p>{escape(SITE['title'])}<br/>{escape(SITE['address'])}<br/>Phone: {escape(SITE['phone'])}</p>
         </div>
         <div>
           <h4>Explore</h4>
@@ -717,12 +677,12 @@ def page_html(path: str, cfg: dict) -> str:
         </div>
         <div>
           <h4>Contact</h4>
-          <p>Need admissions or placement support?<br/><a href="mailto:{SITE['email']}">{SITE['email']}</a></p>
+          <p>Admissions: <a href="mailto:{SITE['enquiry_email']}">{SITE['enquiry_email']}</a><br/>Placements / HR: <a href="mailto:{SITE['hr_email']}">{SITE['hr_email']}</a><br/>General: <a href="mailto:{SITE['email']}">{SITE['email']}</a></p>
         </div>
       </div>
       <div class="container footer-bottom">
         <p>© <span id="year"></span> {escape(SITE['title'])}. All rights reserved.</p>
-        <p class="footer-note">Modern multi-page redesign focused on UX, admissions clarity, and stronger school positioning.</p>
+        <p class="footer-note">Reworked around the live SSETP structure, original visual assets, and clearer admissions-first navigation.</p>
       </div>
     </footer>
 
