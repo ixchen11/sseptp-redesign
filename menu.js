@@ -1,9 +1,18 @@
 (function(){
   const toggles = document.querySelectorAll('[data-menu-toggle]');
   const menus = document.querySelectorAll('[data-menu]');
-  function closeAll(){ menus.forEach(m=>m.classList.add('hidden')); }
+
+  function isMobileDrawerActive(){
+    return window.innerWidth <= 900;
+  }
+
+  function closeAll(){
+    menus.forEach(m=>m.classList.add('hidden'));
+  }
+
   toggles.forEach(btn=>{
     btn.addEventListener('click', (e)=>{
+      if(isMobileDrawerActive()) return;
       e.preventDefault();
       const key = btn.getAttribute('data-menu-toggle');
       const menu = document.querySelector('[data-menu="'+key+'"]');
@@ -13,10 +22,19 @@
       if(willOpen) menu.classList.remove('hidden');
     });
   });
+
   document.addEventListener('click',(e)=>{
+    if(isMobileDrawerActive()) return;
     if(!e.target.closest('.menu-item')) closeAll();
   });
-  document.addEventListener('keydown',(e)=>{ if(e.key==='Escape') closeAll(); });
+
+  document.addEventListener('keydown',(e)=>{
+    if(e.key==='Escape') closeAll();
+  });
+
+  window.addEventListener('resize',()=>{
+    if(isMobileDrawerActive()) closeAll();
+  });
 
   const searchToggle=document.getElementById('search-toggle');
   const searchInput=document.getElementById('search-input');
