@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sanskrithi School of Engineering | Programs</title>
+    <meta name="description" content="Engineering departments and program areas at Sanskrithi School of Engineering." />
+    <meta name="keywords" content="Sanskrithi School of Engineering, Sanskriti School of Engineering, engineering college, admissions 2026, placements, campus life, academics" />
+    <meta property="og:title" content="Sanskrithi School of Engineering | Programs" />
+    <meta property="og:description" content="Engineering departments and program areas at Sanskrithi School of Engineering." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://sseptp.org/academics/programs.html" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="canonical" href="https://sseptp.org/academics/programs.html" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../styles.css" />
+    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebPage", "name": "Sanskrithi School of Engineering", "url": "https://sseptp.org/academics/programs.html", "description": "Engineering departments and program areas at Sanskrithi School of Engineering."}</script>
+  </head>
+  <body class="page-shell page-academics-programs">
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="brand" href="../index.html">
+          <img class="brand-mark" src="https://sseptp.org/assets/sse-logo-D5ZBduKC.svg" alt="Sanskrithi School of Engineering logo" />
+          <span>Sanskrithi School of Engineering</span>
+        </a>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+          <span></span><span></span><span></span><span class="sr-only">Toggle navigation</span>
+        </button>
+        <nav class="nav" id="site-nav"><a class="nav-link " href="../index.html">Home</a><div class="nav-item has-menu"><button class="nav-parent" type="button" aria-expanded="false">About<span class="nav-caret">▾</span></button><div class="nav-menu"><a class="nav-menu-link" href="../about/index.html"><strong>Overview</strong><small>Institutional story and identity</small></a><a class="nav-menu-link" href="../about/vision-mission.html"><strong>Vision &amp; Mission</strong><small>Purpose, values, and direction</small></a><a class="nav-menu-link" href="../about/leadership.html"><strong>Leadership</strong><small>Messages, roles, and guidance</small></a><a class="nav-menu-link" href="../about/quality.html"><strong>Quality &amp; Recognition</strong><small>NAAC, IQAC, and governance</small></a><a class="nav-menu-link" href="../about/industry-interface.html"><strong>Industry Interface</strong><small>Academic relevance in practice</small></a></div></div><div class="nav-item has-menu"><button class="nav-parent" type="button" aria-expanded="false">Admissions<span class="nav-caret">▾</span></button><div class="nav-menu"><a class="nav-menu-link" href="../admissions/index.html"><strong>Overview</strong><small>Your admissions starting point</small></a><a class="nav-menu-link" href="../admissions/process.html"><strong>Admission Process</strong><small>Step-by-step student journey</small></a><a class="nav-menu-link" href="../admissions/fees.html"><strong>Fees &amp; Scholarships</strong><small>Financial clarity and support</small></a><a class="nav-menu-link" href="../admissions/enquiry.html"><strong>Enquiry</strong><small>Talk to admissions quickly</small></a></div></div><div class="nav-item has-menu active"><button class="nav-parent" type="button" aria-expanded="false">Academics<span class="nav-caret">▾</span></button><div class="nav-menu"><a class="nav-menu-link" href="index.html"><strong>Overview</strong><small>Academic pathways and depth</small></a><a class="nav-menu-link active" href="programs.html"><strong>Programs</strong><small>Undergraduate and advanced routes</small></a><a class="nav-menu-link" href="labs.html"><strong>Labs</strong><small>Applied learning environments</small></a><a class="nav-menu-link" href="scholarships.html"><strong>Sai Prudent Scholarship</strong><small>Merit and need-based support</small></a><a class="nav-menu-link" href="rit.html"><strong>RIT Pathway</strong><small>Europe-facing differentiator</small></a></div></div><div class="nav-item has-menu"><button class="nav-parent" type="button" aria-expanded="false">Campus Life<span class="nav-caret">▾</span></button><div class="nav-menu"><a class="nav-menu-link" href="../campus/index.html"><strong>Overview</strong><small>Student experience across campus</small></a><a class="nav-menu-link" href="../campus/facilities.html"><strong>Facilities</strong><small>Academic and support spaces</small></a><a class="nav-menu-link" href="../campus/hostel.html"><strong>Hostel Life</strong><small>Comfort, community, and security</small></a><a class="nav-menu-link" href="../campus/health-safety.html"><strong>Health &amp; Safety</strong><small>Wellbeing and trust</small></a><a class="nav-menu-link" href="../campus/sports.html"><strong>Sports</strong><small>Energy, teamwork, and participation</small></a></div></div><div class="nav-item has-menu"><button class="nav-parent" type="button" aria-expanded="false">Placements<span class="nav-caret">▾</span></button><div class="nav-menu"><a class="nav-menu-link" href="../placements/index.html"><strong>Overview</strong><small>Outcomes and readiness</small></a><a class="nav-menu-link" href="../placements/success-stories.html"><strong>Success Stories</strong><small>Student results and proof</small></a><a class="nav-menu-link" href="../placements/contact.html"><strong>Placement Contact</strong><small>Career cell and recruiter route</small></a></div></div><a class="nav-link  nav-cta" href="../contact.html">Contact</a></nav>
+      </div>
+    </header>
+
+    <main>
+      <div class="container"><nav class="breadcrumb"><a href="../index.html">Home</a><span>›</span><a href="index.html">Academics</a><span>›</span><span>Programs</span></nav></div>
+      <section class="hero hero-academics" style="--hero-image:url('https://sseptp.org/assets/ssecampus-tJIhAnGN.jpg')"><div class="container hero-editorial"><div class="hero-copy"><p class="eyebrow">Programs</p><h1>Six engineering departments deserve a cleaner overview.</h1><p class="lead">The academic structure highlighted on the current site spans Computer Science, ECE, EEE, Civil, Mechanical, and Information Technology.</p><div class="hero-actions"><a class="button primary" href="labs.html">Labs</a><a class="button secondary" href="rit.html">RIT Pathway</a></div></div><div class="hero-editorial-card"><p class="hero-card-label">Program map</p><p>Departments and pathways should be easy to scan before the user drops into detail.</p></div></div></section>
+
+      
+      
+      <section class="section"><div class="container"><p class="section-label">Department map</p><div class="section-head"><h2>Programs should establish academic range quickly.</h2><p>The department overview works best when it shows both breadth and recognisable pathways, not just a wall of names.</p></div><div class="cards cols-4 academic-program-grid"><article class="card"><div class="icon">CS</div><h3>Computer Science</h3><p>Programming, software, AI/ML, databases, networks, and RIT alignment.</p></article><article class="card"><div class="icon">EC</div><h3>Electronics & Communication</h3><p>Communication systems, embedded systems, and signal-oriented engineering.</p></article><article class="card"><div class="icon">EE</div><h3>Electrical & Electronics</h3><p>Power, control, and core electrical engineering depth.</p></article><article class="card"><div class="icon">CV</div><h3>Civil / Mechanical / IT</h3><p>Infrastructure, manufacturing, and applied computing breadth across the school.</p></article></div></div></section>
+
+      <section class="section">
+        <div class="container cta-box">
+          <div>
+            <p class="section-label">Next Step</p>
+            <h2>Ready to explore admissions, academics, placements, or campus life in more detail?</h2>
+            <p>Explore the school through a clearer admissions, academics, campus, placements, and contact experience built around SSETP’s real strengths and published information.</p>
+          </div>
+          <div class="button-row">
+            <a class="button primary light" href="mailto:info@sseptp.org">info@sseptp.org</a>
+            <a class="button ghost" href="../contact.html">Contact page</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <h4>Our Office</h4>
+          <p>Sanskrithi School of Engineering<br/>Puttaparthi, Sri Sathya Sai District, AP - 515134<br/>Phone: +91 9100064545 / 74545</p>
+        </div>
+        <div>
+          <h4>Explore</h4>
+          <ul><li><a href="../about/index.html">About</a></li><li><a href="../admissions/index.html">Admissions</a></li><li><a href="index.html">Academics</a></li></ul>
+        </div>
+        <div>
+          <h4>Student Life</h4>
+          <ul><li><a href="../campus/index.html">Campus Life</a></li><li><a href="../campus/hostel.html">Hostel</a></li><li><a href="../placements/index.html">Placements</a></li></ul>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <p>Admissions: <a href="mailto:enquiry@sseptp.org">enquiry@sseptp.org</a><br/>Placements / HR: <a href="mailto:hr@sseptp.org">hr@sseptp.org</a><br/>General: <a href="mailto:info@sseptp.org">info@sseptp.org</a></p>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <p>© <span id="year"></span> Sanskrithi School of Engineering. All rights reserved.</p>
+        <p class="footer-note">Built around SSETP’s published structure, original visual assets, and a clearer admissions-first experience.</p>
+      </div>
+    </footer>
+
+    <script src="../script.js"></script>
+  </body>
+</html>
